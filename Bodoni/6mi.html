@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>indestructible type*</title>
+    <link rel="stylesheet" href="../fonts/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel='stylesheet' href='../style.css'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <select class="picker" onchange="window.location.href=this.value;">
+		<option selected="selected" value="">Bodoni* 6</option>
+    <option value="12mi.html">Bodoni* 12</option>
+  </select>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <select class="picker" onchange="window.location.href=this.value;">
+    <option value="6li.html">Book</option>
+    <option selected="selected" value="Medium">Medium</option>
+    <option value="6bi.html">Bold</option>
+    <option disabled>Fatface</option>
+  </select>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <select class="picker" onchange="window.location.href=this.value;">
+    <option value="6m.html">Regular</option>
+    <option selected="selected" value="Italic">Italic</option>
+  </select><br>
+<input name="bodoni" value="<?php echo htmlspecialchars($_GET['bodoni']); ?>" class="yourtexthere Bodoni6M" style="font-style: italic;" type="text" placeholder="Click to Try">

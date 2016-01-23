@@ -1,0 +1,135 @@
+body {
+  background-color: #F4EBE0;
+  text-align: center;
+  color: #241C1C;
+}
+
+iframe {
+  width: 100%;
+  height: 20em;
+  border: none;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+.Red {
+  color: #800000;
+}
+
+.Grey {
+  text-align: center;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover span{
+  color: #800000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+#head {
+  text-align: left;
+  width: 42em;
+  margin: 0 auto;
+}
+
+#title {
+  margin-top: -2.5em;
+  margin-bottom: -2.5em;
+}
+
+#menu {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-weight: 200;
+  font-family: "joneslight";
+  color: #241C1C;
+  font-size: 4em;
+}
+
+h2 {
+  font-weight: Bold;
+  font-family: "jones";
+  color: #6C5353;
+  font-size: 1.1em;
+}
+
+h2 a:hover {
+  color: #826464;
+}
+
+#body {
+  width: 60em;
+  margin: 0 auto;
+  font-family: "miedinger";
+  text-align: left;
+  color: #241C1C;
+}
+
+h3 {
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: 4em;
+  margin-top: 0.5em;
+  margin-bottom: -0.2em;
+}
+
+h4 {
+  font-style: italic;
+  font-weight: inherit;
+  font-size: 1.6em;
+  margin-top: 0;
+}
+
+#COMINGSOON {
+  font-size: 2em;
+  text-align: center;
+}
+
+#Slideshow {
+  margin-top: 1em;
+  margin-bottom: 5em;
+  position:relative;
+  width:500px;
+  height:332px;
+}
+
+#Slideshow img {
+  position:absolute;
+  left:0;
+  top:0;
+  width: 60em;
+}
+
+.picker {
+  font-family: "jonesmedium";
+  font-size: 1.1em;
+  height: 1.7em;
+  background-color: inherit;
+  border: none;
+  color: #6C5353;
+}
+
+.yourtexthere {
+  font-size: 10em;
+  width: 100%;
+  background-color: inherit;
+  border: none;
+  color: #241C1C;
+}
+
+input.yourtexthere {
+  text-align: center;
+}
