@@ -1,5 +1,5 @@
-[indestructible type*](indestructable-type.github.io)
+[indestructible type*](http://indestructable-type.github.io)
 =====================
-indestructible type* is an open-source font foundry. This is the official indestructible type* website. If you would like to learn more about us check out the [about](indestructable-type.github.io/about) section of this website. If you are a web developer and would like to contribute you can do so by creating issues, making pull requests, or even feel free to request direct commit access.
+indestructible type* is an open-source font foundry. This is the official indestructible type* website. If you would like to learn more about us check out the [about](http://indestructable-type.github.io/about) section of this website. If you are a web developer and would like to contribute you can do so by creating issues, making pull requests, or even feel free to request direct commit access.
 
 This site is still in the works, so you will likely encounter issues. 
