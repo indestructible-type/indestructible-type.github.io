@@ -66,6 +66,15 @@ h2 {
   font-size: 1.1em;
 }
 
+h2 div {
+  height: 1.3em;
+  float: left;
+  border-bottom-style: solid;
+  border-bottom-color: #800000;
+  border-bottom-width: 0.13em;
+  margin-left: 0.2em;
+}
+
 h2 a:hover {
   color: #826464;
 }
