@@ -76,7 +76,15 @@ h2 div {
 }
 
 h2 a:hover {
-  color: #826464;
+  text-decoration: underline;
+}
+
+h2 u {
+  color: #800000;
+}
+
+h2 u span {
+  color: #6C5353;
 }
 
 #body {
