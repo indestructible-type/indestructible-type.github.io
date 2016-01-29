@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r"
+   width="1500"
+   height="600"
+   viewBox="0 0 1500 600"
+   sodipodi:docname="5.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5417">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5419" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5421" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="53"
+         result="blur"
+         id="feGaussianBlur5423" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset5425" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5427" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5429">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5431" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5433" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="53"
+         result="blur"
+         id="feGaussianBlur5435" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset5437" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5439" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="851"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.46666667"
+     inkscape:cx="823.71317"
+     inkscape:cy="202.05433"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <rect
+     style="fill:#003380;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect5506"
+     width="1500"
+     height="600"
+     x="0"
+     y="0" />
+  <flowRoot
+     style="font-style:normal;font-weight:normal;font-size:164.62492371px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff8f2a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="flowRoot5522"
+     xml:space="preserve"
+     transform="matrix(0.46420835,0,0,0.46420835,-178.04167,-115.50113)"><flowRegion
+       id="flowRegion5524"><rect
+         style="fill:#ff8f2a;fill-opacity:1"
+         y="63.287251"
+         x="455.44766"
+         height="2019.5952"
+         width="3554.1348"
+         id="rect5526" /></flowRegion><flowPara
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:807.8269043px;font-family:'Jones*';-inkscape-font-specification:'Jones* Bold';fill:#ff8f2a;fill-opacity:1"
+       id="flowPara5530">“</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot5532"
+     style="font-style:normal;font-weight:normal;font-size:193.27467346px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="matrix(0.93131709,0,0,0.93131709,227.61075,84.98876)"><flowRegion
+       id="flowRegion5534"><rect
+         id="rect5536"
+         width="1238.7511"
+         height="647.13092"
+         x="5.5051308"
+         y="4.0191584"
+         style="font-size:193.27467346px;fill:#cccccc" /></flowRegion><flowPara
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:85.89984894px;font-family:'Jones*';-inkscape-font-specification:'Jones* Medium';fill:#cccccc"
+       id="flowPara5554">Type is a beautiful group of letters, not a group of beautiful letters.</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot5578"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       id="flowRegion5580"><rect
+         id="rect5582"
+         width="203.57143"
+         height="180"
+         x="1208.5714"
+         y="1133.5714" /></flowRegion><flowPara
+       id="flowPara5584" /></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot4171"
+     style="font-style:normal;font-weight:normal;font-size:76.4202652px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff8f2a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(1244.1831,290.50008)"><flowRegion
+       id="flowRegion4173"><rect
+         id="rect4175"
+         width="1649.859"
+         height="937.51294"
+         x="63.563686"
+         y="30.671791"
+         style="fill:#ff8f2a;fill-opacity:1" /></flowRegion><flowPara
+       id="flowPara4177"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:375px;font-family:'Jones*';-inkscape-font-specification:'Jones* Bold';fill:#ff8f2a;fill-opacity:1">”</flowPara></flowRoot>  <flowRoot
+     style="font-style:normal;font-weight:normal;font-size:180px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff8f2a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="flowRoot4179"
+     xml:space="preserve"
+     transform="translate(46.285714,274.42857)"><flowRegion
+       id="flowRegion4181"><rect
+         style="font-size:180px;fill:#ff8f2a;fill-opacity:1"
+         y="140.73187"
+         x="190.73778"
+         height="602.68408"
+         width="1153.67"
+         id="rect4183" /></flowRegion><flowPara
+       id="flowPara4185"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80px;font-family:'Jones*';-inkscape-font-specification:'Jones* Bold';fill:#ff8f2a;fill-opacity:1">― Matthew Carter</flowPara></flowRoot></svg>
