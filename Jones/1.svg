@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,15 +43,15 @@
      inkscape:window-height="851"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.65996633"
-     inkscape:cx="814.60795"
-     inkscape:cy="311.5629"
+     inkscape:zoom="0.46666667"
+     inkscape:cx="411.2674"
+     inkscape:cy="121.52923"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <rect
-     style="fill:#0b1728"
+     style="fill:#0c1c32;fill-opacity:1"
      id="rect3354"
      width="1500"
      height="600"
@@ -70,22 +70,33 @@
          y="65.124229"
          style="fill:#ffffff" /></flowRegion><flowPara
        id="flowPara3344"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:30.91540909px;font-family:'Jones*';-inkscape-font-specification:'Jones* Light';fill:#ffffff">Jones* 6 Light <flowSpan
-   style="fill:#000000"
-   id="flowSpan3378" /></flowPara><flowPara
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:30.91540909px;font-family:'Jones*';-inkscape-font-specification:'Jones* Light';fill:#ffffff">Jones* Light</flowPara><flowPara
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.91540909px;font-family:'Jones*';-inkscape-font-specification:'Jones*';fill:#ffffff"
-       id="flowPara3638">Jones* 6 Book <flowSpan
-   style="fill:#000000"
-   id="flowSpan3380" /></flowPara><flowPara
+       id="flowPara3638">Jones* Book </flowPara><flowPara
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:30.91540909px;font-family:'Jones*';-inkscape-font-specification:'Jones* Medium';fill:#ffffff"
-       id="flowPara3640">Jones* 6 Medium<flowSpan
-   style="fill:#000000"
-   id="flowSpan3382" /></flowPara><flowPara
+       id="flowPara3640">Jones* Medium</flowPara><flowPara
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.91540909px;font-family:'Jones*';-inkscape-font-specification:'Jones*';fill:#ffffff"
-       id="flowPara3642">Jones* 6 Bold <flowSpan
-   style="fill:#000000"
-   id="flowSpan3384" /></flowPara><flowPara
+       id="flowPara3642">Jones* Bold </flowPara><flowPara
        style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:30.91540909px;font-family:'Jones*';-inkscape-font-specification:'Jones* Heavy';fill:#ffffff"
-       id="flowPara3646">Jones* 6 Black<flowSpan
-   style="fill:#000000"
-   id="flowSpan3386" /></flowPara></flowRoot></svg>
+       id="flowPara3646">Jones* Black</flowPara></flowRoot>  <flowRoot
+     transform="matrix(2.9560176,0,0,2.9560176,690.03917,-186.58547)"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     id="flowRoot3364"
+     xml:space="preserve"><flowRegion
+       id="flowRegion3366"><rect
+         style="fill:#000000;"
+         y="65.124229"
+         x="22.728432"
+         height="510.63211"
+         width="1154.6044"
+         id="rect3368" /></flowRegion><flowPara
+       style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:30.91540909px;font-family:'Jones*';-inkscape-font-specification:'Jones* Light';fill:#000000;"
+       id="flowPara3370">Looks good at big</flowPara><flowPara
+       id="flowPara3372"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.91540909px;font-family:'Jones*';-inkscape-font-specification:'Jones*';fill:#000000;">Good in body tex </flowPara><flowPara
+       id="flowPara3374"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:30.91540909px;font-family:'Jones*';-inkscape-font-specification:'Jones* Medium';fill:#000000;">Looks well balanced</flowPara><flowPara
+       id="flowPara3376"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.91540909px;font-family:'Jones*';-inkscape-font-specification:'Jones*';fill:#000000;">Draw attention e </flowPara><flowPara
+       id="flowPara3378"
+       style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-size:30.91540909px;font-family:'Jones*';-inkscape-font-specification:'Jones* Heavy';fill:#000000;">The heaviest of</flowPara></flowRoot></svg>

@@ -57,6 +57,8 @@ h1 {
   font-family: "joneslight";
   color: #241C1C;
   font-size: 4em;
+  margin-top: 0.6em;
+  margin-bottom: -0.8em;
 }
 
 h2 {
@@ -67,24 +69,15 @@ h2 {
 }
 
 h2 div {
-  height: 1.3em;
-  float: left;
-  border-bottom-style: solid;
-  border-bottom-color: #800000;
-  border-bottom-width: 0.13em;
-  margin-left: 0.2em;
+  font-family: "jonesblack";
 }
 
 h2 a:hover {
-  text-decoration: underline;
+  font-family: "jonesblack";
 }
 
-h2 u {
-  color: #800000;
-}
-
-h2 u span {
-  color: #6C5353;
+h2 span {
+  font-family: "jonesblack";
 }
 
 #body {

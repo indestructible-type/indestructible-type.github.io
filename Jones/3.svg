@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,9 +43,9 @@
      inkscape:window-height="851"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.65996633"
-     inkscape:cx="856.76955"
-     inkscape:cy="229.4168"
+     inkscape:zoom="0.32998317"
+     inkscape:cx="648.78879"
+     inkscape:cy="-151.68325"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -75,7 +75,7 @@
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:140.70542908px;line-height:125%;font-family:'Jones*';-inkscape-font-specification:'Jones* Medium';letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      id="flowRoot4537"
      xml:space="preserve"
-     transform="matrix(3.7101908,0,0,3.7101908,-1441.7521,-629.30311)"><flowRegion
+     transform="matrix(3.7101908,0,0,3.7101908,-1445.7521,-629.30311)"><flowRegion
        id="flowRegion4539"><rect
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Jones*';-inkscape-font-specification:'Jones* Medium';fill:#483737"
          y="224.61555"
@@ -84,7 +84,7 @@
          width="4061.4775"
          id="rect4541" /></flowRegion><flowPara
        id="flowPara4543"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20px;font-family:'Jones*';-inkscape-font-specification:'Jones* Medium';letter-spacing:5.39055824px;word-spacing:5.39055824px;fill:#483737">financial</flowPara></flowRoot>  <flowRoot
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20px;font-family:'Jones*';-inkscape-font-specification:'Jones* Medium';letter-spacing:5.39055824px;word-spacing:5.39055824px;fill:#483737">financial</flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot4557"
      style="font-style:normal;font-weight:normal;font-size:522.04400635px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -131,7 +131,7 @@
      xml:space="preserve"
      id="flowRoot3379"
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:522.04400635px;line-height:125%;font-family:'Jones*';-inkscape-font-specification:'Jones* Medium';letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     transform="translate(592,0)"><flowRegion
+     transform="translate(588,0)"><flowRegion
        id="flowRegion3381"><rect
          id="rect3383"
          width="15068.856"
@@ -139,7 +139,7 @@
          x="103.3228"
          y="204.06346"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Jones*';-inkscape-font-specification:'Jones* Medium';fill:#483737" /></flowRegion><flowPara
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:74.20381927px;font-family:'Jones*';-inkscape-font-specification:'Jones* Medium';letter-spacing:20px;word-spacing:20px;fill:#483737"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:74.20381927px;font-family:'Jones*';-inkscape-font-specification:'Jones* Medium';letter-spacing:20px;word-spacing:20px;fill:#483737"
        id="flowPara3385">advisor</flowPara></flowRoot>  <path
      style="fill:#241c1c;fill-rule:evenodd;stroke:#483737;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
      d="m 79.285714,317.14286 1247.142886,0"
