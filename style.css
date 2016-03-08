@@ -62,8 +62,7 @@ h1 {
 }
 
 h2 {
-  font-weight: Bold;
-  font-family: "jones";
+  font-family: "joneslight";
   color: #6C5353;
   font-size: 1.1em;
 }
@@ -97,9 +96,8 @@ h3 {
 }
 
 h4 {
-  font-style: italic;
   font-weight: inherit;
-  font-size: 1.6em;
+  font-size: 2.5em;
   margin-top: 0;
 }
 
