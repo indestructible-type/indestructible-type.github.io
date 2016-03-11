@@ -2,6 +2,7 @@ body {
   background-color: #F4EBE0;
   text-align: center;
   color: #241C1C;
+  overflow: visible;
 }
 
 iframe {
@@ -101,6 +102,15 @@ h4 {
   margin-top: 0;
 }
 
+.rriigg {
+  margin-top: -0.3em;
+  padding-right: 50%;
+  float: left;
+  font-size: 0.6em;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
 #COMINGSOON {
   font-size: 2em;
   text-align: center;
@@ -140,4 +150,8 @@ h4 {
 
 input.yourtexthere {
   text-align: center;
+}
+
+td {
+  width: 8.333333333%; 
 }
