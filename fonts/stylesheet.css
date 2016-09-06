@@ -324,12 +324,12 @@
 
 @font-face {
     font-family: 'rennerlight';
-    src: url('renner-light-italic-webfont.eot');
-    src: url('renner-light-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('renner-light-italic-webfont.woff2') format('woff2'),
-         url('renner-light-italic-webfont.woff') format('woff'),
-         url('renner-light-italic-webfont.ttf') format('truetype'),
-         url('renner-light-italic-webfont.svg#renner_light_italic') format('svg');
+    src: url('renner-lightitalic-webfont.eot');
+    src: url('renner-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('renner-lightitalic-webfont.woff2') format('woff2'),
+         url('renner-lightitalic-webfont.woff') format('woff'),
+         url('renner-lightitalic-webfont.ttf') format('truetype'),
+         url('renner-lightitalic-webfont.svg#renner_lightitalic') format('svg');
     font-weight: normal;
     font-style: italic;
 
@@ -356,12 +356,12 @@
 
 @font-face {
     font-family: 'renner';
-    src: url('renner-book-italic-webfont.eot');
-    src: url('renner-book-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('renner-book-italic-webfont.woff2') format('woff2'),
-         url('renner-book-italic-webfont.woff') format('woff'),
-         url('renner-book-italic-webfont.ttf') format('truetype'),
-         url('renner-book-italic-webfont.svg#renner_book_italic') format('svg');
+    src: url('renner-bookitalic-webfont.eot');
+    src: url('renner-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('renner-bookitalic-webfont.woff2') format('woff2'),
+         url('renner-bookitalic-webfont.woff') format('woff'),
+         url('renner-bookitalic-webfont.ttf') format('truetype'),
+         url('renner-bookitalic-webfont.svg#renner_bookitalic') format('svg');
     font-weight: normal;
     font-style: italic;
 
@@ -388,12 +388,12 @@
 
 @font-face {
     font-family: 'rennermedium';
-    src: url('renner-medium-italic-webfont.eot');
-    src: url('renner-medium-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('renner-medium-italic-webfont.woff2') format('woff2'),
-         url('renner-medium-italic-webfont.woff') format('woff'),
-         url('renner-medium-italic-webfont.ttf') format('truetype'),
-         url('renner-medium-italic-webfont.svg#renner_medium_italic') format('svg');
+    src: url('renner-mediumitalic-webfont.eot');
+    src: url('renner-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('renner-mediumitalic-webfont.woff2') format('woff2'),
+         url('renner-mediumitalic-webfont.woff') format('woff'),
+         url('renner-mediumitalic-webfont.ttf') format('truetype'),
+         url('renner-mediumitalic-webfont.svg#renner_mediumitalic') format('svg');
     font-weight: normal;
     font-style: italic;
 
@@ -419,12 +419,12 @@
 
 @font-face {
     font-family: 'renner';
-    src: url('renner-bold-italic-webfont.eot');
-    src: url('renner-bold-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('renner-bold-italic-webfont.woff2') format('woff2'),
-         url('renner-bold-italic-webfont.woff') format('woff'),
-         url('renner-bold-italic-webfont.ttf') format('truetype'),
-         url('renner-bold-italic-webfont.svg#renner_bold_italic') format('svg');
+    src: url('renner-bolditalic-webfont.eot');
+    src: url('renner-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('renner-bolditalic-webfont.woff2') format('woff2'),
+         url('renner-bolditalic-webfont.woff') format('woff'),
+         url('renner-bolditalic-webfont.ttf') format('truetype'),
+         url('renner-bolditalic-webfont.svg#renner_bolditalic') format('svg');
     font-weight: bold;
     font-style: italic;
 
@@ -451,12 +451,12 @@
 
 @font-face {
     font-family: 'rennerblack';
-    src: url('renner-black-italic-webfont.eot');
-    src: url('renner-black-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('renner-black-italic-webfont.woff2') format('woff2'),
-         url('renner-black-italic-webfont.woff') format('woff'),
-         url('renner-black-italic-webfont.ttf') format('truetype'),
-         url('renner-black-italic-webfont.svg#renner_black_italic') format('svg');
+    src: url('renner-blackitalic-webfont.eot');
+    src: url('renner-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('renner-blackitalic-webfont.woff2') format('woff2'),
+         url('renner-blackitalic-webfont.woff') format('woff'),
+         url('renner-blackitalic-webfont.ttf') format('truetype'),
+         url('renner-blackitalic-webfont.svg#renner_blackitalic') format('svg');
     font-weight: normal;
     font-style: italic;
 

@@ -25,15 +25,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="595.70362"
-     inkscape:cy="386.44003"
+     inkscape:zoom="0.7"
+     inkscape:cx="546.32739"
+     inkscape:cy="437.25487"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="in"
      inkscape:window-width="1920"
-     inkscape:window-height="1031"
+     inkscape:window-height="1027"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1" />
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -567,17 +567,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:175%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;text-anchor:start"
          id="flowPara4899">Renner* has accented letters and supports most Latin languages. Renner* also includes most currency signs.</flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:175%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;text-anchor:start"
-         id="flowPara4905" /><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:175%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;text-anchor:start"
-         id="flowPara4907"> True Italics</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:175%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;text-anchor:start"
-         id="flowPara4909">      Renner has true italics, meaning the letter-forms change when italicized. This makes the rhythm and flow of the italics different from the roman.</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:175%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;text-anchor:start"
          id="flowPara4913" /><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:175%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;text-anchor:start"
-         id="flowPara4919"><flowSpan
-           style="font-weight:bold"
-           id="flowSpan4923"> Kerning Pairs</flowSpan></flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:175%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;text-anchor:start"
+         id="flowPara4919">Kerning Pairs</flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:175%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;text-anchor:start"
          id="flowPara4921">      Renner includes detail-oriented kerning. That means that it includes everything from big, noticeable kerning pairs, such as &quot;AT&quot;, to small, subtle kerning pairs, such as &quot;rs&quot;. It makes for an overall more refined sense of spacing that works at both small sizes and large.</flowPara></flowRoot>  </g>
 </svg>

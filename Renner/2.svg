@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,13 +39,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1440"
-     inkscape:window-height="851"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.46666667"
-     inkscape:cx="758.03945"
-     inkscape:cy="168.74467"
+     inkscape:zoom="0.65996633"
+     inkscape:cx="696.08112"
+     inkscape:cy="82.324463"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -83,7 +83,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#241c1c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      id="flowRoot3972"
      xml:space="preserve"
-     transform="matrix(1.3141986,0,0,1.3141986,81.813342,-83.836424)"><flowRegion
+     transform="matrix(1.3141986,0,0,1.3141986,53.813342,-93.83642)"><flowRegion
        id="flowRegion3974"><rect
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Renner*';-inkscape-font-specification:'Renner*';fill:#241c1c"
          y="74.534538"
@@ -97,18 +97,18 @@
        id="flowPara3980"><flowSpan
    id="flowSpan3982"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Renner*';-inkscape-font-specification:'Renner*';fill:#241c1c">Down the</flowSpan> Rabbit-Hole</flowPara></flowRoot>  <flowRoot
-     transform="matrix(1.3141986,0,0,1.3141986,-17.690256,-80.081562)"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#241c1c;fill-opacity:1;stroke:none;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.56794357px;line-height:125%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#241c1c;fill-opacity:1;stroke:none;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="flowRoot4984"
-     xml:space="preserve"><flowRegion
+     xml:space="preserve"
+     transform="translate(-2,-10)"><flowRegion
        id="flowRegion4986"><rect
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Renner*';-inkscape-font-specification:'Renner*';fill:#241c1c;stroke:none;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         y="74.534538"
-         x="23.233509"
-         height="123.23861"
-         width="691.95447"
+         y="17.871624"
+         x="10.843189"
+         height="161.96001"
+         width="909.3656"
          id="rect4988" /></flowRegion><flowPara
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:60px;font-family:'Renner*';-inkscape-font-specification:'Renner* Light';text-align:center;text-anchor:middle;fill:#241c1c;stroke:none;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:78.85191345px;font-family:'Renner*';-inkscape-font-specification:'Renner* Light';text-align:center;text-anchor:middle;fill:#241c1c;stroke:none;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="flowPara4990">CHAPTER 1</flowPara></flowRoot>  <flowRoot
      transform="matrix(1.3141986,0,0,1.3141986,30.747371,233.61779)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#241c1c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,13 +39,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1440"
-     inkscape:window-height="851"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.46666667"
-     inkscape:cx="728.45314"
-     inkscape:cy="252.28306"
+     inkscape:zoom="0.93333334"
+     inkscape:cx="706.4882"
+     inkscape:cy="284.1559"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -85,9 +85,9 @@
        id="flowPara3642"><flowSpan
          id="flowSpan4152"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Renner*';-inkscape-font-specification:'Renner* Bold';text-align:start;text-anchor:start;fill:#333333">Renner* <flowSpan
-   style="font-style:italic"
+   style="font-style:italic;-inkscape-font-specification:'Renner* Bold Italic';font-family:'Renner*';font-weight:bold;font-stretch:normal;font-variant:normal"
    id="flowSpan4186">Bol</flowSpan></flowSpan><flowSpan
-         style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Renner*';-inkscape-font-specification:'Renner* Heavy';text-align:start;text-anchor:start;fill:#333333"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Renner*';-inkscape-font-specification:'Renner* Bold Italic';text-align:start;text-anchor:start;fill:#333333"
          id="flowSpan4148">d!</flowSpan></flowPara><flowPara
        style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:30.91540909px;font-family:'Renner*';-inkscape-font-specification:'Renner* Heavy';text-align:start;text-anchor:start;fill:#333333"
        id="flowPara3646">Renner* <flowSpan
