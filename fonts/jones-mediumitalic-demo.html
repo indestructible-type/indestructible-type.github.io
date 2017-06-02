@@ -5,17 +5,25 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="specimen_files/easytabs.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	(function($){$.fn.easyTabs=function(option){var param=jQuery.extend({fadeSpeed:"fast",defaultContent:1,activeClass:'active'},option);$(this).each(function(){var thisId="#"+this.id;if(param.defaultContent==''){param.defaultContent=1;}
+	if(typeof param.defaultContent=="number")
+	{var defaultTab=$(thisId+" .tabs li:eq("+(param.defaultContent-1)+") a").attr('href').substr(1);}else{var defaultTab=param.defaultContent;}
+	$(thisId+" .tabs li a").each(function(){var tabToHide=$(this).attr('href').substr(1);$("#"+tabToHide).addClass('easytabs-tab-content');});hideAll();changeContent(defaultTab);function hideAll(){$(thisId+" .easytabs-tab-content").hide();}
+	function changeContent(tabId){hideAll();$(thisId+" .tabs li").removeClass(param.activeClass);$(thisId+" .tabs li a[href=#"+tabId+"]").closest('li').addClass(param.activeClass);if(param.fadeSpeed!="none")
+	{$(thisId+" #"+tabId).fadeIn(param.fadeSpeed);}else{$(thisId+" #"+tabId).show();}}
+	$(thisId+" .tabs li").click(function(){var tabId=$(this).find('a').attr('href').substr(1);changeContent(tabId);return false;});});}})(jQuery);
+	</script>
 	<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
 	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 
 	<style type="text/css">
 					body{
-				font-family: 'jones_mediummedium_italic';
+				font-family: 'jones-mediummedium_italic';
 							}
 		</style>
 
-	<title>Jones* Medium Medium Italic Specimen</title>
+	<title>Jones*-Medium Medium Italic Specimen</title>
 	
 	
 	<script type="text/javascript" charset="utf-8">
@@ -28,7 +36,7 @@
 <body>
 <div id="container">
 	<div id="header">
-		Jones* Medium Medium Italic	</div>
+		Jones*-Medium Medium Italic	</div>
 	<ul class="tabs">
 		<li><a href="#specimen">Specimen</a></li>
 		<li><a href="#layout">Sample Layout</a></li>
@@ -83,7 +91,7 @@
 										<div id="xheight">
 				<div class="fontbody">&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;body</div><div class="arialbody">body</div><div class="verdanabody">body</div><div class="georgiabody">body</div></div>
 										<div class="fontbody" style="z-index:1">
-											body<span>Jones* Medium Medium Italic</span>
+											body<span>Jones*-Medium Medium Italic</span>
 										</div>
 										<div class="arialbody" style="z-index:1">
 											body<span>Arial</span>
@@ -288,11 +296,11 @@
 				<div class="grid12 firstcol">
 			
 				<h1>Language Support</h1>
-				<p>The subset of Jones* Medium Medium Italic in this kit supports the following languages:<br />
+				<p>The subset of Jones*-Medium Medium Italic in this kit supports the following languages:<br />
 			
-					Albanian, Basque, Breton, Chamorro, Dutch, English, Finnish, Frisian, Galician, Italian, Malagasy, Portuguese, Spanish, Swedish				</p>
+					Albanian, Basque, Breton, Chamorro, Dutch, English, Finnish, Frisian, Galician, Italian, Malagasy, Portuguese, Spanish, Alsatian, Aragonese, Arapaho, Arrernte, Asturian, Aymara, Bislama, Cebuano, Corsican, Fijian, French_creole, Gilbertese, Haitian_creole, Hiligaynon, Hmong, Hopi, Ibanag, Iloko_ilokano, Indonesian, Interglossa_glosa, Interlingua, Irish_gaelic, Jerriais, Lojban, Lombard, Luxembourgeois, Manx, Mohawk, Norfolk_pitcairnese, Occitan, Oromo, Pangasinan, Papiamento, Piedmontese, Potawatomi, Rhaeto-romance, Romansh, Rotokas, Sami_lule, Sardinian, Scots_gaelic, Seychelles_creole, Shona, Somali, Southern_ndebele, Swahili, Swati_swazi, Tagalog_filipino_pilipino, Tetum, Tok_pisin, Uyghur_latinized, Volapuk, Walloon, Warlpiri, Xhosa, Yapese, Zulu, Latinbasic, Ubasic, Demo				</p>
 				<h1>Glyph Chart</h1>
-				<p>The subset of Jones* Medium Medium Italic in this kit includes all the glyphs listed below. Unicode entities are included above each glyph to help you insert individual characters into your layout.</p>
+				<p>The subset of Jones*-Medium Medium Italic in this kit includes all the glyphs listed below. Unicode entities are included above each glyph to help you insert individual characters into your layout.</p>
 				<div id="glyph_chart">
 			
 																				 <div><p>&amp;#32;</p>&#32;</div>
@@ -523,7 +531,7 @@
 					<p>You must upload your webfont kit to your website. They should be in or near the same directory as your CSS files.</p>
 					
 					<h2>2. Include the webfont stylesheet</h2>
-					<p>A special CSS @font-face declaration helps the various browsers select the appropriate font it needs without causing you a bunch of headaches. Learn more about this syntax by reading the <a href="http://www.fontspring.com/blog/further-hardening-of-the-bulletproof-syntax">Fontspring blog post</a> about it. The code for it is as follows:</p>
+					<p>A special CSS @font-face declaration helps the various browsers select the appropriate font it needs without causing you a bunch of headaches. Learn more about this syntax by reading the <a href="https://www.fontspring.com/blog/further-hardening-of-the-bulletproof-syntax">Fontspring blog post</a> about it. The code for it is as follows:</p>
 
 
 <code>
@@ -580,7 +588,7 @@
 	
 	</div>
 	<div id="footer">
-		<p>&copy;2010-2011 Font Squirrel. All rights reserved.</p>
+		<p>&copy;2010-2017 Font Squirrel. All rights reserved.</p>
 	</div>
 </div>
 </body>
