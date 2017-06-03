@@ -1,57 +1,52 @@
-// Create a Stripe client
 var stripe = Stripe('pk_test_uZ0f81UWz9vVA06FBAYcd3sv');
+ var elements = stripe.elements();
 
-// Create an instance of Elements
-var elements = stripe.elements();
+var card = elements.create('card', {
+  hidePostalCode: true,
+  style: {
+    base: {
+      iconColor: '#F99A52',
+      color: '#32315E',
+      lineHeight: '48px',
+      fontWeight: 400,
+      fontFamily: '"Helvetica Neue", "Helvetica", sans-serif',
+      fontSize: '15px',
 
-// Custom styling can be passed to options when creating an Element.
-// (Note that this demo uses a wider set of stylfffffffes than the guide below.)
-var style = {
-  base: {
-    color: '#32325d',
-    lineHeight: '24px',
-    fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
-    fontSmoothing: 'antialiased',
-    fontSize: '16px',
-    '::placeholder': {
-      color: '#aab7c4'
-    }
-  },
-  invalid: {
-    color: '#fa755a',
-    iconColor: '#fa755a'
-  }
-};
-
-// Create an instance of the card Element
-var card = elements.create('card', {style: style});
-
-// Add an instance of the card Element into the `card-element` <div>
-card.mount('#card-element');
-
-// Handle real-time validation errors from the card Element.
-card.addEventListener('change', function(event) {
-  var displayError = document.getElementById('card-errors');
-  if (event.error) {
-    displayError.textContent = event.error.message;
-  } else {
-    displayError.textContent = '';
+      '::placeholder': {
+        color: '#CFD7DF',
+      }
+    },
   }
 });
+card.mount('#card-element');
 
-// Handle form submission
-var form = document.getElementById('payment-form');
-form.addEventListener('submit', function(event) {
-  event.preventDefault();
+function setOutcome(result) {
+  var successElement = document.querySelector('.success');
+  var errorElement = document.querySelector('.error');
+  successElement.classList.remove('visible');
+  errorElement.classList.remove('visible');
 
-  stripe.createToken(card).then(function(result) {
-    if (result.error) {
-      // Inform the user if there was an error
-      var errorElement = document.getElementById('card-errors');
-      errorElement.textContent = result.error.message;
-    } else {
-      // Send the token to your server
-      stripeTokenHandler(result.token);
-    }
-  });
+  if (result.token) {
+    // Use the token to create a charge or a customer
+    // https://stripe.com/docs/charges
+    successElement.querySelector('.token').textContent = result.token.id;
+    successElement.classList.add('visible');
+  } else if (result.error) {
+    errorElement.textContent = result.error.message;
+    errorElement.classList.add('visible');
+  }
+}
+
+card.on('change', function(event) {
+  setOutcome(event);
+});
+
+document.querySelector('form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var form = document.querySelector('form');
+  var extraDetails = {
+    name: form.querySelector('input[name=cardholder-name]').value,
+    address_zip: form.querySelector('input[name=address-zip]').value
+  };
+  stripe.createToken(card, extraDetails).then(setOutcome);
 });

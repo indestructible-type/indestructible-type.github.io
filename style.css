@@ -182,25 +182,103 @@ input {
     font-family: "jonesblack";
   }
 
+COPYPASTA{}
 
-.StripeElement {
-  background-color: white;
-  padding: 8px 12px;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 #e6ebf1;
-  -webkit-transition: box-shadow 150ms ease;
-  transition: box-shadow 150ms ease;
-}
+  form {
+    width: 480px;
+    margin: 20px auto;
+  }
 
-.StripeElement--focus {
-  box-shadow: 0 1px 3px 0 #cfd7df;
-}
+  label {
+    position: relative;
+    color: #6A7C94;
+    font-weight: 400;
+    height: 48px;
+    line-height: 48px;
+    margin-bottom: 10px;
+    display: block;
+  }
 
-.StripeElement--invalid {
-  border-color: #fa755a;
-}
+  label > span {
+    float: left;
+  }
 
-.StripeElement--webkit-autofill {
-  background-color: #fefde5 !important;
-}
+  .field {
+    background: white;
+    box-sizing: border-box;
+    font-weight: 400;
+    border: 1px solid #CFD7DF;
+    border-radius: 24px;
+    color: #32315E;
+    outline: none;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 20px;
+    cursor: text;
+    width: 76%;
+    float: right;
+  }
+
+  .field::-webkit-input-placeholder { color: #CFD7DF; }
+  .field::-moz-placeholder { color: #CFD7DF; }
+  .field:-ms-input-placeholder { color: #CFD7DF; }
+
+  .field:focus,
+  .field.StripeElement--focus {
+    border-color: #F99A52;
+  }
+
+  button {
+    float: left;
+    display: block;
+    background-image: linear-gradient(-180deg, #F8B563 0%, #F99A52 100%);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10), inset 0 -1px 0 0 #E57C45;
+    color: white;
+    border-radius: 24px;
+    border: 0;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    outline: none;
+  }
+
+  button:focus {
+    background: #EF8C41;
+  }
+
+  button:active {
+    background: #E17422;
+  }
+
+  .outcome {
+    float: left;
+    width: 100%;
+    padding-top: 8px;
+    min-height: 20px;
+    text-align: center;
+  }
+
+  .success, .error {
+    display: none;
+    font-size: 13px;
+  }
+
+  .success.visible, .error.visible {
+    display: inline;
+  }
+
+  .error {
+    color: #E4584C;
+  }
+
+  .success {
+    color: #F8B563;
+  }
+
+  .success .token {
+    font-weight: 500;
+    font-size: 13px;
+  }
