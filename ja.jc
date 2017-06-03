@@ -5,7 +5,7 @@ var stripe = Stripe('pk_test_uZ0f81UWz9vVA06FBAYcd3sv');
 var elements = stripe.elements();
 
 // Custom styling can be passed to options when creating an Element.
-// (Note that this demo uses a wider set of styles than the guide below.)
+// (Note that this demo uses a wider set of stylfffffffes than the guide below.)
 var style = {
   base: {
     color: '#32325d',
