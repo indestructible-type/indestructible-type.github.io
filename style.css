@@ -162,3 +162,22 @@ input.yourtexthere {
 td {
   width: 8.333333333%;
 }
+
+input {
+  border: 0;
+  padding: 0.5em;
+  margin: 0.5em;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#mc-embedded-subscribe {
+  background-color: transparent;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  font-family: "joneslight";
+  color: #6C5353;
+  font-size: 1.31em;
+  }
+
+#mc-embedded-subscribe:hover {
+    font-family: "jonesblack";
+  }

@@ -1,0 +1,112 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #0b1c08;
+  text-align: center;
+  overflow: visible;
+  font-family: "besley";
+  color: #fff3e6;
+}
+
+#red {
+  color: #660000;
+}
+
+#top {
+  height: 40vw;
+  margin-top: -1em;
+  padding-left: -2em;
+  margin-left: -1em;
+  padding-right: -2em;
+  margin-right: 0;
+  background: url(trees.svg);
+  background-size: 100%;
+}
+
+h2 {
+  padding-top: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #0b1c08;
+}
+
+h1 {
+  color: #fff3e6;
+  font-size: 10vw;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-style: italic;
+  color: #94d061;
+  font-size: 5em;
+  padding-bottom: 1.5em;
+}
+
+h4 {
+  text-align: left;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  padding: 0;
+  margin: 0.2em;
+  margin-left: 20%;
+}
+
+h5 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 4em;
+  padding: 0;
+  margin: 0.2em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  border-radius: 0.2em;
+  padding: 0.6em;
+  padding-bottom: 0.5em;
+  font-family: "besleymedium";
+  background-color: #4d0000;
+  color: #ffe6e6;
+  font-size: 2em;
+  transition: box-shadow 0.2s;
+}
+
+.button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.2s;
+}
+
+
+#white {
+  background-color: #ffdab3;
+  color: #0b1c08;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+table {
+  width: 100%;
+  font-size: 2em;
+}
+
+th {
+  font-size: 1.3em;
+  padding-top: 1em;
+}
+
+td {
+  width: 30%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.2em;
+  text-align: justify;
+}
