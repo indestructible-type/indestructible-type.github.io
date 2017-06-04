@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.1 unknown"
+   width="1600"
+   height="640"
+   viewBox="0 0 1500 600"
+   sodipodi:docname="4i.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter5417">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5419" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5421" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="53"
+         result="blur"
+         id="feGaussianBlur5423" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset5425" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5427" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter5429">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5431" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5433" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="53"
+         result="blur"
+         id="feGaussianBlur5435" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset5437" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5439" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.65996633"
+     inkscape:cx="764.51932"
+     inkscape:cy="350.24036"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <rect
+     y="50.201927"
+     x="50.34478"
+     height="500.88184"
+     width="1400.8816"
+     id="rect5231"
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#d5e5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.02325678px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     id="rect840"
+     width="1500"
+     height="600"
+     x="0"
+     y="1.8119812e-05" />
+  <path
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:#452e1f;stroke-width:28.125;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     d="m 775.11109,22.39197 -187.97791,78.0542 H 338.17016 v 56.25 H 257.8125 V 196.875 h -50.224 v 327.45484 h 50.224 v 40.17883 h 80.35766 v 56.25 h 873.88364 v -56.25 h 80.3577 v -40.17883 h 50.2222 V 196.875 h -50.2222 v -40.17883 h -80.3577 v -56.25 H 963.08897 Z"
+     id="rect866"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path909"
+     d="m 775.11109,22.39197 -187.97791,78.0542 H 338.17016 v 56.25 H 257.8125 V 196.875 h -50.224 v 327.45484 h 50.224 v 40.17883 h 80.35766 v 56.25 h 873.88364 v -56.25 h 80.3577 v -40.17883 h 50.2222 V 196.875 h -50.2222 v -40.17883 h -80.3577 v -56.25 H 963.08897 Z"
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+  <flowRoot
+     transform="matrix(1.5800856,0,0,1.5800856,-525.63545,-189.37503)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#502d16;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="flowRoot907"
+     xml:space="preserve"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#502d16"
+       id="flowRegion903"><rect
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#502d16"
+         y="252.10143"
+         x="240.92139"
+         height="243.95184"
+         width="1171.2719"
+         id="rect901" /></flowRegion><flowPara
+       id="flowPara905"
+       style="letter-spacing:2.37328914px">Cityville</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot893"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#f0d298;fill-opacity:1;stroke:#ffffff;stroke-width:0.99974805;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     transform="matrix(1.5800856,0,0,1.5800856,-531.26045,-195.00003)"><flowRegion
+       id="flowRegion895"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#f0d298;fill-opacity:1;stroke:#ffffff;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><rect
+         id="rect897"
+         width="1171.2719"
+         height="243.95184"
+         x="240.92139"
+         y="252.10143"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#f0d298;fill-opacity:1;stroke:#ffffff;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
+       id="flowPara899"
+       style="letter-spacing:2.37328911px">Cityville</flowPara></flowRoot>  <flowRoot
+     transform="matrix(1.3887469,0,0,1.3887469,-373.23065,-293.25984)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#fff6d5;fill-opacity:1;stroke:#ffffff;stroke-width:2.02520704;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="flowRoot917"
+     xml:space="preserve"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#fff6d5;fill-opacity:1;stroke:#ffffff;stroke-width:2.02520704;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="flowRegion913"><rect
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#fff6d5;fill-opacity:1;stroke:#ffffff;stroke-width:2.02520704;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="252.10143"
+         x="240.92139"
+         height="243.95184"
+         width="1171.2719"
+         id="rect911" /></flowRegion><flowPara
+       id="flowPara915"
+       style="font-size:25.31508446px;letter-spacing:11.86644554px;word-spacing:5.93322277px;fill:#fff6d5;stroke:#ffffff;stroke-opacity:1;stroke-width:2.02520704;stroke-miterlimit:4;stroke-dasharray:none">WELCOME TO</flowPara></flowRoot>  <flowRoot
+     transform="matrix(0.63027954,0,0,0.63027954,254.88136,243.00165)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     id="flowRoot925"
+     xml:space="preserve"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       id="flowRegion921"><rect
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+         y="252.10143"
+         x="240.92139"
+         height="243.95184"
+         width="1171.2719"
+         id="rect919" /></flowRegion><flowPara
+       id="flowPara923"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Besley*';-inkscape-font-specification:'Besley* Medium Italic';stroke:none;">Town of Typography</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot933"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#483e37;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     transform="matrix(1.3887469,0,0,1.3887469,-373.23065,-293.25984)"><flowRegion
+       id="flowRegion929"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#483e37;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"><rect
+         id="rect927"
+         width="1171.2719"
+         height="243.95184"
+         x="240.92139"
+         y="252.10143"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#483e37;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" /></flowRegion><flowPara
+       style="font-size:25.31508446px;letter-spacing:11.86644554px;word-spacing:5.93322277px;fill:#483e37;stroke:none;stroke-opacity:1;"
+       id="flowPara931">WELCOME TO</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot941"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     transform="matrix(0.63027954,0,0,0.63027954,249.25636,361.12665)"><flowRegion
+       id="flowRegion937"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><rect
+         id="rect935"
+         width="1171.2719"
+         height="243.95184"
+         x="240.92139"
+         y="252.10143"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:47.59792709px;font-family:'Besley*';-inkscape-font-specification:'Besley* Medium';text-align:start;text-anchor:start;stroke:none"
+       id="flowPara939">Elevation: 18,400 ft.</flowPara></flowRoot>  <flowRoot
+     transform="matrix(0.63027954,0,0,0.63027954,249.25636,361.12665)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="flowRoot949"
+     xml:space="preserve"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:end;text-anchor:end;fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="flowRegion945"><rect
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:end;text-anchor:end;fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="252.10143"
+         x="240.92139"
+         height="243.95184"
+         width="1171.2719"
+         id="rect943" /></flowRegion><flowPara
+       id="flowPara947"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:47.59792709px;font-family:'Besley*';-inkscape-font-specification:'Besley* Medium';text-align:end;text-anchor:end;stroke:none">Population: 21,947</flowPara></flowRoot></svg>

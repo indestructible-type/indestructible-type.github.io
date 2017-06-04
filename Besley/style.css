@@ -91,6 +91,8 @@ a {
   width: 70%;
   margin: 0 auto;
   padding-bottom: 1em;
+  padding-top: 10em;
+  margin-top: -10em;
 }
 
 table {
@@ -109,4 +111,71 @@ td {
   padding-right: 1em;
   padding-top: 0.2em;
   text-align: justify;
+}
+
+img {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow 0.2s;
+}
+
+#Slideshow {
+  margin-top: 5em;
+  position:relative;
+  padding-bottom: 40%;
+}
+
+#Slideshow img {
+  position:absolute;
+  left:0;
+  top:0;
+  width: 100%;
+}
+
+p {
+  font-size: 1.3em;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: left;
+  line-height: 2em;
+}
+
+#white p {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+#white h4 {
+  margin-left: 4em;
+  font-family: "besleymedium";
+}
+
+#white h3 {
+  color: #1f5016;
+  padding-bottom: 0;
+}
+
+#hover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 21.5em;
+  background-image: url('oton.svg');
+  height: 20em;
+}
+
+#hover:hover {
+   background-image: url('otoff.svg');
+}
+
+h6 {
+  font-weight: 200;
+  font-family: "joneslight";
+  color: #241C1C;
+  font-size: 5em;
+  margin-top: 0.6em;
+  margin-bottom: -0.8em;
+}
+
+#roll:hover {
+    color: #660000;
 }
