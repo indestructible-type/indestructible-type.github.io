@@ -6,8 +6,6 @@
 		<link rel="icon" type="image/png" href="Favicon.png">
     <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
     <link rel='stylesheet' href='style.css'/>
-		<script src="https://js.stripe.com/v3/"></script>
-		<script src="ja.jc"></script>
 	</head>
 	<body>
     <div id="head">
@@ -29,31 +27,17 @@
 				A personal licence allows you to use Besley* by indestructible type* for non-commercial purposes at the price of your choosing. Personal uses include school projects, love letters, and Facebook memes. Personal uses do <b>not</b> include anything in which any money is gained through the use of this font. This includes, but is not limited to, logo design, t shirts, and advertisements. If there is any ambiguity consider purchasing a commercial license. Personal license are pay what you want.
 			</p>
 			<!-- COPYPASTA-->
-			<form>
-  <label>
-    <span>Name</span>
-    <input name="cardholder-name" class="field" placeholder="Jane Doe" />
-  </label>
-  <label>
-    <span>Phone</span>
-    <input class="field" placeholder="(123) 456-7890" type="tel" />
-  </label>
-  <label>
-    <span>ZIP code</span>
-    <input name="address-zip" class="field" placeholder="94110" />
-  </label>
-  <label>
-    <span>Card</span>
-    <div id="card-element" class="field"></div>
-  </label>
-  <button type="submit">Pay $25</button>
-  <div class="outcome">
-    <div class="error" role="alert"></div>
-    <div class="success">
-      Success! Your Stripe token is <span class="token"></span>
-    </div>
-  </div>
-</form>
+			<form action="/your-server-side-code" method="POST">
+			  <script
+			    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+			    data-key="pk_test_uZ0f81UWz9vVA06FBAYcd3sv"
+			    data-amount="999"
+			    data-name="indestructible type*"
+			    data-description="Widget"
+			    data-image="https://s3.amazonaws.com/stripe-uploads/acct_17dBWWCKc4EJVF29merchant-icon-1496408577284-Favicon.png"
+			    data-locale="auto">
+			  </script>
+			</form>
 <!-- COPYPASTA-->
 		</div>
 		<div id="tail">
