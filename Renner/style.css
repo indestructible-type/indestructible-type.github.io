@@ -1,0 +1,61 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+  text-align: center;
+  overflow: visible;
+  font-family: "renner";
+  color: #333333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover span{
+  color: #c83737;
+  text-decoration: none;
+}
+
+.red {
+  color: #c83737;
+}
+
+h5 {
+  color: #666666;
+  font-size: 2em;
+  font-weight: normal;
+  margin-top: 0.5em;
+}
+
+h1 {
+  font-size: 15vw;
+  font-weight: normal;
+  margin-top: 6vw;
+  margin-bottom: -0.6em;
+}
+
+h2 {
+  font-style: italic;
+  font-family: "rennermedium";
+  font-size: 6vw;
+  font-weight: normal;
+  color: #666666;
+}
+
+.button {
+  padding: 0.6em;
+  font-family: "rennerblack";
+  font-weight: normal;
+  background-color: #c83737;
+  color: #f2f2f2;
+  font-size: 2em;
+  transition: box-shadow 0.2s;
+  letter-spacing: 0.2em;
+}
+
+.button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.2s;
+}
