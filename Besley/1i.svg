@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,8 +54,8 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="0.70710678"
-     inkscape:cx="569.17972"
-     inkscape:cy="214.13404"
+     inkscape:cx="827.54886"
+     inkscape:cy="219.32979"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -70,15 +70,15 @@
   <flowRoot
      xml:space="preserve"
      id="flowRoot3338"
-     style="font-style:normal;font-weight:normal;font-size:30.44636726px;line-height:100%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffe6d5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-weight:normal;font-size:30.44636726px;line-height:100%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffe6d5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      transform="matrix(2.9560176,0,0,2.9560176,-200.21083,-230.83547)"><flowRegion
        id="flowRegion3340"
-       style="font-size:30.44636726px;line-height:100%;text-align:center;text-anchor:middle;fill:#ffe6d5;"><rect
+       style="font-size:30.44636726px;line-height:100%;text-align:center;text-anchor:middle;fill:#ffe6d5"><rect
          id="rect3342"
          width="596.28821"
          height="517.93591"
          x="22.728432"
          y="65.124229"
-         style="font-size:30.44636726px;line-height:100%;text-align:center;text-anchor:middle;fill:#ffe6d5;" /></flowRegion><flowPara
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:38.05796051px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold Italic';text-align:center;text-anchor:middle;fill:#ffe6d5;"
-       id="flowPara3646">You funky Wilson. When I get my mittens on you, I swear to the gravy god's, that will rain roast beef down upon you, ya. May bacon have grits on your soul.</flowPara></flowRoot></svg>
+         style="font-size:30.44636726px;line-height:100%;text-align:center;text-anchor:middle;fill:#ffe6d5" /></flowRegion><flowPara
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:38.05796051px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold Italic';text-align:center;text-anchor:middle;fill:#ffe6d5"
+       id="flowPara3646">You funky Wilson. When I get my mittens on you, I swear to the gravy god’s, that will rain roast beef down upon you, ya. May bacon have grits on your soul.</flowPara></flowRoot></svg>
