@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -44,8 +44,8 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="0.65996633"
-     inkscape:cx="810.59041"
-     inkscape:cy="340.58138"
+     inkscape:cx="785.64615"
+     inkscape:cy="153.24596"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -252,7 +252,7 @@
          y="126.158"
          style="fill:#fff4ec;fill-opacity:1" /></flowRegion><flowPara
        id="flowPara4260"
-       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:30.00000191px;line-height:1.25;font-family:'Renner*';-inkscape-font-specification:'Renner* Medium Italic';fill:#fff4ec;fill-opacity:1">a coffe affair </flowPara></flowRoot>  <flowRoot
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:30.00000191px;line-height:1.25;font-family:'Renner*';-inkscape-font-specification:'Renner* Medium Italic';fill:#fff4ec;fill-opacity:1">a coffee affair </flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot4274"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#a02c2c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
