@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -108,9 +108,9 @@
      inkscape:window-height="1027"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.65996633"
-     inkscape:cx="764.51932"
-     inkscape:cy="350.24036"
+     inkscape:zoom="0.93333333"
+     inkscape:cx="820.31783"
+     inkscape:cy="160.31139"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -169,46 +169,46 @@
        id="flowPara899"
        style="letter-spacing:2.37328911px">Cityville</flowPara></flowRoot>  <flowRoot
      transform="matrix(1.3887469,0,0,1.3887469,-373.23065,-293.25984)"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#fff6d5;fill-opacity:1;stroke:#ffffff;stroke-width:2.02520704;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#fff6d5;fill-opacity:1;stroke:#ffffff;stroke-width:2.02520704;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
      id="flowRoot917"
      xml:space="preserve"><flowRegion
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#fff6d5;fill-opacity:1;stroke:#ffffff;stroke-width:2.02520704;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy';fill:#fff6d5;fill-opacity:1;stroke:#ffffff;stroke-width:2.02520704;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
        id="flowRegion913"><rect
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#fff6d5;fill-opacity:1;stroke:#ffffff;stroke-width:2.02520704;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy';fill:#fff6d5;fill-opacity:1;stroke:#ffffff;stroke-width:2.02520704;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
          y="252.10143"
          x="240.92139"
          height="243.95184"
          width="1171.2719"
          id="rect911" /></flowRegion><flowPara
        id="flowPara915"
-       style="font-size:25.31508446px;letter-spacing:11.86644554px;word-spacing:5.93322277px;fill:#fff6d5;stroke:#ffffff;stroke-opacity:1;stroke-width:2.02520704;stroke-miterlimit:4;stroke-dasharray:none">WELCOME TO</flowPara></flowRoot>  <flowRoot
+       style="font-size:25.31508446px;letter-spacing:11.86644554px;word-spacing:5.93322277px;fill:#fff6d5;stroke:#ffffff;stroke-opacity:1;stroke-width:2.02520704;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:'Besley* Heavy';font-family:'Besley*';font-weight:900;font-style:normal;font-stretch:normal;font-variant:normal;">WELCOME TO</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.63027954,0,0,0.63027954,254.88136,243.00165)"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Italic';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
      id="flowRoot925"
      xml:space="preserve"><flowRegion
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Italic';fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
        id="flowRegion921"><rect
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Italic';fill:#f0d298;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
          y="252.10143"
          x="240.92139"
          height="243.95184"
          width="1171.2719"
          id="rect919" /></flowRegion><flowPara
        id="flowPara923"
-       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Besley*';-inkscape-font-specification:'Besley* Medium Italic';stroke:none;">Town of Typography</flowPara></flowRoot>  <flowRoot
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Besley*';-inkscape-font-specification:'Besley* Italic';stroke:none;">Town of Typography</flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot933"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#483e37;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#483e37;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      transform="matrix(1.3887469,0,0,1.3887469,-373.23065,-293.25984)"><flowRegion
        id="flowRegion929"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#483e37;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"><rect
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy';fill:#483e37;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><rect
          id="rect927"
          width="1171.2719"
          height="243.95184"
          x="240.92139"
          y="252.10143"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#483e37;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" /></flowRegion><flowPara
-       style="font-size:25.31508446px;letter-spacing:11.86644554px;word-spacing:5.93322277px;fill:#483e37;stroke:none;stroke-opacity:1;"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:96px;line-height:100%;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy';fill:#483e37;fill-opacity:1;stroke:none;stroke-width:0.99974805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:25.31508446px;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy';letter-spacing:11.86644554px;word-spacing:5.93322277px;fill:#483e37;stroke:none;stroke-opacity:1"
        id="flowPara931">WELCOME TO</flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot941"

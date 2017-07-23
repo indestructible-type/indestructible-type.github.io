@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -109,8 +109,8 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="0.65996634"
-     inkscape:cx="854.20676"
-     inkscape:cy="280.05772"
+     inkscape:cx="888.9176"
+     inkscape:cy="229.28246"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -5105,33 +5105,33 @@
          style="font-size:29.34559059px;fill:#2c1e15;fill-opacity:1" /></flowRegion><flowPara
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.34559059px;line-height:1.25;font-family:'Besley*';-inkscape-font-specification:'Besley*';fill:#2c1e15;fill-opacity:1"
        id="flowPara6604">12</flowPara></flowRoot>  <flowRoot
-     transform="matrix(0.29240279,0,0,0.29240279,681.29701,91.383137)"
-     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#2c1e15;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     transform="matrix(0.29240279,0,0,0.29240279,673.79701,91.383137)"
+     style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;line-height:0.01%;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy Italic';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#2c1e15;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      id="flowRoot6614"
      xml:space="preserve"><flowRegion
-       style="text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1;"
+       style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy Italic';text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1"
        id="flowRegion6610"><rect
-         style="font-size:193.27467346px;text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1;"
+         style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-size:193.27467346px;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy Italic';text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1"
          y="4.0191584"
          x="5.5051308"
          height="647.13092"
          width="1238.7511"
          id="rect6608" /></flowRegion><flowPara
        id="flowPara6612"
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.89984894px;line-height:1.25;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold Italic';text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1;">via wta.org</flowPara></flowRoot>  <flowRoot
+       style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-size:85.89984894px;line-height:1.25;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy Italic';text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1">via wta.org </flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot6622"
-     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#2c1e15;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:italic;font-weight:900;line-height:0.01%;font-family:'Besley*';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#2c1e15;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Besley* Heavy Italic';font-stretch:normal;font-variant:normal;"
      transform="matrix(0.29240279,0,0,0.29240279,681.29701,128.88314)"><flowRegion
        id="flowRegion6618"
-       style="text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1"><rect
+       style="text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1;-inkscape-font-specification:'Besley* Heavy Italic';font-family:'Besley*';font-weight:900;font-style:italic;font-stretch:normal;font-variant:normal;"><rect
          id="rect6616"
          width="1238.7511"
          height="647.13092"
          x="5.5051308"
          y="4.0191584"
-         style="font-size:193.27467346px;text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1" /></flowRegion><flowPara
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.89984894px;line-height:1.25;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold Italic';text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1"
+         style="font-size:193.27467346px;text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1;-inkscape-font-specification:'Besley* Heavy Italic';font-family:'Besley*';font-weight:900;font-style:italic;font-stretch:normal;font-variant:normal;" /></flowRegion><flowPara
+       style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-size:85.89984894px;line-height:1.25;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy Italic';text-align:end;text-anchor:end;fill:#2c1e15;fill-opacity:1;"
        id="flowPara6620">(206) 625-1367</flowPara></flowRoot>  <rect
      y="142.47623"
      x="1134.8206"
@@ -5158,18 +5158,18 @@
        id="flowPara8585" /></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot8595"
-     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#163121;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:900;line-height:0.01%;font-family:'Besley*';letter-spacing:0px;word-spacing:0px;fill:#163121;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Besley* Heavy';font-stretch:normal;font-variant:normal;"
      transform="matrix(0.9371084,0,0,0.9371084,1152.1501,159.22694)"><flowRegion
        id="flowRegion8589"
-       style="fill:#163121;fill-opacity:1"><rect
+       style="fill:#163121;fill-opacity:1;-inkscape-font-specification:'Besley* Heavy';font-family:'Besley*';font-weight:900;font-style:normal;font-stretch:normal;font-variant:normal;"><rect
          id="rect8587"
          width="1238.7511"
          height="647.13092"
          x="5.5051308"
          y="4.0191584"
-         style="font-size:193.27467346px;fill:#163121;fill-opacity:1" /></flowRegion><flowPara
+         style="font-size:193.27467346px;fill:#163121;fill-opacity:1;-inkscape-font-specification:'Besley* Heavy';font-family:'Besley*';font-weight:900;font-style:normal;font-stretch:normal;font-variant:normal;" /></flowRegion><flowPara
        id="flowPara8593"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.34559059px;line-height:1.25;font-family:'Besley*';-inkscape-font-specification:'Besley* Bold';fill:#163121;fill-opacity:1">National Park Service</flowPara></flowRoot>  <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:29.34559059px;line-height:1.25;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy';fill:#163121;fill-opacity:1;">National Park Service</flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot8605"
      style="font-style:normal;font-weight:normal;font-size:29.34559059px;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#163121;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

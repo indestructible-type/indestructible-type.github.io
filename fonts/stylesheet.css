@@ -194,6 +194,30 @@
 
 
 @font-face {
+    font-family: 'besleyfatface';
+    src: url('besley-fatface-webfont.woff2') format('woff2'),
+         url('besley-fatface-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'besleyfatface';
+    src: url('besley-fatfaceitalic-webfont.woff2') format('woff2'),
+         url('besley-fatfaceitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
     font-family: 'rennerblack';
     src: url('renner-black-webfont.woff2') format('woff2'),
          url('renner-black-webfont.woff') format('woff');

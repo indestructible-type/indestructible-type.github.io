@@ -26,7 +26,8 @@ body {
 h2 {
   padding-top: 1em;
   font-size: 1.2em;
-  font-weight: bold;
+  font-family: "besleyfatface";
+  font-weight: normal;
   color: #0b1c08;
 }
 
@@ -34,6 +35,8 @@ h1 {
   color: #fff3e6;
   font-size: 10vw;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  font-weight: normal;
+  font-family: "besleymedium";
   padding-bottom: 0;
   margin-bottom: 0;
 }
