@@ -91,7 +91,7 @@ a {
 #white {
   background-color: #ffdab3;
   color: #0b1c08;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   padding-bottom: 1em;
   padding-top: 10em;
@@ -181,4 +181,16 @@ h6 {
 
 #roll:hover {
     color: #660000;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  font-family: "besley";
+  color: #ffdab3;
+  font-size: 5em;
+  width: 99%;
+  height: 1.3em;
 }
