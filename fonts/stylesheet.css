@@ -314,6 +314,30 @@
 
 
 @font-face {
+    font-family: 'rennerthin';
+    src: url('renner-thin-webfont.woff2') format('woff2'),
+         url('renner-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rennerthin';
+    src: url('renner-thinitalic-webfont.woff2') format('woff2'),
+         url('renner-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;;
+
+}
+
+
+
+
+@font-face {
     font-family: 'rennermedium';
     src: url('renner-medium-webfont.woff2') format('woff2'),
          url('renner-medium-webfont.woff') format('woff');

@@ -11,7 +11,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.1 unknown"
+   inkscape:version="0.92.2 (unknown)"
    width="1600"
    height="640"
    viewBox="0 0 1500 600"
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -44,8 +44,8 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="0.65996633"
-     inkscape:cx="796.08622"
-     inkscape:cy="82.324463"
+     inkscape:cx="540.01255"
+     inkscape:cy="324.76107"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -108,7 +108,7 @@
          height="161.96001"
          width="909.3656"
          id="rect4988" /></flowRegion><flowPara
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:78.85191345px;line-height:1.25;font-family:'Renner*';-inkscape-font-specification:'Renner* Light';text-align:center;text-anchor:middle;fill:#241c1c;stroke:none;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:78.85191345px;line-height:1.25;font-family:'Renner*';-inkscape-font-specification:'Renner* Ultra-Light';text-align:center;text-anchor:middle;fill:#241c1c;stroke:none;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="flowPara4990">CHAPTER 1</flowPara></flowRoot>  <flowRoot
      transform="matrix(1.3141986,0,0,1.3141986,30.747371,233.61779)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Renner*';-inkscape-font-specification:'Renner*';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#241c1c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
