@@ -89,28 +89,19 @@ document.getElementById("time").style = "background-image: -webkit-gradient( lin
 document.getElementById("displaytime").innerHTML = addSpace(fixHour(calcHour(d.getHours()))) + ":" + addZero(d.getMinutes());
 document.getElementById("displaydistance").innerHTML = 100 + "%";
 document.getElementById("bak").style = "font-weight: normal; font-variation-settings:'TOTD' " + document.getElementById("time").value + ", 'DIST' " + sliders.value + ";";
+document.getElementById("baks").style = "font-weight: normal; font-variation-settings:'TOTD' " + document.getElementById("time").value + ", 'DIST' " + sliders.value + ";";
 
 slider.oninput = function() {
-  if (slider.value == 0) {
-    num = 0.01;
-  }
-  else {
-    num = slider.value / 1000;
-  }
+  num = (slider.value / 1002) + 0.002;
   output.innerHTML = "<b style=\"font-weight: normal; font-variation-settings:'TOTD' " + this.value + ", 'DIST' " + sliders.value + ";\">UMBRA*</b>";
-  document.getElementById("time").style = "background-image: -webkit-gradient( linear, left top, right top, color-stop(" + num + ", #ff0066), color-stop(0" + num + "5, #ffffff));";
+  document.getElementById("time").style = "background-image: -webkit-gradient( linear, left top, right top, color-stop(" + num + ", #ff0066), color-stop(0" + num + ", #ffffff));";
   document.getElementById("displaytime").innerHTML = addSpace(fixHour(Math.trunc(createTimeH(slider.value)))) + ":" + addZero(Math.trunc(createTimeM(createTimeH(slider.value))));
 }
 
 sliders.oninput = function() {
-  if (sliders.value == 0) {
-    nums = 0.01;
-  }
-  else {
-    nums = sliders.value / 1000;
-  }
-  output.innerHTML = "<b style=\"font-weight: normal; font-variation-settings:'TOTD' " + slider.value + ", 'DIST' " + this.value + ";\">UMBRA*</b>";
-  document.getElementById("distance").style = "background-image: -webkit-gradient( linear, left top, right top, color-stop(" + nums + ", #ff0066), color-stop(0" + nums + "5, #ffffff));";
+  nums = (sliders.value / 1002) + 0.002;
+  TML = "<b style=\"font-weight: normal; font-variation-settings:'TOTD' " + slider.value + ", 'DIST' " + this.value + ";\">UMBRA*</b>";
+  document.getElementById("distance").style = "background-image: -webkit-gradient( linear, left top, right top, color-stop(" + nums + ", #ff0066), color-stop(0" + nums + ", #ffffff));";
   butter = document.getElementById("distance").value / 3.333333333;
   document.getElementById("displaydistance").innerHTML = Math.trunc(butter) + "%";
 }
