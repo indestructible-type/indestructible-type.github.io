@@ -90,6 +90,7 @@ document.getElementById("displaytime").innerHTML = addSpace(fixHour(calcHour(d.g
 document.getElementById("displaydistance").innerHTML = 100 + "%";
 document.getElementById("bak").style = "font-weight: normal; font-variation-settings:'TOTD' " + document.getElementById("time").value + ", 'DIST' " + sliders.value + ";";
 document.getElementById("baks").style = "font-weight: normal; font-variation-settings:'TOTD' " + document.getElementById("time").value + ", 'DIST' " + sliders.value + ";";
+document.getElementById("bakss").style = "font-weight: normal; font-variation-settings:'TOTD' " + document.getElementById("time").value + ", 'DIST' " + sliders.value + ";";
 
 slider.oninput = function() {
   num = (slider.value / 1002) + 0.002;
@@ -100,7 +101,7 @@ slider.oninput = function() {
 
 sliders.oninput = function() {
   nums = (sliders.value / 1002) + 0.002;
-  TML = "<b style=\"font-weight: normal; font-variation-settings:'TOTD' " + slider.value + ", 'DIST' " + this.value + ";\">UMBRA*</b>";
+  output.innerHTML = "<b style=\"font-weight: normal; font-variation-settings:'TOTD' " + slider.value + ", 'DIST' " + this.value + ";\">UMBRA*</b>";
   document.getElementById("distance").style = "background-image: -webkit-gradient( linear, left top, right top, color-stop(" + nums + ", #ff0066), color-stop(0" + nums + ", #ffffff));";
   butter = document.getElementById("distance").value / 3.333333333;
   document.getElementById("displaydistance").innerHTML = Math.trunc(butter) + "%";
