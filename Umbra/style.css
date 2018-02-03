@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Umbra-Shadow";
+    src: url("umbra-web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Umbra";
+    src: url("umbra-simple.ttf") format("truetype");
+}
+
+body {
+  background-color: #ffaacc;
+  font-family: "Umbra";
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+#head {
+  margin-top: -0.1em;
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 0.3em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#head:hover a {
+  text-decoration: underline overline;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  font-family: "Umbra-Shadow";
+  color: white;
+  font-size: 25vw;
+  margin-top: 0;
+}
+
+.bottom {
+  font-family: "Umbra-Shadow";
+  color: #ff0066;
+  position: absolute;
+  margin-left: -5px;
+  width: 99%;
+}
+
+.top {
+  font-family: "Umbra-Shadow";
+  font-variation-settings: "DIST" 0, "TOTD" 0;
+  position: absolute;
+  margin-left: -5px;
+  width: 99%;
+}
+
+.red {
+  color: #aa0044;
+}
+
+#center {
+  margin-bottom: 25vw;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 85%;
+  height: 15px;
+  border-radius: 15px;
+  background: white;
+  outline: none;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0.333, #ff0066), color-stop(0.333, #ffffff));
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ff0066;
+  cursor: pointer;
+}
+
+.slider::-moz-range-track {
+    background-color: transparent;
+}
+
+.slider::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ff0066;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+#sliders {
+  position: absolute;
+  height: 3em;
+  margin-left: -5px;
+  width: 99%;
+}
+
+h2 {
+  font-size: 5em;
+  font-weight: normal;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+#body {
+  padding-top: 20em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 10em;
+  font-weight: normal;
+}
+
+#body p {
+  color: #aa0044;
+  text-align: left;
+  font-family: "renner";
+  width: 800px;
+  margin: 0 auto;
+  font-size: 1.6em;
+}
