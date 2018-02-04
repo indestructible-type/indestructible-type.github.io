@@ -13,12 +13,40 @@ body {
   font-family: "Umbra";
   color: white;
   text-align: center;
+  margin:0;
+  padding:0;
+  margin-top: 10px;
 }
 
 a {
   text-decoration: inherit;
   color: inherit;
 }
+
+#webnotice {
+  background-color: yellow;
+  color: black;
+  font-size: 1.3em;
+  font-family: "renner";
+  padding: 0.3em;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    #webnotice {
+      visibility: hidden;
+      height: 0;
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) { @media {
+    .safari_only #webnotice {
+      visibility: hidden;
+      height: 0;
+    }
+}}
 
 #head {
   margin-top: -0.1em;
@@ -160,6 +188,16 @@ h3 {
   text-decoration: underline overline;
 }
 
+#body p span {
+  font-size: 0.7em;
+  letter-spacing: 0.03em;
+  font-family: "rennermedium"
+}
+
+img {
+  width: 70%;
+}
+
 #body b {
   font-weight: normal;
   color: #ff0066;
@@ -213,4 +251,26 @@ h3 {
                 rgba(0,0,0,0) 85%,
                 #ffaacc 100%
     );
+}
+
+#linker a {
+  color: #ffffff;
+}
+
+#linker a:hover {
+  color: #ff0066;
+}
+
+h4 {
+  font-family: "joneslight";
+  font-size: 5em;
+  font-weight: normal;
+  color: #aa0044;
+  margin-bottom: -1em;
+}
+
+#end {
+  font-size: 1em;
+  letter-spacing: 0.03em;
+  font-family: "rennermedium"
 }

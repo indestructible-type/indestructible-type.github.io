@@ -9,6 +9,9 @@
 	<link rel='stylesheet' href='Umbra/style.css'/>
 </head>
 	<body>
+		<div id="webnotice">
+			Hey! This page uses OpenType variable fonts, which are only supported in the latest version of Google Chrome and Safari. To view this page properly, try opening it in a supported brower.
+		</div>
 		<p id="head">THE <a href="Home.html">INDESTRUCTIBLE TYPE*</a> CORPORATION PRESENTS</p>
 		<div id="center">
 			<h1 class="bottom" id="TOTD">UMBRA*</h1>
@@ -46,13 +49,31 @@
 			</div>
 			<b>NEW FRONTIERS</b><br>
 			<p>This font marks several firsts for indestructible type* and fonts. Umbra* is the first font to respond to variables controlled by the user's location. The potential for this paradigm&#8217;s possibilities are endless. We can have fonts that respond to the weather of the user&#8217;s location, fonts that respond to lighting conditions, or fonts that respond to the location of the user&#8217;s cursor.
-				<br><br>Because<br><br></p>
+				<br><br>OpenType variable fonts are a new technology, and have not been explored much in general. This is the biggest thing to happen to digital fonts in the past twenty years. Because this technology is so new, there is very little support, both for graphic designers, but especially for font makers. I hope to be making and providing documentation to non programmers like myself on how to utilize this very new and confusing technology. <br><br></p>
 			<b>A BRIGHT FUTURE</b><br>
-			<p></p>
+			<p>Umbra* is an interesting idea and proof of concept, but more than anything it is a promise of what&#8217;s to come. I am starting the slow process of migrating the entire indestructible type* font library to support OpenType variable fonts technology. I want to make indestructible type* the very first open source variable font foundry.<br><br></p>
+			<img src="Umbra/example.svg">
+			<p><br><span>In the future, the above fonts will have editable metrics, like boldness or italic angle.</span></p>
 			<h3 class="bottom" id="bakss">APPLICATION</h3>
 			<h3 class="top">APPLICATION</h3><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-			<b>INSPIRED BY A BOLD PAST</b>
+			<b>SUPPORT</b>
+			<p>OpenType variable fonts are already supported by some applications, and the number of applications that support them continues to grow. Right now, the latest version of Adobe Photoshop and Adobe Illustrator support OpenType variable font technology, and Umbra* can be used natively.<br><br></p>
+			<b>USING UMBRA*</b>
+			<p>Umbra* has two versions, Umbra* Foreground, and Umbra* Simple. Umbra* Foreground is a static font (it doesn&#8217;t use OpenType variable font technology) and is perfect for standalone use as well as use in programs that do not support variable fonts. Umbra* Simple <i>is</i> a variable font, and is intended for background use under Umbra* Foreground. Umbra* Simple has two sliders, &ldquo;Time of Day&rdquo; and &ldquo;Shadow Distance &rdquo;.
+				These sliders work exactly as they do in this page, however the &ldquo;Time of Day&rdquo; slider goes from 6 to 18.<br><br></p>
+			<b>WEB USE</b>
+			<p>OpenType variable fonts are supported on the latest versions of both Google Chrome and Safari, and will be supported by Firefox shortly.
+				Umbra* has a version designed specifically for web which is available for <a href="https://github.com/indestructible-type/Umbra">download
+				in the Umbra* repository.</a> My vision is to provide more in-depth documentation about using OpenType variable fonts on websites, as well
+				as using Umbra* specifically, but in the meantime, <a href="https://css-tricks.com/one-file-many-options-using-variable-fonts-web/">css-tricks.com
+				has a fairly decant tutorial</a> on OpenType variable font web use. To get the effect of responding to the time of day, I run a javascript script
+				that updates the font-variation-settings css property to correspond with the time of day.</p>
+			<br><br><br><br>
+			<h2 id="Download"><a href="BuyUmbra.html">Download</a></h2><br><br>
+			<b id="linker"><a href="https://github.com/indestructible-type/Umbra">VIEW ON GITHUB</a></b>
 		</div>
+		<h4>*</h4>
+		<br><br><p id="end">Created by <a href="Home.html">indestructible type*</a></p>
 	<script src="Umbra/sliders.js"></script>
 	</body>
 </html>
