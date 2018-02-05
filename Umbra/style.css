@@ -42,7 +42,7 @@ a {
 }
 
 @media not all and (min-resolution:.001dpcm) { @media {
-    .safari_only #webnotice {
+    #webnotice {
       visibility: hidden;
       height: 0;
     }
