@@ -26,9 +26,9 @@ a {
 #webnotice {
   background-color: yellow;
   color: black;
-  font-size: 1.3em;
+  font-size: 1em;
   font-family: "renner";
-  padding: 0.3em;
+  padding: 0.5em;
   margin-bottom: 10px;
   margin-top: -10px;
 }
@@ -251,6 +251,10 @@ img {
                 rgba(0,0,0,0) 85%,
                 #ffaacc 100%
     );
+}
+
+#linker {
+  margin-top: 50em;
 }
 
 #linker a {
