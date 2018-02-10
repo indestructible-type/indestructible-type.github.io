@@ -94,14 +94,14 @@ document.getElementById("bakss").style = "font-weight: normal; font-variation-se
 
 slider.oninput = function() {
   num = (slider.value / 1002) + 0.002;
-  output.innerHTML = "<b style=\"font-weight: normal; font-variation-settings:'TOTD' " + this.value + ", 'DIST' " + sliders.value + ";\">UMBRA*</b>";
+  output.innerHTML = "<b style=\"font-weight: normal; font-variation-settings:'TOTD' " + this.value + ", 'DIST' " + sliders.value + ";\">GNOMON*</b>";
   document.getElementById("time").style = "background-image: -webkit-gradient( linear, left top, right top, color-stop(" + num + ", #ff0066), color-stop(0" + num + ", #ffffff));";
   document.getElementById("displaytime").innerHTML = addSpace(fixHour(Math.trunc(createTimeH(slider.value)))) + ":" + addZero(Math.trunc(createTimeM(createTimeH(slider.value))));
 }
 
 sliders.oninput = function() {
   nums = (sliders.value / 1002) + 0.002;
-  output.innerHTML = "<b style=\"font-weight: normal; font-variation-settings:'TOTD' " + slider.value + ", 'DIST' " + this.value + ";\">UMBRA*</b>";
+  output.innerHTML = "<b style=\"font-weight: normal; font-variation-settings:'TOTD' " + slider.value + ", 'DIST' " + this.value + ";\">GNOMON*</b>";
   document.getElementById("distance").style = "background-image: -webkit-gradient( linear, left top, right top, color-stop(" + nums + ", #ff0066), color-stop(0" + nums + ", #ffffff));";
   butter = document.getElementById("distance").value / 3.333333333;
   document.getElementById("displaydistance").innerHTML = Math.trunc(butter) + "%";
