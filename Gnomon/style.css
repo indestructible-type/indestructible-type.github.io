@@ -87,7 +87,7 @@ h1 {
 
 .top {
   font-family: "Umbra-Shadow";
-  font-variation-settings: "DIST" 0, "TOTD" 0;
+  font-variation-settings: "DIST" 0, "TOTD" 500;
   position: absolute;
   margin-left: -5px;
   width: 99%;
