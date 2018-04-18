@@ -357,3 +357,147 @@
     font-style: italic;;
 
 }
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-black-webfont.woff2') format('woff2'),
+         url('renner-black-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-blackitalic-webfont.woff2') format('woff2'),
+         url('renner-blackitalic-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-bold-webfont.woff2') format('woff2'),
+         url('renner-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-bolditalic-webfont.woff2') format('woff2'),
+         url('renner-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-book-webfont.woff2') format('woff2'),
+         url('renner-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-bookitalic-webfont.woff2') format('woff2'),
+         url('renner-bookitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-light-webfont.woff2') format('woff2'),
+         url('renner-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-lightitalic-webfont.woff2') format('woff2'),
+         url('renner-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-thin-webfont.woff2') format('woff2'),
+         url('renner-thin-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-thinitalic-webfont.woff2') format('woff2'),
+         url('renner-thinitalic-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-medium-webfont.woff2') format('woff2'),
+         url('renner-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Renner*';
+    src: url('renner-mediumitalic-webfont.woff2') format('woff2'),
+         url('renner-mediumitalic-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;;
+
+}
