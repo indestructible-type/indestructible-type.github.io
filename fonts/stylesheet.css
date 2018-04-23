@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'jones';
-    src: url('https://indestructibletype.com/fonts/jones-bold-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/jones-bold-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/jones-bold-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/jones-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'jones';
-    src: url('https://indestructibletype.com/fonts/jones-bolditalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/jones-bolditalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/jones-bolditalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/jones-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'jonesblack';
-    src: url('https://indestructibletype.com/fonts/jones-black-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/jones-black-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/jones-black-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/jones-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,8 +40,8 @@
 
 @font-face {
     font-family: 'jonesblack';
-    src: url('https://indestructibletype.com/fonts/jones-blackitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/jones-blackitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/jones-blackitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/jones-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -51,8 +51,8 @@
 
 @font-face {
     font-family: 'jones';
-    src: url('https://indestructibletype.com/fonts/jones-book-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/jones-book-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/jones-book-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/jones-book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -63,8 +63,8 @@
 
 @font-face {
     font-family: 'jones';
-    src: url('https://indestructibletype.com/fonts/jones-bookitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/jones-bookitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/jones-bookitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/jones-bookitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -75,8 +75,8 @@
 
 @font-face {
     font-family: 'jonesmedium';
-    src: url('https://indestructibletype.com/fonts/jones-medium-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/jones-medium-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/jones-medium-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/jones-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -87,8 +87,8 @@
 
 @font-face {
     font-family: 'jonesmedium';
-    src: url('https://indestructibletype.com/fonts/jones-mediumitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/jones-mediumitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/jones-mediumitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/jones-mediumitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -99,8 +99,8 @@
 
 @font-face {
     font-family: 'joneslight';
-    src: url('https://indestructibletype.com/fonts/jones-light-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/jones-light-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/jones-light-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/jones-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -111,8 +111,8 @@
 
 @font-face {
     font-family: 'joneslight';
-    src: url('https://indestructibletype.com/fonts/jones-lightitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/jones-lightitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/jones-lightitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/jones-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -124,8 +124,8 @@
 
 @font-face {
     font-family: 'besley';
-    src: url('https://indestructibletype.com/fonts/besley-bold-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/besley-bold-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/besley-bold-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/besley-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -136,8 +136,8 @@
 
 @font-face {
     font-family: 'besley';
-    src: url('https://indestructibletype.com/fonts/besley-bolditalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/besley-bolditalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/besley-bolditalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/besley-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
@@ -147,8 +147,8 @@
 }
 @font-face {
     font-family: 'besley';
-    src: url('https://indestructibletype.com/fonts/besley-book-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/besley-book-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/besley-book-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/besley-book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -159,8 +159,8 @@
 
 @font-face {
     font-family: 'besley';
-    src: url('https://indestructibletype.com/fonts/besley-bookitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/besley-bookitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/besley-bookitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/besley-bookitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -171,8 +171,8 @@
 
 @font-face {
     font-family: 'besleymedium';
-    src: url('https://indestructibletype.com/fonts/besley-medium-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/besley-medium-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/besley-medium-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/besley-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -183,8 +183,8 @@
 
 @font-face {
     font-family: 'besleymedium';
-    src: url('https://indestructibletype.com/fonts/besley-mediumitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/besley-mediumitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/besley-mediumitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/besley-mediumitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -195,8 +195,8 @@
 
 @font-face {
     font-family: 'besleyfatface';
-    src: url('https://indestructibletype.com/fonts/besley-fatface-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/besley-fatface-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/besley-fatface-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/besley-fatface-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -207,8 +207,8 @@
 
 @font-face {
     font-family: 'besleyfatface';
-    src: url('https://indestructibletype.com/fonts/besley-fatfaceitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/besley-fatfaceitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/besley-fatfaceitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/besley-fatfaceitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -219,8 +219,8 @@
 
 @font-face {
     font-family: 'rennerblack';
-    src: url('https://indestructibletype.com/fonts/renner-black-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-black-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-black-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -231,8 +231,8 @@
 
 @font-face {
     font-family: 'rennerblack';
-    src: url('https://indestructibletype.com/fonts/renner-blackitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-blackitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-blackitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -243,8 +243,8 @@
 
 @font-face {
     font-family: 'renner';
-    src: url('https://indestructibletype.com/fonts/renner-bold-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-bold-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-bold-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -255,8 +255,8 @@
 
 @font-face {
     font-family: 'renner';
-    src: url('https://indestructibletype.com/fonts/renner-bolditalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-bolditalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-bolditalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
@@ -267,8 +267,8 @@
 
 @font-face {
     font-family: 'renner';
-    src: url('https://indestructibletype.com/fonts/renner-book-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-book-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-book-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -279,8 +279,8 @@
 
 @font-face {
     font-family: 'renner';
-    src: url('https://indestructibletype.com/fonts/renner-bookitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-bookitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-bookitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-bookitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -291,8 +291,8 @@
 
 @font-face {
     font-family: 'rennerlight';
-    src: url('https://indestructibletype.com/fonts/renner-light-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-light-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-light-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -303,8 +303,8 @@
 
 @font-face {
     font-family: 'rennerlight';
-    src: url('https://indestructibletype.com/fonts/renner-lightitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-lightitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-lightitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -315,8 +315,8 @@
 
 @font-face {
     font-family: 'rennerthin';
-    src: url('https://indestructibletype.com/fonts/renner-thin-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-thin-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-thin-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -327,8 +327,8 @@
 
 @font-face {
     font-family: 'rennerthin';
-    src: url('https://indestructibletype.com/fonts/renner-thinitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-thinitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-thinitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -339,8 +339,8 @@
 
 @font-face {
     font-family: 'rennermedium';
-    src: url('https://indestructibletype.com/fonts/renner-medium-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-medium-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-medium-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -351,8 +351,8 @@
 
 @font-face {
     font-family: 'rennermedium';
-    src: url('https://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -363,8 +363,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-black-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-black-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-black-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-black-webfont.woff') format('woff');
     font-weight: 800;
     font-style: normal;
 
@@ -375,8 +375,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-blackitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-blackitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-blackitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-blackitalic-webfont.woff') format('woff');
     font-weight: 800;
     font-style: italic;
 
@@ -387,8 +387,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-bold-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-bold-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-bold-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -399,8 +399,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-bolditalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-bolditalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-bolditalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
@@ -411,8 +411,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-book-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-book-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-book-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -423,8 +423,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-bookitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-bookitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-bookitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-bookitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -435,8 +435,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-light-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-light-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-light-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-light-webfont.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 
@@ -447,8 +447,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-lightitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-lightitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-lightitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-lightitalic-webfont.woff') format('woff');
     font-weight: 300;
     font-style: italic;
 
@@ -459,8 +459,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-thin-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-thin-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-thin-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-thin-webfont.woff') format('woff');
     font-weight: 200;
     font-style: normal;
 
@@ -471,8 +471,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-thinitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-thinitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-thinitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-thinitalic-webfont.woff') format('woff');
     font-weight: 200;
     font-style: italic;
 
@@ -483,8 +483,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-medium-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-medium-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-medium-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-medium-webfont.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 
@@ -495,8 +495,8 @@
 
 @font-face {
     font-family: 'Renner*';
-    src: url('https://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff2') format('woff2'),
-         url('https://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff') format('woff');
     font-weight: 500;
     font-style: italic;
 
