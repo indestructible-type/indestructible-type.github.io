@@ -27,6 +27,7 @@ h1 {
 }
 
 #background {
+  position: absolute;
   white-space: nowrap;
   overflow-x: hidden;
   width: 100%;
