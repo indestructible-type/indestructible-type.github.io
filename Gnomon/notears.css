@@ -31,11 +31,6 @@ h1 {
   overflow-x: hidden;
   width: 100%;
   color: #4e77c4;
-  margin-bottom: -21.8vw;
-}
-
-#background h2 {
-    margin-bottom: 5.4vw;
 }
 
 input {
@@ -84,6 +79,11 @@ h2 {
   font-size: 15vw;
   width: 90%;
   text-align: center;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto
 }
 
 #body {
@@ -94,4 +94,12 @@ h2 {
 
 #body p {
   line-height: 2em;
+}
+
+#float {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto
 }
