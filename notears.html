@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>No Tears</title>
+	<meta name="theme-color" content="#c83737">
+	<meta name="robots" content="index, nofollow">
+	<link rel="shortcut icon" href="Favicon.png">
+	<link rel="icon" type="image/png" href="Favicon.png">
+	<link rel='stylesheet' href='Gnomon/notears.css'/>
+</head>
+	<body>
+		<p><b><a class="a" href="Home.html">indestructible type* presents</a><b></p>
+		<div id="background"><h1>################</h1></div>
+		<h1>No Tears</h1>
+		<p>Name your price starting at</p>
+		<script>
+		function validate() {
+				var n1 = document.getElementsByName('amount')[0].value;
+				if (n1 < 5) {
+					alert("You have to pay at least $5");
+					return false;
+				} else if (n1 >= 5) {
+						document.getElementById("my-form-id").method = "post";
+						document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
+						return true;
+				} else {
+						alert("That doesn't look like a valid amount!");
+						return false;
+				}
+		}
+		</script>
+		<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+		<form id="my-form-id" name="_xclick" action="" method="none" onsubmit="return validate();">
+		<input type="hidden" name="cmd" value="_xclick" />
+		<input type="hidden" name="business" value="indestructibletype@gmail.com" />
+		<input type="hidden" name="currency_code" value="USD" />
+		<input type="hidden" name="item_name" value="notears" />
+		<input type="hidden" name="no_shipping" value="1" />
+		<input type="hidden" name="return" value="https://indestructible-type.github.io/notearsCheckout.html" />
+		<input type="hidden" name="cancel_return" value="https://indestructible-type.github.io/notears.html" />
+		<label for="mce-EMAIL"></label><br>
+		<label style="font-size: 2em;">$</label><input type="text" name="amount" value="5.00" placeholder="5.00" autofocus /><br><br><br>
+		<input id="mc-embedded-subscribe" type="submit" value="Buy Now!" name="submit">
+		</form>
+		<br><br><br><br><br>
+		<div id="background"><h2>################</h2></div>
+		<h2>About</h2>
+		<br>
+		<p>The <u>No Tears</u> font is based off of the letterforms taught in the</p><p>&ldquo;Learning Without Tears&#8482;&rdquo; handwriting program. This makes</p><p>it ideal for worksheets and other educational material. &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<br><br>
+		<p>The font comes complete with uppercase and lowercase forms as</p><p>well as numbers and some punctuation. It also comes with a &nbsp; &nbsp;&nbsp;</p><p> pound sign that is comprised of a dotted writing template as seen</p><p>in blue on this page. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<br><br><br>
+		<div id="background"><h2>################</h2></div>
+		<input type="text" value="Try Me Out!" id="test">
+		<br>		<br><br><br>
+		<input id="mc-embedded-subscribe" onclick="topFunction()" type="submit" value="Back to Top!" name="submit">
+		<br><br><br>
+		<p>made by <a href="http://indestructibletype.com/">indestructible type*</a></p>
+	</body>
+</html>

@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "notears";
+    src: url("notears.ttf") format("truetype");
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "notears";
+  color: #111111;
+  text-align: center;
+  margin:0;
+  padding:0;
+  margin-top: 10px;
+  font-size: 2em;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1 {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 20vw;
+  margin-bottom: 0;
+}
+
+#background {
+  white-space: nowrap;
+  overflow-x: hidden;
+  width: 100%;
+  color: #4e77c4;
+  margin-bottom: -21.8vw;
+}
+
+#background h2 {
+    margin-bottom: 5.4vw;
+}
+
+input {
+  border: 0;
+  border-bottom: 3px dotted #111111;
+  background-color: inherit;
+  font-family: "notears";
+  color: #111111;
+  font-size: 3em;
+  text-align: left;
+  width: 3em;
+  margin: 0.2em;
+}
+
+input::placeholder {
+  color: #111111;
+}
+
+#mc-embedded-subscribe {
+  font-size: 2em;
+  font-weight: bold;
+  width: 5em;
+  border: 0;
+  text-align: center;
+  background: linear-gradient(to right, #ffff00 0%, #f2f2f2 0%);
+  transition-delay: 1s;
+}
+
+#mc-embedded-subscribe:hover{
+  cursor: pointer;
+  background: linear-gradient(to right, #ffff00 100%, #f2f2f2 0%);
+  transition-delay: 1s;
+}
+
+h2 {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 15vw;
+  margin-bottom: 0;
+}
+
+#test {
+  margin-bottom: 0;
+  margin-top: 0;
+  border: 0;
+  font-size: 15vw;
+  width: 90%;
+  text-align: center;
+}
