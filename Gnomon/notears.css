@@ -40,7 +40,7 @@ h1 {
 
 input {
   border: 0;
-  border-bottom: 3px dotted #111111;
+  border-bottom: 3px dashed #111111;
   background-color: inherit;
   font-family: "notears";
   color: #111111;
@@ -84,4 +84,14 @@ h2 {
   font-size: 15vw;
   width: 90%;
   text-align: center;
+}
+
+#body {
+  margin: auto;
+  width: 25em;
+  text-align: left;
+}
+
+#body p {
+  line-height: 2em;
 }
