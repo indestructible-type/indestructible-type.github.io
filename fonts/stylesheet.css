@@ -219,8 +219,8 @@
 
 @font-face {
     font-family: 'rennerblack';
-    src: url('http://indestructibletype.com/fonts/renner-black-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-black-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner_900_black-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_900_black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -231,8 +231,32 @@
 
 @font-face {
     font-family: 'rennerblack';
-    src: url('http://indestructibletype.com/fonts/renner-blackitalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-blackitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner_900_black_italic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_900_black_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rennerheavy';
+    src: url('http://indestructibletype.com/fonts/renner_800_heavy-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_800_heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rennerheavy';
+    src: url('http://indestructibletype.com/fonts/renner_800_heavy_italic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_800_heavy_italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -243,8 +267,8 @@
 
 @font-face {
     font-family: 'renner';
-    src: url('http://indestructibletype.com/fonts/renner-bold-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-bold-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner_700_bold-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_700_bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -255,8 +279,8 @@
 
 @font-face {
     font-family: 'renner';
-    src: url('http://indestructibletype.com/fonts/renner-bolditalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-bolditalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner_700_bold_italic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_700_bold_italic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
@@ -266,9 +290,9 @@
 
 
 @font-face {
-    font-family: 'renner';
-    src: url('http://indestructibletype.com/fonts/renner-book-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-book-webfont.woff') format('woff');
+    font-family: 'rennersemi';
+    src: url('http://indestructibletype.com/fonts/renner_600_semi-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_600_semi-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -278,57 +302,9 @@
 
 
 @font-face {
-    font-family: 'renner';
-    src: url('http://indestructibletype.com/fonts/renner-bookitalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-bookitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'rennerlight';
-    src: url('http://indestructibletype.com/fonts/renner-light-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'rennerlight';
-    src: url('http://indestructibletype.com/fonts/renner-lightitalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-lightitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'rennerthin';
-    src: url('http://indestructibletype.com/fonts/renner-thin-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'rennerthin';
-    src: url('http://indestructibletype.com/fonts/renner-thinitalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-thinitalic-webfont.woff') format('woff');
+    font-family: 'rennersemi';
+    src: url('http://indestructibletype.com/fonts/renner_600_semi_italic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_600_semi_italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -339,8 +315,8 @@
 
 @font-face {
     font-family: 'rennermedium';
-    src: url('http://indestructibletype.com/fonts/renner-medium-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-medium-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner_500_medium-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_500_medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -351,8 +327,8 @@
 
 @font-face {
     font-family: 'rennermedium';
-    src: url('http://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff') format('woff');
+    src: url('http://indestructibletype.com/fonts/renner_500_medium_italic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_500_medium_italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -362,57 +338,9 @@
 
 
 @font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-black-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-black-webfont.woff') format('woff');
-    font-weight: 800;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-blackitalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-blackitalic-webfont.woff') format('woff');
-    font-weight: 800;
-    font-style: italic;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-bold-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-bolditalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-bolditalic-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-book-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-book-webfont.woff') format('woff');
+    font-family: 'renner';
+    src: url('http://indestructibletype.com/fonts/renner_400_book-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_400_book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -422,9 +350,9 @@
 
 
 @font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-bookitalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-bookitalic-webfont.woff') format('woff');
+    font-family: 'renner';
+    src: url('http://indestructibletype.com/fonts/renner_400_book_italic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_400_book_italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -434,10 +362,10 @@
 
 
 @font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-light-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-light-webfont.woff') format('woff');
-    font-weight: 300;
+    font-family: 'rennerlight';
+    src: url('http://indestructibletype.com/fonts/renner_300_light-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_300_light-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 
 }
@@ -446,10 +374,10 @@
 
 
 @font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-lightitalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-lightitalic-webfont.woff') format('woff');
-    font-weight: 300;
+    font-family: 'rennerlight';
+    src: url('http://indestructibletype.com/fonts/renner_300_light_italic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_300_light_italic-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: italic;
 
 }
@@ -458,10 +386,10 @@
 
 
 @font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-thin-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-thin-webfont.woff') format('woff');
-    font-weight: 200;
+    font-family: 'rennerthin';
+    src: url('http://indestructibletype.com/fonts/renner_200_thin-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_200_thin-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 
 }
@@ -470,10 +398,10 @@
 
 
 @font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-thinitalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-thinitalic-webfont.woff') format('woff');
-    font-weight: 200;
+    font-family: 'rennerthin';
+    src: url('http://indestructibletype.com/fonts/renner_200_thin_italic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_200_thin_italic-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: italic;
 
 }
@@ -482,10 +410,10 @@
 
 
 @font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-medium-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-medium-webfont.woff') format('woff');
-    font-weight: 500;
+    font-family: 'rennerhairline';
+    src: url('http://indestructibletype.com/fonts/renner_100_hairline-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_100_hairline-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 
 }
@@ -494,10 +422,10 @@
 
 
 @font-face {
-    font-family: 'Renner*';
-    src: url('http://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner-mediumitalic-webfont.woff') format('woff');
-    font-weight: 500;
+    font-family: 'rennerhairline';
+    src: url('http://indestructibletype.com/fonts/renner_100_hairline_italic-webfont.woff2') format('woff2'),
+         url('http://indestructibletype.com/fonts/renner_100_hairline_italic-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: italic;
 
 }
