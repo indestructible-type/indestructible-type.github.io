@@ -24,7 +24,9 @@
 			</p>
 			<br>
 			<p>
-				Renner* is licensed under the  <span class="Red"><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" target="_blank">SIL open font licence</a></span>. This allows for both personal and commercial use, without a different licence. It also makes Renner* available for free for both. I would recommend reading up on the <span class="Red"><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" target="_blank">SIL open font licence</a></span> if you are not familiar and have any questions, but briefly, it allows personal and commercial use, redistribution, and modification. You <b>cannot</b> sell the font as is, or use the name Renner* for a different font. To skip the payment process, simply put a zero in the box below. However, it might be nice to consider contributing to this work. <br> <br><b class="Red">Make sure to click on the <q>return to merchant</q> button after checkout to proceed to download!</b>
+				Renner* is licensed under the  <span class="Red"><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" target="_blank">SIL open font licence</a></span>. This allows for both personal and commercial use, without a different licence. It also makes Renner* available for free for both.
+				<br><br>To get the variable font version of Renner*, simply pay an amount of at least ten dollers. The variable font version will be included automatically in your download.
+				<br><br><b class="Red">Make sure to click on the <q>return to merchant</q> button after checkout to proceed to download!</b>
 			</p><br>
 			<!-- COPYPASTA-->
 			<script>
@@ -34,6 +36,11 @@
 							document.getElementById("my-form-id").method = "none";
 							document.getElementById("my-form-id").action = "https://indestructible-type.github.io/RennerCheckout.html";
 			        return true;
+					} else if (n1 >= 10) {
+							document.getElementById("my-form-id").method = "post";
+							document.getElementById("checkout").value = "https://indestructible-type.github.io/RennerCheckoutVF.html";
+							document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
+							return true;
 			    } else if (n1 > 0) {
 							document.getElementById("my-form-id").method = "post";
 							document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
@@ -50,7 +57,7 @@
 			<input type="hidden" name="currency_code" value="USD" />
 			<input type="hidden" name="item_name" value="Renner*" />
 			<input type="hidden" name="no_shipping" value="1" />
-			<input type="hidden" name="return" value="https://indestructible-type.github.io/RennerCheckout.html" />
+			<input id="checkout" type="hidden" name="return" value="https://indestructible-type.github.io/RennerCheckout.html" />
 			<input type="hidden" name="cancel_return" value="https://indestructible-type.github.io/BuyRenner.html" />
 			<label for="mce-EMAIL">Amount (in USD)</label><br>
 			<label style="font-size: 1.5em;">$</label><input type="text" name="amount" value="10" placeholder="Enter Amount Here" /><br><br><br>
