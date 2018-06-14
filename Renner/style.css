@@ -198,6 +198,31 @@ p b {
   letter-spacing: 0.05em;
 }
 
+textarea {
+  white-space: normal;
+  width: 30em;
+  font-size: 1.5em;
+  line-height: 2em;
+  margin: 0 auto;
+  border: 0;
+  font-family: "renner";
+  color: inherit;
+  background-color: inherit;
+  resize: none;
+  text-align: justify;
+  height: 6em;
+}
+
+input {
+  width: 99%;
+  border: 0;
+  font-family: "renner";
+  font-size: 6.3vw;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+}
+
 h3 {
   font-weight: 200;
   font-family: "joneslight";
