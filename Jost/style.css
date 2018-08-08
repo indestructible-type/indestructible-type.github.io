@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "rennervf";
-    src: url("renner-VF.ttf") format("truetype");
+    font-family: "jostvf";
+    src: url("Jost-VF.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "rennertab";
+    font-family: "josttab";
     src: url("rennertab.ttf") format("truetype");
 }
 
@@ -134,7 +134,7 @@ h5 {
 }
 
 h1 {
-  font-family: "rennervf";
+  font-family: "jostvf";
   font-size: 13vw;
   font-weight: normal;
   margin-top: 4vw;
@@ -161,7 +161,7 @@ h2#webnotice {
   color: #f2f2f2;
   font-size: 2em;
   transition: box-shadow 0.2s;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.2em;
 }
 
 .button:hover {
@@ -241,6 +241,22 @@ h3 {
 #disitalic {
   padding-top: 6vw;
   font-size: 40px;
-  font-family: "rennertab";
+  font-family: "josttab";
   margin-bottom: 2px;
+}
+
+#mono {
+  color: #666666;
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h4 {
+  color: #666666;
+  font-family: "Roboto Mono";
+  width: 46em;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 16px;
 }
