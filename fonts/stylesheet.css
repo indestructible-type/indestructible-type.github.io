@@ -339,8 +339,7 @@
 
 @font-face {
     font-family: 'renner';
-    src: url('http://indestructibletype.com/fonts/renner_400_book-webfont.woff2') format('woff2'),
-         url('http://indestructibletype.com/fonts/renner_400_book-webfont.woff') format('woff');
+    src: url("http://indestructibletype.com/Jost/Jost-400-Book.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 
