@@ -70,6 +70,18 @@
     }
 }}
 
+@supports (shape-outside: circle) {
+  #webnotice {
+    visibility: hidden;
+    height: 0;
+  }
+  #webice {
+    visibility: visible;
+    height: inherit;
+    margin-bottom: -2.5em;
+  }
+}
+
 .slider {
   -webkit-appearance: none;
   width: 85%;
@@ -95,8 +107,11 @@
 }
 
 .slider::-moz-range-thumb {
+  appearance: none;
   width: 10px;
   height: 25px;
+  border: none;
+  border-radius: 0;
   background-color: #666666;
   border-color: transparent;
   cursor: pointer;

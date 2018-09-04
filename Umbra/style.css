@@ -55,6 +55,13 @@ a {
     }
 }}
 
+@supports (shape-outside: circle) {
+  #webnotice {
+    visibility: hidden;
+    height: 0;
+  }
+}
+
 #head {
   margin-top: -0.1em;
   text-align: center;
