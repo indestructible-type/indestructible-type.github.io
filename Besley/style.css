@@ -1,15 +1,15 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #0b1c08;
+  background-color: #172517ff;
   text-align: center;
   overflow: visible;
-  font-family: "besley";
+  font-family: "Besley";
   color: #fff3e6;
 }
 
 #red {
-  color: #660000;
+  color: #471313ff;
 }
 
 #top {
@@ -25,27 +25,33 @@ body {
 
 h2 {
   padding-top: 1em;
-  font-size: 1.2em;
-  font-family: "besleyfatface";
-  font-weight: normal;
-  color: #0b1c08;
+  margin-top: 0;
+  font-size: 2em;
+  font-family: "Jones";
+  font-weight: 500;
+  color: #172517ff;
+}
+
+h2:hover span {
+  color: #471313ff;
 }
 
 h1 {
   color: #fff3e6;
-  font-size: 10vw;
+  font-size: 12vw;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   font-weight: normal;
-  font-family: "besleymedium";
+  font-family: "Besley";
+  font-weight: 500;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
 h3 {
   font-style: italic;
-  color: #94d061;
+  color: #558855ff;
   font-size: 5em;
-  padding-bottom: 1.5em;
+  margin-bottom: 0;
 }
 
 h4 {
@@ -75,8 +81,9 @@ a {
   border-radius: 0.2em;
   padding: 0.6em;
   padding-bottom: 0.5em;
-  font-family: "besleymedium";
-  background-color: #4d0000;
+  font-family: "Besley";
+  font-weight: 500;
+  background-color: #471313ff;
   color: #ffe6e6;
   font-size: 2em;
   transition: box-shadow 0.2s;
@@ -89,9 +96,8 @@ a {
 
 
 #white {
-  background-color: #ffe6cc;
-  color: #0b1c08;
-  width: 90%;
+  color: #355635ff;
+  width: 60em;
   margin: 0 auto;
   padding-bottom: 1em;
   padding-top: 10em;
@@ -118,8 +124,6 @@ td {
 
 img {
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: box-shadow 0.2s;
 }
 
 #Slideshow {
@@ -148,14 +152,13 @@ p {
   padding-right: 4em;
 }
 
-#white h4 {
-  margin-left: 2.5em;
-  font-family: "besleymedium";
+#white h3 {
+  color: #558855ff;
+  padding-bottom: 0;
 }
 
-#white h3 {
-  color: #1f5016;
-  padding-bottom: 0;
+#white a {
+  text-decoration: underline;
 }
 
 #hover {
@@ -177,6 +180,10 @@ h6 {
   font-size: 5em;
   margin-top: 0.6em;
   margin-bottom: -0.8em;
+}
+
+#roll {
+  color: #355635ff;
 }
 
 #roll:hover {

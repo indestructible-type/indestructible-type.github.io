@@ -1,0 +1,80 @@
+img {
+  width: 50em;
+  text-align: center;
+}
+
+.fonts {
+  height: 320px;
+  text-align: center;
+  margin: 0 auto;
+  width: 50em;
+  transition: width 0.4s, background-color 0.5s;
+  background-color: #ffffff;
+}
+
+.goog:hover .fonts {
+  width: 100%;
+  transition: width 0.4s, background-color 0.2s;
+}
+
+.goog {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.goog img {
+  position: absolute;
+  margin-left: -25em;
+  float: left;
+}
+
+.goog a img {
+  opacity:0;
+  transition: opacity 0.1s;
+}
+
+.goog:hover a img {
+  opacity:100;
+  transition: opacity 0.05s;
+}
+
+.Blot h3 {
+  font-weight: 400;
+  float: left;
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  opacity: 0;
+  font-size: 2em;
+  z-index: 1;
+  transition: padding-left 0.3s, opacity 0.3s;
+}
+
+.Blot:hover h3 {
+  opacity: 100;
+  padding-left: 20%;
+  transition: padding-left 0.5s, opacity 0.5s;
+}
+
+.goog:hover #Jost {
+  background-color: #d4d4d4ff;
+}
+
+.goog:hover #Besley {
+  background-color: #355635ff;
+}
+
+.goog:hover #Tears {
+  background-image: url(Tears-b.svg);
+  background-position: center;
+  background-color: #f2f2f2ff;
+}
+
+.goog:hover #Gnomon {
+  background-color: #ffaaccff;
+}
+
+.goog:hover #Bodoni {
+  background-color: #214478ff;
+}

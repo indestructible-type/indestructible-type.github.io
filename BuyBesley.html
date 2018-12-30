@@ -2,68 +2,65 @@
 <html>
 	<head>
 		<title>indestructible type*</title>
-		<link rel="shortcut icon" href="Favicon.png">
-		<meta name="theme-color" content="#800000">
-		<link rel="icon" type="image/png" href="Favicon.png">
-    <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
-    <link rel='stylesheet' href='style.css'/>
+		<meta name="robots" content="index, nofollow">
+		<link rel="shortcut icon" href="assets/Favicon.png">
+		<link rel="icon" type="image/png" href="assets/Favicon.png">
+    <link rel="stylesheet" href="fonts/fonts.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="style.css"/>
 	</head>
-	<body>
+  <body>
     <div id="head">
-      <div id="title">
-      <h1>indestructible type<a class="Red">*</a><h1>
-      </div>
-			<div id="menu">
-      <h2 style="padding-left: 0.2em;"><a href="index.html">H&nbsp;O&nbsp;M&nbsp;E</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="About.html">A&nbsp;B&nbsp;O&nbsp;U&nbsp;T</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="Contact.html">C&nbsp;O&nbsp;N&nbsp;T&nbsp;A&nbsp;C&nbsp;T</a></h2>
-				<br><br>
-			</div>
+      <h1><a href="Home.html">indestructible type<span>*</span></a></h1>
+      <h2><a href="About.html">about</a> <a href="Contact.html">contact</a>
     </div>
-    <div id="body">
-			<h3 style="margin-top: 0; margin-bottom: -0.4em;">Download Besley*</h3>
-			<p>
-			</p>
-			<br>
-			<p>
-				Besley* is licensed under the  <span class="Red"><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" target="_blank">SIL open font licence</a></span>. This allows for both personal and commercial use, without a different licence. It also makes Besley* available for free for both. I would recommend reading up on the <span class="Red"><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" target="_blank">SIL open font licence</a></span> if you are not familiar and have any questions, but briefly, it allows personal and commercial use, redistribution, and modification. You <b>cannot</b> sell the font as is, or use the name Besley* for a different font. To skip the payment process, simply put a zero in the box below. However, it might be nice to consider contributing to this work. <br> <br><b class="Red">Make sure to click on the <q>return to merchant</q> button after checkout to proceed to download!</b>
-			</p><br>
-			<!-- COPYPASTA-->
-			<script>
-			function validate() {
-			    var n1 = document.getElementsByName('amount')[0].value;
-			    if (n1*100 == 0) {
-							document.getElementById("my-form-id").method = "none";
-							document.getElementById("my-form-id").action = "https://indestructible-type.github.io/BesleyPersonalCheckout.html";
-			        return true;
-			    } else if (n1 > 0) {
-							document.getElementById("my-form-id").method = "post";
-							document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
-							return true;
-			    } else {
-			        alert("That doesn't look like a valid amount!");
-			        return false;
-			    }
-			}
-			</script>
-			<form id="my-form-id" name="_xclick" action="" method="none" onsubmit="return validate();">
-			<input type="hidden" name="cmd" value="_xclick" />
-			<input type="hidden" name="business" value="indestructibletype@gmail.com" />
-			<input type="hidden" name="currency_code" value="USD" />
-			<input type="hidden" name="item_name" value="Besley*" />
-			<input type="hidden" name="no_shipping" value="1" />
-			<input type="hidden" name="return" value="https://indestructible-type.github.io/BesleyPersonalCheckout.html" />
-			<input type="hidden" name="cancel_return" value="https://indestructible-type.github.io/BuyBesley.html" />
-			<label for="mce-EMAIL">Amount (in USD)</label><br>
-			<label style="font-size: 1.5em;">$</label><input type="text" name="amount" value="10" placeholder="Enter Amount Here" /><br><br><br>
-			<input id="mc-embedded-subscribe" type="submit" value="P&nbsp;A&nbsp;Y&nbsp; &nbsp;W&nbsp;I&nbsp;T&nbsp;H&nbsp; &nbsp;C&nbsp;A&nbsp;R&nbsp;D" name="submit">
-			</form>
+		<div id="body">
+			<h1>Download Besley*</h1>
+					Besley* is licensed under the  <span class="Red"><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" target="_blank">SIL open font licence</a></span>. This allows for both personal and commercial use, without a different licence. It also makes Besley* available for free for both.
+					<br><br><b class="Red">Make sure to click on the <q>return to merchant</q> button after checkout to proceed to download!</b>
+				</p><br>
+				<!-- COPYPASTA-->
+				<script>
+				function validate() {
+				    var n1 = document.getElementsByName('amount')[0].value;
+				    if (n1*100 == 0) {
+								document.getElementById("my-form-id").method = "none";
+								document.getElementById("my-form-id").action = "http://indestructibletype.com/BesleyCheckout.html";
+				        return true;
+						} else if (n1 >= 10) {
+								document.getElementById("my-form-id").method = "post";
+								document.getElementById("checkout").value = "https://indestructibletype.com/BesleyCheckout.html";
+								document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
+								return true;
+				    } else if (n1 > 0) {
+								document.getElementById("my-form-id").method = "post";
+								document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
+								return true;
+				    } else {
+				        alert("That doesn't look like a valid amount!");
+				        return false;
+				    }
+				}
+				</script>
+				<form id="my-form-id" name="_xclick" action="" method="none" onsubmit="return validate();">
+				<input type="hidden" name="cmd" value="_xclick" />
+				<input type="hidden" name="business" value="indestructibletype@gmail.com" />
+				<input type="hidden" name="currency_code" value="USD" />
+				<input type="hidden" name="item_name" value="Besley*" />
+				<input type="hidden" name="no_shipping" value="1" />
+				<input id="checkout" type="hidden" name="return" value="http://indestructibletype.com/BesleyCheckout.html" />
+				<input type="hidden" name="cancel_return" value="http://indestructibletype.com/BuyBesley.html" />
+				<label for="mce-EMAIL">Amount (in USD)</label><br>
+				<label style="font-size: 1.5em;">$</label><input type="text" name="amount" value="10" placeholder="Enter Amount Here" /><br><br><br>
+				<input id="mc-embedded-subscribe" type="submit" value="Proceed to Download" name="submit" style="color: white;">
+				</form>
 
 
-<!-- COPYPASTA-->
+	<!-- COPYPASTA-->
+			</div>
+		<div id="footer">
+			<h1>*</h1>
+			<p>Made with love by <a href="https://ewonrael.github.io/">Owen Earl</a></p>
 		</div>
-		<div id="tail">
-			<h1 class="Red">*</h1>
-			<h2><a href="Subscribe.html" style="text-decoration: none;">S&nbsp;U&nbsp;B&nbsp;S&nbsp;C&nbsp;R&nbsp;I&nbsp;B&nbsp;E</a></h2>
-      <p><i>Created with love by <a href="https://ewonrael.github.io">Owen Earl</a></i></p>
-		</div>
-	</body>
+    </body>
+  </body>
 </html>

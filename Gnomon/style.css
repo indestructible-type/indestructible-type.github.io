@@ -27,7 +27,7 @@ a {
   background-color: yellow;
   color: black;
   font-size: 1em;
-  font-family: "renner";
+  font-family: "Jost";
   padding: 0.5em;
   margin-bottom: 10px;
   margin-top: -10px;
@@ -180,7 +180,7 @@ h3 {
 #body p {
   color: #aa0044;
   text-align: left;
-  font-family: "renner";
+  font-family: "Jost";
   width: 810px;
   margin: 0 auto;
   font-size: 1.6em;
@@ -198,7 +198,8 @@ h3 {
 #body p span {
   font-size: 0.7em;
   letter-spacing: 0.03em;
-  font-family: "rennermedium"
+  font-family: "Jost";
+  font-weight: 500;
 }
 
 img {
@@ -209,7 +210,8 @@ img {
   font-weight: normal;
   color: #ff0066;
   text-align: center;
-  font-family: "rennerblack";
+  font-family: "Jost";
+  font-weight: 900;
   width: 800px;
   margin: 0 auto;
   font-size: 1.6em;
@@ -268,9 +270,9 @@ img {
 }
 
 h4 {
-  font-family: "joneslight";
+  font-family: "Jones";
   font-size: 5em;
-  font-weight: normal;
+  font-weight: 200;
   color: #aa0044;
   margin-bottom: -1em;
 }
@@ -278,5 +280,9 @@ h4 {
 #end {
   font-size: 1em;
   letter-spacing: 0.03em;
-  font-family: "rennermedium"
+  font-family: "Jost";
+}
+
+#end a:hover {
+  color: #ff0066;
 }

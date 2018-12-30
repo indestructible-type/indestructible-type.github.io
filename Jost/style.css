@@ -1,18 +1,18 @@
 @font-face {
-    font-family: "jostvf";
+    font-family: "Jostvf";
     src: url("Jost-VF.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "josttab";
-    src: url("rennertab.ttf") format("truetype");
+    font-family: "Josttab";
+    src: url("tab.ttf") format("truetype");
 }
 
 .webnotice {
   background-color: yellow;
   color: black;
   font-size: 1em;
-  font-family: "renner";
+  font-family: "Jost";
   padding: 0.5em;
   margin-bottom: 10px;
   margin-top: 0;
@@ -123,7 +123,7 @@ body {
   background-color: #f2f2f2;
   text-align: center;
   overflow: visible;
-  font-family: "renner";
+  font-family: "Jost";
   color: #333333;
 }
 
@@ -142,14 +142,15 @@ a {
 }
 
 h5 {
+  font-family: "Jones";
   color: #666666;
   font-size: 2em;
-  font-weight: normal;
+  font-weight: 500;
   margin-top: -0.5em;
 }
 
 h1 {
-  font-family: "jostvf";
+  font-family: "Jostvf";
   font-size: 13vw;
   font-weight: normal;
   margin-top: 4vw;
@@ -157,9 +158,9 @@ h1 {
 }
 
 h2 {
-  font-family: "rennermedium";
+  font-family: "Jost";
   font-size: 6vw;
-  font-weight: normal;
+  font-weight: 500;
   color: #666666;
   margin-bottom: 0.5em;
 }
@@ -171,8 +172,7 @@ h2#webnotice {
 
 .button {
   padding: 0.6em;
-  font-family: "rennerblack";
-  font-weight: normal;
+  font-weight: 900;
   background-color: #c83737;
   color: #f2f2f2;
   font-size: 2em;
@@ -221,7 +221,7 @@ textarea {
   line-height: 2em;
   margin: 0 auto;
   border: 0;
-  font-family: "renner";
+  font-family: "Jost";
   color: inherit;
   background-color: inherit;
   resize: none;
@@ -232,7 +232,7 @@ textarea {
 input {
   width: 99%;
   border: 0;
-  font-family: "renner";
+  font-family: "Jost";
   font-size: 6.3vw;
   color: inherit;
   background-color: inherit;
@@ -241,7 +241,7 @@ input {
 
 h3 {
   font-weight: 200;
-  font-family: "joneslight";
+  font-family: "Jones";
   color: #c83737;
   font-size: 5em;
   margin-top: 0.6em;
@@ -257,7 +257,7 @@ h3 {
 #disitalic {
   padding-top: 6vw;
   font-size: 40px;
-  font-family: "josttab";
+  font-family: "Josttab";
   margin-bottom: 2px;
 }
 

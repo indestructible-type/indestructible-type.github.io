@@ -2,18 +2,17 @@
 <html>
 <head>
 	<title>Jost*</title>
-	<meta name="theme-color" content="#c83737">
+	<link rel="shortcut icon" href="assets/Favicon.png">
+	<link rel="icon" type="image/png" href="assets/Favicon.png">
 	<meta name="robots" content="index, nofollow">
-	<link rel="shortcut icon" href="Favicon.png">
-	<link rel="icon" type="image/png" href="Favicon.png">
-	<link rel="stylesheet" href='fonts/stylesheet.css' type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="fonts/fonts.css" type="text/css" charset="utf-8" />
 	<link rel='stylesheet' href='Jost/style.css'/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-	<script src="jquery.min.js"></script>
+	<script src="Jost/jquery.min.js"></script>
 	<script>
 	$(function(){
 		$('#Slideshow img:gt(0)').hide();
-		setInterval(function(){$('#Slideshow :first-child').fadeOut().next('img').fadeIn().end().appendTo('#Slideshow');}, 10000);
+		setInterval(function(){$('#Slideshow :first-child').fadeOut().next('img').fadeIn().end().appendTo('#Slideshow');}, 5000);
 	});
 	</script>
 </head>
