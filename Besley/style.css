@@ -2,6 +2,9 @@ body {
   padding: 0;
   margin: 0;
   background-color: #172517ff;
+  background: url(background.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
   text-align: center;
   overflow: visible;
   font-family: "Besley";
@@ -52,6 +55,7 @@ h3 {
   color: #558855ff;
   font-size: 5em;
   margin-bottom: 0;
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 h4 {
@@ -86,11 +90,12 @@ a {
   background-color: #471313ff;
   color: #ffe6e6;
   font-size: 2em;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.2s;
 }
 
 .button:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 12px 12px 12px 0 rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.2s;
 }
 
@@ -187,7 +192,7 @@ h6 {
 }
 
 #roll:hover {
-    color: #660000;
+    text-decoration: underline;
 }
 
 textarea {
