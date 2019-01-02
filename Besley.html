@@ -7,14 +7,37 @@
 		<link rel="icon" type="image/png" href="assets/Favicon.png">
     <link rel="stylesheet" href='fonts/fonts.css' type="text/css" charset="utf-8" />
     <link rel='stylesheet' href='Besley/style.css'/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 		<script src="Jost/jquery.min.js"></script>
 		<script>
 		$(function(){
 			$('#Slideshow img:gt(0)').hide();
 			setInterval(function(){$('#Slideshow :first-child').fadeOut().next('img').fadeIn().end().appendTo('#Slideshow');}, 5000);
 		});
+		$(document).ready(function () {
+		var selectcounter = 1;
+
+		$(".selectable").each(function() {
+				idja = "selectable" + selectcounter;
+				$(this).attr('id', idja);
+				$(this).attr('onclick', 'selectText("' + idja + '")');
+				selectcounter++;
+		});
+});
+
+function selectText(containerid) {
+		if (document.selection) {
+				var range = document.body.createTextRange();
+				range.moveToElementText(document.getElementById(containerid));
+				range.select();
+		} else if (window.getSelection) {
+				var range = document.createRange();
+				range.selectNode(document.getElementById(containerid));
+				window.getSelection().addRange(range);
+		}
+}
 		</script>
-	</head>
+</head>
 	<body onload="startTime()">
 	<div id="top">
 		<div id="treesBackground"><div>
@@ -78,6 +101,10 @@
 			I will be the first to admit that Besley* in its current form isn't the best font it can possibly be; that's why I haven't stopped working on it yet. Unlike traditional fonts that you buy once and are stuck with, Besley* comes with free updates. For life. This includes little changes like kerning fixes and glyph improvements, but also major updates like an expansion of the family. As Besley* grows and improves you will get updates free of charge. Notice something that could use improvement? <u><a href="https://github.com/indestructible-type/Besly">Issue a bug report on Github</a></u> and insure that it will be taken care of, and you will receive the updated version.
 		</p>
 		<h3 id="txt"></h3>
+		<p><b>Easy Web Use</b></br>
+			Want to use Besley* on your website? indestructible type* now offers free and easy webfont hosting. Simply copy and paste the following code into the <span id="mono">&#x3c;head&#x3e;</span> of your website and use <span id="mono">font-family: 'Besley';</span> in your css. The best part is that as I continue to develop and update Besley*, your website will reflect these changes with no extra work from you.
+			<br><br><span class="selectable">&#x3c;link rel="stylesheet" href="https://indestructibletype.com/fonts/Besley.css" type="text/css" charset="utf-8" /&#x3e;</span><br><br>
+		</p>
 		<p><b>Free As in Freedom</b><br>
 			Besley* is licensed under the SIL Open Font License meaning not only is it free to use personally and commercially, but it's also free to modify improve and make your own. <u><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web">Read the SIL Open Font License Here.</a> </u>
 		</p>

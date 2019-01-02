@@ -268,6 +268,18 @@ h3 {
   font-size: 16px;
 }
 
+.selectable {
+  color: #666666;
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.selectable:hover {
+  background-color: #ffffff;
+  cursor: grab;
+}
+
 h4 {
   color: #666666;
   font-family: "Roboto Mono";

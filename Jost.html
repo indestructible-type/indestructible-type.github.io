@@ -14,6 +14,28 @@
 		$('#Slideshow img:gt(0)').hide();
 		setInterval(function(){$('#Slideshow :first-child').fadeOut().next('img').fadeIn().end().appendTo('#Slideshow');}, 5000);
 	});
+	$(document).ready(function () {
+	var selectcounter = 1;
+
+	$(".selectable").each(function() {
+			idja = "selectable" + selectcounter;
+			$(this).attr('id', idja);
+			$(this).attr('onclick', 'selectText("' + idja + '")');
+			selectcounter++;
+	});
+});
+
+function selectText(containerid) {
+	if (document.selection) {
+			var range = document.body.createTextRange();
+			range.moveToElementText(document.getElementById(containerid));
+			range.select();
+	} else if (window.getSelection) {
+			var range = document.createRange();
+			range.selectNode(document.getElementById(containerid));
+			window.getSelection().addRange(range);
+	}
+}
 	</script>
 </head>
 <div id="webnotice" class="webnotice">
@@ -63,8 +85,8 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;The latest release of Jost* supports OpenType variable font technology! Loading the variable font version of Jost* into a program such as Adobe Photoshop will allow you to precisely control the weight and italic angle of the font, giving you control like never before. Because this is a new technology that takes considerable time and energy to build, the completed variable font version of Jost* is available for a minimum of $10. The static version with 9 weights is still available for free and the <a href="https://github.com/indestructible-type/Jost" class="red">source code for the variable font version</a> is free to download and comes with instructions on building it yourself.
 		</p><br><br><br>
 		<p><b>EASY WEB USE</b><br>
-			&nbsp;&nbsp;&nbsp;&nbsp;Want to use Jost* on your website? indestructible type* now offers free and easy webfont hosting. Simply copy and paste the following code into the <span id="mono">&#x3c;head&#x3e;</span> of your website and use <span id="mono">font-family: 'Jost*';</span> in your css. The best part is that as I continue to develop and update Jost*, your website will reflect these changes with no extra work from you.
-		</p><br><h4>&#x3c;link rel="stylesheet" href="https://indestructibletype-fonthosting.github.io/jost.css" type="text/css" charset="utf-8" /&#x3e;</h4><br><br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;Want to use Jost* on your website? indestructible type* now offers free and easy webfont hosting. Simply copy and paste the following code into the <span id="mono">&#x3c;head&#x3e;</span> of your website and use <span id="mono">font-family: 'Jost';</span> in your css. The best part is that as I continue to develop and update Jost*, your website will reflect these changes with no extra work from you.
+		</p><br><h4 class="selectable">&#x3c;link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" /&#x3e;</h4><br><br><br>
 		<p><b>ALWAYS IMPROVING</b><br>
 			&nbsp;&nbsp;&nbsp;&nbsp;Jost* is now at version 3.3, meaning this font has been worked and reworked since its inception. Many of the changes and improvments have come directly from the community. If there are ways that you think Jost* can be improved, <a href="https://github.com/indestructible-type/Renner/issues" class="red">reach out</a> and maybe Jost* 3.4 will include that feature or fix.
 		</p><br><br><br>
