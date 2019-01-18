@@ -224,4 +224,5 @@ textarea {
 .selectable:hover {
   background-color: #273f27;
   cursor: grab;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.15);
 }

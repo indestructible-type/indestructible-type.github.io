@@ -1,0 +1,229 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #214478ff;
+  text-align: center;
+  overflow: visible;
+  font-family: "Bodoni 11";
+  color: #e6e6e6ff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+}
+
+a:hover{
+  color: #ff5555ff;
+  text-decoration: none;
+}
+
+.red {
+  color: #ff5555ff;
+}
+
+h5 {
+  font-family: "Jones";
+  color: #122541ff;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 0.3em;
+}
+
+h5 a {
+  border-bottom-style: hidden;
+}
+
+h1 {
+  font-family: "Bodoni 96";
+  font-size: 15vw;
+  font-weight: normal;
+  margin-top: 4vw;
+  margin-bottom: 0.4em;
+}
+
+@media only screen and (max-width: 1920px) {
+  h1 {
+    font-family: "Bodoni 72";
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  h1 {
+    font-family: "Bodoni 48";
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  h1 {
+    font-family: "Bodoni 36";
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-family: "Bodoni 24";
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-family: "Bodoni 16";
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-family: "Bodoni 11";
+  }
+}
+
+h6 {
+  font-family: "Bodoni 24";
+  font-weight: 900;
+  font-style: italic;
+  color: #122541ff;
+  font-size: 5em;
+  margin-top: -10%;
+  padding-top: 1em;
+  margin-bottom: 2em;
+}
+
+.button {
+  background-color: #122541ff;
+  padding: 10px;
+  padding-bottom: 12px;
+  font-size: 1.5em;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: white;
+  font-family: "Bodoni 11";
+  letter-spacing: 1px;
+  font-weight: 900;
+  width: 170px;
+  margin: auto;
+}
+
+.button:hover {
+  background-color: #ff5555ff;
+}
+
+a:hover .button {
+  color: #e6e6e6ff;
+}
+
+h2 {
+  font-family: "Bodoni 36";
+  font-size: 8em;
+  font-weight: 900;
+  color: #122541ff;
+  margin-bottom: 0;
+}
+
+#Slideshow {
+  margin-top: 7em;
+  position:relative;
+  padding-bottom: 35%;
+}
+
+#Slideshow img {
+  position:absolute;
+  left:0;
+  top:0;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  width: 800px;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: left;
+  margin: 0 auto;
+}
+
+p b {
+}
+
+textarea {
+  white-space: normal;
+  width: 800px;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: left;
+  margin: 0 auto;
+  margin: 0 auto;
+  border: 0;
+  font-family: "Bodoni 11";
+  color: inherit;
+  background-color: inherit;
+  resize: none;
+  height: 8em;
+}
+
+input {
+  width: 99%;
+  border: 0;
+  font-family: "Bodoni 36";
+  font-size: 6.3vw;
+  padding-bottom: 0.2em;
+  font-weight: 500;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+}
+
+#disweight {
+  padding-top: 6vw;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#disitalic {
+  padding-top: 6vw;
+  font-size: 40px;
+  font-family: "Josttab";
+  margin-bottom: 2px;
+}
+
+#mono {
+  color: #999999;
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.selectable {
+  color: #999999;
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.selectable:hover {
+  background-color: #122541ff;
+  cursor: grab;
+}
+
+h4 {
+  color: #666666;
+  font-family: "Roboto Mono";
+  width: 46em;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h3 {
+  font-weight: 200;
+  font-family: "Jones";
+  color: #ff5555ff;
+  font-size: 5em;
+  margin-top: 0.6em;
+  margin-bottom: -0.8em;
+}
