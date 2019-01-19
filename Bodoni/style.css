@@ -15,6 +15,11 @@ a {
   border-bottom-width: 0.5px;
 }
 
+p a span {
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+}
+
 a:hover{
   color: #ff5555ff;
   text-decoration: none;
@@ -34,6 +39,14 @@ h5 {
 
 h5 a {
   border-bottom-style: hidden;
+}
+
+h5 a:hover {
+  color: inherit;
+}
+
+h5 a:hover span {
+  color: #ff5555ff;
 }
 
 h1 {
@@ -170,10 +183,11 @@ input {
   width: 99%;
   border: 0;
   font-family: "Bodoni 36";
+  font-style: italic;
   font-size: 6.3vw;
   padding-bottom: 0.2em;
   font-weight: 500;
-  color: inherit;
+  color: #5f8dd3ff;
   background-color: inherit;
   text-align: center;
 }
@@ -192,14 +206,14 @@ input {
 }
 
 #mono {
-  color: #999999;
+  color: #5f8dd3ff;
   font-family: "Roboto Mono";
   font-weight: 600;
   font-size: 16px;
 }
 
 .selectable {
-  color: #999999;
+  color: #5f8dd3ff;
   font-family: "Roboto Mono";
   font-weight: 600;
   font-size: 16px;

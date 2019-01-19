@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>indestructible type*</title>
+		<meta name="robots" content="index, nofollow">
+		<link rel="shortcut icon" href="assets/Favicon.png">
+		<link rel="icon" type="image/png" href="assets/Favicon.png">
+    <link rel="stylesheet" href="fonts/fonts.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="style.css"/>
+	</head>
+  <body>
+    <div id="head">
+      <h1><a href="Home.html">indestructible type<span>*</span></a></h1>
+      <h2><a href="About.html">about</a> <a href="Contact.html">contact</a>
+    </div>
+		<div id="body">
+			<h1>Download Bodoni* <?php include( "Bodoni/countlog.php" ); ?></h1>
+					Jost* is licensed under the  <span class="Red"><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" target="_blank">SIL open font licence</a></span>. This allows for both personal and commercial use, without a different licence. It also makes Jost* available for free for both.
+					<br><br><b class="Red">Make sure to click on the <q>return to merchant</q> button after checkout to proceed to download!</b>
+				</p><br>
+				<!-- COPYPASTA-->
+				<script>
+				function validate() {
+				    var n1 = document.getElementsByName('amount')[0].value;
+				    if (n1*100 == 0) {
+								document.getElementById("my-form-id").method = "none";
+								document.getElementById("my-form-id").action = "http://indestructibletype.com/BodoniPreCheckout.html";
+				        return true;
+						} else if (n1 >= 10) {
+								document.getElementById("my-form-id").method = "post";
+								document.getElementById("checkout").value = "http://indestructibletype.com/BodoniCheckout.html";
+								document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
+								return true;
+				    } else if (n1 > 0) {
+								document.getElementById("my-form-id").method = "post";
+								document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
+								return true;
+				    } else {
+				        alert("That doesn't look like a valid amount!");
+				        return false;
+				    }
+				}
+				</script>
+				<form id="my-form-id" name="_xclick" action="" method="none" onsubmit="return validate();">
+				<input type="hidden" name="cmd" value="_xclick" />
+				<input type="hidden" name="business" value="indestructibletype@gmail.com" />
+				<input type="hidden" name="currency_code" value="USD" />
+				<input type="hidden" name="item_name" value="Jost*" />
+				<input type="hidden" name="no_shipping" value="1" />
+				<input id="checkout" type="hidden" name="return" value="http://indestructibletype.com/BodoniCheckout.html" />
+				<input type="hidden" name="cancel_return" value="http://indestructibletype.com/BuyBodoni.html" />
+				<label for="mce-EMAIL">Amount (in USD)</label><br>
+				<label style="font-size: 1.5em;">$</label><input type="text" name="amount" value="20" placeholder="Enter Amount Here" /><br><br><br>
+				<input id="mc-embedded-subscribe" type="submit" value="Proceed to Download" name="submit" style="color: white;">
+				</form>
+
+
+	<!-- COPYPASTA-->
+			</div>
+		<div id="footer">
+			<h1>*</h1>
+			<p>Made with love by <a href="https://ewonrael.github.io/">Owen Earl</a></p>
+		</div>
+    </body>
+  </body>
+</html>
