@@ -29,16 +29,18 @@ if (location.hostname.toLowerCase() == "indestructibletype.com") {
 	getHistory.then(function(fromResolve){
 		var key = fromResolve.key;
 		var pastcounts = fromResolve.count;
+		var referer = fromResolve.lastreferrer;
 		if (key == undefined){
 			key = pageCountsRef.push().key;
 			pastcounts = 0;
 		}
 		counts = pastcounts + 1;
+		referers = referer + document.referrer;
 		var postData = {
 			page: location.pathname,
 			count: counts,
 			lastvisit: firebase.database.ServerValue.TIMESTAMP,
-			lastreferrer: document.referrer
+			lastreferrer: referers
 		}
 		var updates = {};
 		updates["/pageCounts/" + key] = postData;
