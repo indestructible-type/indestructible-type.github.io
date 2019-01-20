@@ -102,3 +102,26 @@ body {
 #footer a {
   color: inherit;
 }
+
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  background: #fff;
+  color: #000;
+}
+
+progress::-moz-progress-bar {
+  background: #000;
+}
+
+progress::-webkit-progress-bar {
+	background: #fff;
+}
+
+progress::-webkit-progress-value {
+  background: #000;
+}
