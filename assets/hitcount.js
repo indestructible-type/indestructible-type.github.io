@@ -1,4 +1,4 @@
-if (location.hostname.toLowerCase() == "indestructiletype.com") {
+if (location.hostname.toLowerCase() == "indestructibletype.com") {
 	var config = {
 		apiKey: "AIzaSyCYwsg7YgxHmHATY1epSmG8PfmT3wDTIp8",
 		authDomain: "indestructiletype-hitcount.firebaseapp.com",
