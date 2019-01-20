@@ -16,7 +16,8 @@ if (location.hostname.toLowerCase() == "indestructibletype.com") {
 			snapshot.forEach(function (child){
 				obj = {
 					key: child.key,
-					count: child.val().count
+					count: child.val().count,
+					referrer: child.val().lastreferrer
 				}
 			})
 			if (obj) {
@@ -29,16 +30,18 @@ if (location.hostname.toLowerCase() == "indestructibletype.com") {
 	getHistory.then(function(fromResolve){
 		var key = fromResolve.key;
 		var pastcounts = fromResolve.count;
+		var referrer = fromResolve.referrer;
 		if (key == undefined){
 			key = pageCountsRef.push().key;
 			pastcounts = 0;
 		}
 		counts = pastcounts + 1;
+		refstot = document.referrer + referrer;
 		var postData = {
 			page: location.pathname,
 			count: counts,
 			lastvisit: firebase.database.ServerValue.TIMESTAMP,
-			lastreferrer: document.referrer
+			lastreferrer: refstot
 		}
 		var updates = {};
 		updates["/pageCounts/" + key] = postData;
