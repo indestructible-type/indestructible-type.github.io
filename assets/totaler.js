@@ -41,7 +41,7 @@ if (location.hostname.toLowerCase() == "indestructibletype.com") {
 			page: location.pathname,
 			count: counts,
 			lastvisit: firebase.database.ServerValue.TIMESTAMP,
-			lastreferrer: refstot,
+			lastreferrer: refstot
 		}
 		var updates = {};
 		updates["/pageCounts/" + key] = postData;
