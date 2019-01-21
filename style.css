@@ -79,7 +79,7 @@ body {
   color: #000000;
   border-style: solid;
   border-color: #000000;
-  border-width: 0 0 1.5px 0;
+  border-width: 0 0 1px 0;
 }
 
 #mc-embedded-subscribe {
@@ -124,4 +124,24 @@ progress::-webkit-progress-bar {
 
 progress::-webkit-progress-value {
   background: #000;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+#twitter {
+  float: left;
+  background-image: url(assets/twitter.svg);
+  height: 2em;
+  width: 2em;
+  cursor: pointer;
+}
+
+#facebook {
+  background-image: url(assets/facebook.svg);
+  height: 2em;
+  width: 2em;
+  margin-left: 3em;
+  cursor: pointer;
 }

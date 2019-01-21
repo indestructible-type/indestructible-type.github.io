@@ -57,7 +57,8 @@ function updateMoney() {
 			counts = pastcounts + inputamount;
 			var postData = {
 				page: location.pathname,
-				dollars: counts,
+				dollarq: counts,
+				dollars: pastcounts,
 				lastvisit: firebase.database.ServerValue.TIMESTAMP,
 				inputamount: inputamount
 			}
