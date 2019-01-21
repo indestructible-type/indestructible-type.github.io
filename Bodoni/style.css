@@ -148,8 +148,26 @@ h2 {
   width: 100%;
 }
 
-img {
-  width: 100%;
+.img {
+  height: 10em;
+  margin-left: -30em;
+  margin-right: -30em;
+}
+
+#smallimg {
+  visibility: hidden;
+  height: 0;
+}
+
+@media only screen and (max-width: 1500px) {
+  #smallimg {
+    visibility: visible;
+    height: 10em;
+  }
+  #bigimg {
+    visibility: hidden;
+    height: 0;
+  }
 }
 
 p {
@@ -184,7 +202,7 @@ input {
   border: 0;
   font-family: "Bodoni 36";
   font-style: italic;
-  font-size: 6.3vw;
+  font-size: 8em;
   padding-bottom: 0.2em;
   font-weight: 500;
   color: #5f8dd3ff;
