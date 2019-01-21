@@ -24,7 +24,7 @@
 				    var n1 = document.getElementsByName('amount')[0].value;
 				    if (n1*100 == 0) {
 								document.getElementById("my-form-id").method = "none";
-								document.getElementById("my-form-id").action = "http://indestructibletype.com/GnomonCheckout.html";
+								document.getElementById("my-form-id").action = "https://indestructibletype.com/GnomonCheckout.html";
 				        return true;
 						} else if (n1 >= 10) {
 								document.getElementById("my-form-id").method = "post";
@@ -47,8 +47,8 @@
 				<input type="hidden" name="currency_code" value="USD" />
 				<input type="hidden" name="item_name" value="Gnomon*" />
 				<input type="hidden" name="no_shipping" value="1" />
-				<input id="checkout" type="hidden" name="return" value="http://indestructibletype.com/GnomonCheckout.html" />
-				<input type="hidden" name="cancel_return" value="http://indestructibletype.com/BuyGnomon.html" />
+				<input id="checkout" type="hidden" name="return" value="https://indestructibletype.com/GnomonCheckout.html" />
+				<input type="hidden" name="cancel_return" value="https://indestructibletype.com/BuyGnomon.html" />
 				<label for="mce-EMAIL">Amount (in USD)</label><br>
 				<label style="font-size: 1.5em;">$</label><input type="text" name="amount" value="10" placeholder="Enter Amount Here" /><br><br><br>
 				<input id="mc-embedded-subscribe" type="submit" value="Proceed to Download" name="submit" style="color: white;">
