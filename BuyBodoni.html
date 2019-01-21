@@ -7,6 +7,8 @@
 		<link rel="icon" type="image/png" href="assets/Favicon.png">
     <link rel="stylesheet" href="fonts/fonts.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="style.css"/>
+		<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+		<script src="Bodoni/funds.js"></script>
 	</head>
   <body>
     <div id="head">
@@ -19,7 +21,7 @@
 			<p>I believe strongly that high quality fonts like Bodoni* should be made available to everyone for free. However, Bodoni* has taken years to make, and running this foundry is basically a full-time job. If I were to sell the intellectual property rights to Bodoni* it would easily be worth $10,000. But I&#8217;m not. I&#8217;m making it available right now, for free, without having made any money off of it. This business model only works with your support.<br>
 			<br><b>Please, consider paying for Bodoni* and helping me to raise enough money to make this feasible.</b></p>
 			<progress id="BodoniProgress" max="10000" value="70"></progress>
-			So far we have raised $70 of our $10,000 doller goal!<br><br><br><br>
+			So far we have raised roughly <span id="MoneyTotal"><b>error</b></span> of the $10,000 dollar goal!<br><br><br><br>
 			<b>About the Download</b>
 			<p>Your download includes the latest version of Bodoni* in both TrueType and OpenType formats. Bodoni* is licensed under the  <span class="Red"><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" target="_blank">SIL open font licence</a></span>. This allows for both personal and commercial use, without a different licence. It also makes it available for free for both.</b>
 			<br><br><b class="Red">Make sure to click on the <q>return to merchant</q> button after checkout to proceed to download!</b>
@@ -32,14 +34,10 @@
 								document.getElementById("my-form-id").method = "none";
 								document.getElementById("my-form-id").action = "http://indestructibletype.com/BodoniPreCheckout.html";
 				        return true;
-						} else if (n1 >= 10) {
-								document.getElementById("my-form-id").method = "post";
-								document.getElementById("checkout").value = "http://indestructibletype.com/BodoniCheckout.html";
-								document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
-								return true;
 				    } else if (n1 > 0) {
 								document.getElementById("my-form-id").method = "post";
 								document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
+								updateMoney();
 								return true;
 				    } else {
 				        alert("That doesn't look like a valid amount!");
@@ -56,7 +54,7 @@
 				<input id="checkout" type="hidden" name="return" value="http://indestructibletype.com/BodoniCheckout.html" />
 				<input type="hidden" name="cancel_return" value="http://indestructibletype.com/BuyBodoni.html" />
 				<label for="mce-EMAIL">Amount (in USD)</label><br>
-				<label style="font-size: 1.5em;">$</label><input type="text" name="amount" value="20" placeholder="Enter Amount Here" /><br><br><br>
+				<label style="font-size: 1.5em;">$</label><input type="text" name="amount" value="20" placeholder="Enter Amount Here" id="dollarinput"/><br><br><br>
 				<input id="mc-embedded-subscribe" type="submit" value="Proceed to Download" name="submit" style="color: white;">
 				</form>
 
