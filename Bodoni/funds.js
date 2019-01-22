@@ -1,12 +1,12 @@
-	var config = {
-		apiKey: "AIzaSyC2oMkn2Z9Zt5B2LH9Dav01HvhbDY3Ii8k",
-		authDomain: "indestructibletype-hitcount.firebaseapp.com",
-		databaseURL: "https://indestructiletype-hitcount.firebaseio.com",
-		projectId: "indestructibletype-hitcount",
-		storageBucket: "indestructibletype-hitcount.appspot.com",
-		messagingSenderId: "94225162584"
-	};
-	firebase.initializeApp(config);
+var config = {
+	apiKey: "AIzaSyC2oMkn2Z9Zt5B2LH9Dav01HvhbDY3Ii8k",
+	authDomain: "indestructibletype-hitcount.firebaseapp.com",
+	databaseURL: "https://indestructibletype-hitcount.firebaseio.com",
+	projectId: "indestructibletype-hitcount",
+	storageBucket: "indestructibletype-hitcount.appspot.com",
+	messagingSenderId: "94225162584"
+};
+firebase.initializeApp(config);
 	const rootRef = firebase.database().ref();
 	const moneyCountRef = rootRef.child("moneyCount");
 	let getHistory = new Promise(function (resolve, reject){
