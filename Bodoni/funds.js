@@ -1,10 +1,10 @@
 	var config = {
-		apiKey: "AIzaSyCYwsg7YgxHmHATY1epSmG8PfmT3wDTIp8",
-		authDomain: "indestructiletype-hitcount.firebaseapp.com",
+		apiKey: "AIzaSyC2oMkn2Z9Zt5B2LH9Dav01HvhbDY3Ii8k",
+		authDomain: "indestructibletype-hitcount.firebaseapp.com",
 		databaseURL: "https://indestructiletype-hitcount.firebaseio.com",
-		projectId: "indestructiletype-hitcount",
-		storageBucket: "indestructiletype-hitcount.appspot.com",
-		messagingSenderId: "324038593433"
+		projectId: "indestructibletype-hitcount",
+		storageBucket: "indestructibletype-hitcount.appspot.com",
+		messagingSenderId: "94225162584"
 	};
 	firebase.initializeApp(config);
 	const rootRef = firebase.database().ref();
