@@ -277,7 +277,7 @@ h3 {
 
 .selectable:hover {
   background-color: #ffffff;
-  cursor: grab;
+  cursor: copy;
 }
 
 h4 {

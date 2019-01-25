@@ -239,7 +239,7 @@ input {
 
 .selectable:hover {
   background-color: #122541ff;
-  cursor: grab;
+  cursor: copy;
 }
 
 h4 {
