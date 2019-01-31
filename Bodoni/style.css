@@ -1,13 +1,16 @@
 body {
-  padding: 0;
-  margin: 0;
+  color: #212529;
+  text-align: center;
   background-color: #214478ff;
   text-align: center;
   overflow: visible;
   font-family: "Bodoni 11";
   color: #e6e6e6ff;
+  max-width: 100%;
 }
-
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -79,17 +82,32 @@ h1 {
   h1 {
     font-family: "Bodoni 24";
   }
+  .selectable {
+  display:inline-block;
+  max-width: 800px;
+  font-size:1.1em!important;
+  }
 }
 
 @media only screen and (max-width: 700px) {
   h1 {
     font-family: "Bodoni 16";
   }
+  .selectable {
+  display:inline-block;
+  max-width: 800px;
+  font-size:1.1em!important;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   h1 {
     font-family: "Bodoni 11";
+  }
+  .selectable {
+  display:inline-block;
+  max-width: 800px;
+  font-size:1.1em!important;
   }
 }
 
