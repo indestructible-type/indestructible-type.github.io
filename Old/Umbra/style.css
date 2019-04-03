@@ -1,0 +1,289 @@
+@font-face {
+    font-family: "Umbra-Shadow";
+    src: url("umbra-web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Umbra";
+    src: url("umbra-simple.ttf") format("truetype");
+}
+
+body {
+  background-color: #ffaacc;
+  font-family: "Umbra";
+  color: white;
+  text-align: center;
+  margin:0;
+  padding:0;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+#webnotice {
+  background-color: yellow;
+  color: black;
+  font-size: 1em;
+  font-family: "renner";
+  padding: 0.5em;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    #webnotice {
+      visibility: hidden;
+      height: 0;
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) { @media {
+    #webnotice {
+      visibility: hidden;
+      height: 0;
+    }
+}}
+
+#webnotice @media not all and (min-resolution:.001dpcm) { @media {
+    .safari_only {
+      visibility: hidden;
+      height: 0;
+    }
+}}
+
+@supports (shape-outside: circle) {
+  #webnotice {
+    visibility: hidden;
+    height: 0;
+  }
+}
+
+#head {
+  margin-top: -0.1em;
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 0.3em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#head:hover a {
+  text-decoration: underline overline;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  font-family: "Umbra-Shadow";
+  color: white;
+  font-size: 20vw;
+  margin-top: 0;
+}
+
+.bottom {
+  font-family: "Umbra-Shadow";
+  color: #ff0066;
+  position: absolute;
+  margin-left: -5px;
+  width: 99%;
+}
+
+.top {
+  font-family: "Umbra-Shadow";
+  font-variation-settings: "DIST" 0, "TOTD" 0;
+  position: absolute;
+  margin-left: -5px;
+  width: 99%;
+}
+
+.red {
+  color: #aa0044;
+}
+
+#center {
+  margin-bottom: 25vw;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 85%;
+  height: 11px;
+  border-radius: 15px;
+  background: white;
+  outline: none;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0.333, #ff0066), color-stop(0.333, #ffffff));
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ff0066;
+  cursor: pointer;
+}
+
+.slider::-moz-range-track {
+    background-color: transparent;
+}
+
+.slider::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ff0066;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+#sliders {
+  position: absolute;
+  height: 3em;
+  margin-left: -5px;
+  width: 99%;
+}
+
+h2 {
+  font-size: 5em;
+  font-weight: normal;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+#Download {
+  color: white;
+  width: 4.5em;
+  border-top:  12px solid white;
+  border-bottom:  12px solid white;
+  margin: 0 auto;
+  transition: width 0.4s;
+  margin-top: 1em;
+  padding-bottom: 10px;
+}
+
+#Download:hover {
+  color: #ff0066;
+  width: 8em;
+  border-top:  12px solid #ff0066;
+  border-bottom:  12px solid #ff0066;
+  transition: width 0.5s;
+}
+
+#body {
+  padding-top: 20em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 10em;
+  font-weight: normal;
+}
+
+#body p {
+  color: #aa0044;
+  text-align: left;
+  font-family: "renner";
+  width: 810px;
+  margin: 0 auto;
+  font-size: 1.6em;
+  line-height: 2em;
+}
+
+#body p a {
+  text-decoration: underline;
+}
+
+#body p a:hover {
+  text-decoration: underline overline;
+}
+
+#body p span {
+  font-size: 0.7em;
+  letter-spacing: 0.03em;
+  font-family: "rennermedium"
+}
+
+img {
+  width: 70%;
+}
+
+#body b {
+  font-weight: normal;
+  color: #ff0066;
+  text-align: center;
+  font-family: "rennerblack";
+  width: 800px;
+  margin: 0 auto;
+  font-size: 1.6em;
+  line-height: 2.8em;
+  letter-spacing: 0.3em;
+}
+
+#body input {
+  resize: none;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  font-family: "Umbra-Shadow";
+  font-variation-settings: "DIST" 0, "TOTD" 500;
+  color: White;
+  opacity: 0.5;
+  font-size: 20em;
+  width: 99%;
+  height: 1.3em;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+::-moz-placeholder {
+  color: white;
+}
+
+#body input:focus {
+  opacity: 1;
+}
+
+.fade {
+    width: 100%;
+    position: relative;
+    margin-top: -3em;
+}
+
+.fade div {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    );
+}
+
+#linker {
+  margin-top: 50em;
+}
+
+#linker a {
+  color: #ffffff;
+}
+
+#linker a:hover {
+  color: #ff0066;
+}
+
+h4 {
+  font-family: "joneslight";
+  font-size: 5em;
+  font-weight: normal;
+  color: #aa0044;
+  margin-bottom: -1em;
+}
+
+#end {
+  font-size: 1em;
+  letter-spacing: 0.03em;
+  font-family: "rennermedium"
+}

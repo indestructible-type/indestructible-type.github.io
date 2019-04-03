@@ -1,0 +1,278 @@
+@font-face {
+    font-family: "jostvf";
+    src: url("Jost-VF.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "josttab";
+    src: url("rennertab.ttf") format("truetype");
+}
+
+.webnotice {
+  background-color: yellow;
+  color: black;
+  font-size: 1em;
+  font-family: "renner";
+  padding: 0.5em;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    #webnotice {
+      visibility: hidden;
+      height: 0;
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) { @media {
+    #webnotice {
+      visibility: hidden;
+      height: 0;
+    }
+}}
+
+#webnotice @media not all and (min-resolution:.001dpcm) { @media {
+    .safari_only {
+      visibility: hidden;
+      height: 0;
+    }
+}}
+
+#webice {
+  visibility: collapse;
+  height: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    #webice {
+      visibility: visible;
+      height: inherit;
+      margin-bottom: -2.5em;
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) { @media {
+    #webice {
+      visibility: visible;
+      height: inherit;
+      margin-bottom: -2.5em;
+    }
+}}
+
+#webice @media not all and (min-resolution:.001dpcm) { @media {
+    .safari_only {
+      visibility: visible;
+      height: inherit;
+      margin-bottom: -2.5em;
+    }
+}}
+
+@supports (shape-outside: circle) {
+  #webnotice {
+    visibility: hidden;
+    height: 0;
+  }
+  #webice {
+    visibility: visible;
+    height: inherit;
+    margin-bottom: -2.5em;
+  }
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 85%;
+  height: 8px;
+  background: white;
+  outline: none;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0.375, #666666), color-stop(0.375, #f2f2f2));
+  position: absolute;
+  margin-left: -42.5%;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 25px;
+  background: #666666;
+  cursor: pointer;
+}
+
+.slider::-moz-range-track {
+    background-color: transparent;
+}
+
+.slider::-moz-range-thumb {
+  appearance: none;
+  width: 10px;
+  height: 25px;
+  border: none;
+  border-radius: 0;
+  background-color: #666666;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+  text-align: center;
+  overflow: visible;
+  font-family: "renner";
+  color: #333333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.a:hover span{
+  color: #c83737;
+  text-decoration: none;
+}
+
+.red {
+  color: #c83737;
+}
+
+h5 {
+  color: #666666;
+  font-size: 2em;
+  font-weight: normal;
+  margin-top: -0.5em;
+}
+
+h1 {
+  font-family: "jostvf";
+  font-size: 13vw;
+  font-weight: normal;
+  margin-top: 4vw;
+  margin-bottom: -0.6em;
+}
+
+h2 {
+  font-family: "rennermedium";
+  font-size: 6vw;
+  font-weight: normal;
+  color: #666666;
+  margin-bottom: 0.5em;
+}
+
+h2#webnotice {
+  margin-top: 250px;
+  font-size: 5vw;
+}
+
+.button {
+  padding: 0.6em;
+  font-family: "rennerblack";
+  font-weight: normal;
+  background-color: #c83737;
+  color: #f2f2f2;
+  font-size: 2em;
+  transition: box-shadow 0.2s;
+  letter-spacing: 0.2em;
+}
+
+.button:hover {
+  box-shadow: 0.4em 0.4em 0 0 #666666;
+  transition: box-shadow 0.2s;
+}
+
+#Slideshow {
+  margin-top: 5em;
+  position:relative;
+  padding-bottom: 40%;
+}
+
+#Slideshow img {
+  position:absolute;
+  left:0;
+  top:0;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  width: 30em;
+  font-size: 1.5em;
+  line-height: 2em;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+p b {
+  letter-spacing: 0.05em;
+}
+
+textarea {
+  white-space: normal;
+  width: 30em;
+  font-size: 1.5em;
+  line-height: 2em;
+  margin: 0 auto;
+  border: 0;
+  font-family: "renner";
+  color: inherit;
+  background-color: inherit;
+  resize: none;
+  text-align: justify;
+  height: 6em;
+}
+
+input {
+  width: 99%;
+  border: 0;
+  font-family: "renner";
+  font-size: 6.3vw;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 200;
+  font-family: "joneslight";
+  color: #c83737;
+  font-size: 5em;
+  margin-top: 0.6em;
+  margin-bottom: -0.8em;
+}
+
+#disweight {
+  padding-top: 6vw;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#disitalic {
+  padding-top: 6vw;
+  font-size: 40px;
+  font-family: "josttab";
+  margin-bottom: 2px;
+}
+
+#mono {
+  color: #666666;
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h4 {
+  color: #666666;
+  font-family: "Roboto Mono";
+  width: 46em;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 16px;
+}
