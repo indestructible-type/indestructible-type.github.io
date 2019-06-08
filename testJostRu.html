@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test Jost* RU out</title>
+		<style>
+			@font-face {
+			font-family: "Jost";
+			src: url("JostRU-it-Book.otf") format("opentype");
+			font-weight: 400;
+			font-style: normal;
+			}
+			body {
+			background-color: #fff;
+			text-align: center;
+			}
+			h1 {
+			font-family: "Jost";
+			font-weight: 400;
+			}
+			input {
+			-webkit-appearance: none;
+			width: 20em;
+			height: 5px;
+			border-radius: 5px;
+			background: #000;
+			outline: none;
+			margin-top: -1em;
+			margin-bottom: 1em;
+			}
+			.slider::-webkit-slider-thumb {
+			-webkit-appearance: none;
+			appearance: none;
+			width: 15px;
+			height: 15px;
+			border-radius: 50%; 
+			background: #000;
+			cursor: pointer;
+			}
+			.slider::-moz-range-thumb {
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			background: #000;
+			cursor: pointer;
+			}
+			textarea {
+			width: 800px;
+			height: 70vh;
+			display: inline-block;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #000;
+			resize: none;
+			font-family: "Jost";
+			font-size: 1.2em;
+			padding: 20px;
+			color: #000;
+			}
+		</style>
+		<script>
+			function updateSlider(slideAmount) {
+				document.getElementById("textarea").style = "font-size: " + (slideAmount/100) + "em;";
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Use the slider to select font size.</h1>
+		<input id="size" class="slider" type="range" max="500" min="50" value="120" onchange="updateSlider(this.value)"><br>
+		<textarea id="textarea">Hi There!</textarea>
+	</body>
+</html>
