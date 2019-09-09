@@ -13,14 +13,15 @@
 		<div id="background"><h1>################</h1></div>
 		<h1 id="float">No Tears</h1>
 		<h1>&nbsp;</h1>
-		<p>Name your price starting at</p>
+		<p>Name your price</p>
 		<script>
 		function validate() {
 				var n1 = document.getElementsByName('amount')[0].value;
-				if (n1 < 5) {
-					alert("You have to pay at least $5");
-					return false;
-				} else if (n1 >= 5) {
+				if (n1*100 == 0) {
+						document.getElementById("my-form-id").method = "none";
+						document.getElementById("my-form-id").action = "https://indestructibletype.com/notearsCheckout.html";
+						return true;
+				} else if (n1 > 0) {
 						document.getElementById("my-form-id").method = "post";
 						document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
 						return true;
