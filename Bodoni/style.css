@@ -4,9 +4,10 @@ body {
   background-color: #214478ff;
   text-align: center;
   overflow: visible;
-  font-family: "Bodoni 11";
+  font-family: "Bodoni 06";
   color: #e6e6e6ff;
   max-width: 100%;
+  margin: 0;
 }
 *, ::after, ::before {
     box-sizing: border-box;
@@ -112,7 +113,7 @@ h1 {
 }
 
 h6 {
-  font-family: "Bodoni 24";
+  font-family: "Bodoni 16";
   font-weight: 900;
   font-style: italic;
   color: #122541ff;
@@ -146,7 +147,7 @@ a:hover .button {
 }
 
 h2 {
-  font-family: "Bodoni 36";
+  font-family: "Bodoni 24";
   font-size: 8em;
   font-weight: 900;
   color: #122541ff;
@@ -191,8 +192,8 @@ h2 {
 p {
   width: 800px;
   font-size: 1.3em;
-  line-height: 1.5em;
-  text-align: left;
+  line-height: 1.75em;
+  text-align: justify;
   margin: 0 auto;
 }
 
@@ -203,16 +204,16 @@ textarea {
   white-space: normal;
   width: 800px;
   font-size: 1.3em;
-  line-height: 1.5em;
+  line-height: 1.75em;
   text-align: left;
   margin: 0 auto;
   margin: 0 auto;
   border: 0;
-  font-family: "Bodoni 11";
+  font-family: "Bodoni 06";
   color: inherit;
   background-color: inherit;
   resize: none;
-  height: 8em;
+  height: 9em;
 }
 
 input {
@@ -253,6 +254,7 @@ input {
   font-family: "Roboto Mono";
   font-weight: 600;
   font-size: 16px;
+  text-align: left;
 }
 
 .selectable:hover {
@@ -267,6 +269,7 @@ h4 {
   margin: 0 auto;
   font-weight: 600;
   font-size: 16px;
+  text-align: left;
 }
 
 h3 {

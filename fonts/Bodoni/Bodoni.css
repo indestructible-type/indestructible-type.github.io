@@ -1,4 +1,68 @@
 @font-face {
+    font-family: "Bodoni 06";
+    src: url("Bodoni-06-Book.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Bodoni 06";
+    src: url("Bodoni-06-Book-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: "Bodoni 06";
+    src: url("Bodoni-06-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Bodoni 06";
+    src: url("Bodoni-06-Medium-Italic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: "Bodoni 06";
+    src: url("Bodoni-06-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Bodoni 06";
+    src: url("Bodoni-06-Bold-Italic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: "Bodoni 06";
+    src: url("Bodoni-06-Fatface.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Bodoni 06";
+    src: url("Bodoni-06-Fatface-Italic.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+@font-face {
     font-family: "Bodoni 11";
     src: url("Bodoni-11-Book.otf") format("opentype");
     font-weight: 400;
