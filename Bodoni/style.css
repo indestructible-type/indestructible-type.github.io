@@ -1,3 +1,77 @@
+@font-face {
+    font-family: "Bodonivf";
+    src: url("Bodoni-VF.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bodonivfitl";
+    src: url("Bodoni-Italic-VF.ttf") format("truetype");
+}
+
+.webnotice {
+  background-color: yellow;
+  color: black;
+  font-size: 1em;
+  font-family: "Jost";
+  padding: 0.5em;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+@supports (font-variation-settings: 'wght' 500) {
+  #webnotice {
+    visibility: hidden;
+    height: 0;
+  }
+  #webice {
+    visibility: visible;
+    height: inherit;
+    margin-bottom: -2.5em;
+  }
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 85%;
+  height: 1px;
+  background: white;
+  outline: none;
+  position: absolute;
+  margin-left: -42.5%;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #122541ff;
+  cursor: pointer;
+  border: solid;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: white;
+}
+
+.slider::-moz-range-track {
+    background-color: transparent;
+}
+
+.slider::-moz-range-thumb {
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border: solid;
+  border-radius: 30px;
+  background-color: #122541ff;
+  border-color: transparent;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: white;
+}
+
 body {
   color: #212529;
   text-align: center;
@@ -54,62 +128,12 @@ h5 a:hover span {
 }
 
 h1 {
-  font-family: "Bodoni 96";
+  font-family: "Bodonivf";
   font-size: 15vw;
   font-weight: normal;
   margin-top: 4vw;
   margin-bottom: 0.4em;
-}
-
-@media only screen and (max-width: 1920px) {
-  h1 {
-    font-family: "Bodoni 72";
-  }
-}
-
-@media only screen and (max-width: 1700px) {
-  h1 {
-    font-family: "Bodoni 48";
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  h1 {
-    font-family: "Bodoni 36";
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  h1 {
-    font-family: "Bodoni 24";
-  }
-  .selectable {
-  display:inline-block;
-  max-width: 800px;
-  font-size:1.1em!important;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  h1 {
-    font-family: "Bodoni 16";
-  }
-  .selectable {
-  display:inline-block;
-  max-width: 800px;
-  font-size:1.1em!important;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  h1 {
-    font-family: "Bodoni 11";
-  }
-  .selectable {
-  display:inline-block;
-  max-width: 800px;
-  font-size:1.1em!important;
-  }
+  font-variation-settings: 'opsz' 06;
 }
 
 h6 {
@@ -193,7 +217,7 @@ p {
   width: 800px;
   font-size: 1.3em;
   line-height: 1.75em;
-  text-align: justify;
+  text-align: left;
   margin: 0 auto;
 }
 
@@ -214,19 +238,6 @@ textarea {
   background-color: inherit;
   resize: none;
   height: 9em;
-}
-
-input {
-  width: 99%;
-  border: 0;
-  font-family: "Bodoni 36";
-  font-style: italic;
-  font-size: 8em;
-  padding-bottom: 0.2em;
-  font-weight: 500;
-  color: #5f8dd3ff;
-  background-color: inherit;
-  text-align: center;
 }
 
 #disweight {
@@ -263,13 +274,14 @@ input {
 }
 
 h4 {
-  color: #666666;
-  font-family: "Roboto Mono";
-  width: 46em;
-  margin: 0 auto;
-  font-weight: 600;
-  font-size: 16px;
+  color: white;
+  font-family: "Bodoni 06";
+  font-size: 1.3em;
   text-align: left;
+  font-weight: 400;
+  padding-left: 7.5%;
+  margin-bottom: 1em;
+  margin-top: 3em;
 }
 
 h3 {

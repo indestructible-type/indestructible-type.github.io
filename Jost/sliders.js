@@ -25,7 +25,7 @@ document.getElementById("wght").oninput = function() {
   if (this.value < 110) {
     sam = "hairline";
   }
-  document.getElementById("wght").style = "background-image: -webkit-gradient( linear, left top, right top, color-stop(" + hams + ", #666666), color-stop(" + hams + ", #f2f2f2))";
+  document.getElementById("wght").style = "background-image: -webkit-gradient( linear, left top, right top, color-stop(" + hams + ", #666666), color-stop(" + hams + ", rgba(0,0,0,0)))";
   document.getElementById("title").style = "font-variation-settings:'wght' " + this.value + ", 'ital' " + (document.getElementById("italic").value / 100) + ";" ;
   document.getElementById("disweight").innerHTML = "<br>weight: " + sam;
 }
@@ -33,7 +33,7 @@ document.getElementById("wght").oninput = function() {
 document.getElementById("italic").oninput = function() {
   hamy = this.value / 200;
   hany = this.value / 100;
-  document.getElementById("italic").style = "background-image: -webkit-gradient( linear, left top, right top, color-stop(" + hamy + ", #666666), color-stop(" + hamy + ", #f2f2f2))";
+  document.getElementById("italic").style = "background-image: -webkit-gradient( linear, left top, right top, color-stop(" + hamy + ", #666666), color-stop(" + hamy + ", rgba(0,0,0,0)))";
   document.getElementById("title").style = "font-variation-settings:'wght' " + document.getElementById("wght").value + ", 'ital' " + hany + ";" ;
   document.getElementById("disitalic").innerHTML = "italic: " + this.value + "%" ;
 }

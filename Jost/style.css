@@ -34,9 +34,9 @@
   -webkit-appearance: none;
   width: 85%;
   height: 8px;
-  background: white;
+  background: none;
   outline: none;
-  background-image: -webkit-gradient( linear, left top, right top, color-stop(0.375, #666666), color-stop(0.375, #f2f2f2));
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0.375, #666666), color-stop(0.375, rgba(0,0,0,0)));
   position: absolute;
   margin-left: -42.5%;
 }
@@ -235,4 +235,14 @@ h4 {
   margin: 0 auto;
   font-weight: 600;
   font-size: 16px;
+}
+
+#eyballs {
+  width: 85%;
+  height: 4px;
+  background: #666666;
+  position: absolute;
+  margin-left: -42.5%;
+  left: 50%;
+  margin-top: 4px;
 }
