@@ -282,6 +282,7 @@ h4 {
   padding-left: 7.5%;
   margin-bottom: 1em;
   margin-top: 3em;
+  font-variant-numeric: tabular-nums;
 }
 
 h3 {
