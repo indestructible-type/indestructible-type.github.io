@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.1-dev (1:0.92.0+devel+202005110039+9ce7266)"
+   sodipodi:docname="Cowboy-temp.svg"
+   viewBox="0 0 1600 640"
+   height="640"
+   width="1600"
+   id="svg2"
+   version="1.1">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <rect
+       id="rect1075"
+       height="640.00146"
+       width="1599.9976"
+       y="0"
+       x="0" />
+    <rect
+       id="rect833"
+       height="640.00146"
+       width="1599.9976"
+       y="0"
+       x="0" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg2"
+     inkscape:window-maximized="1"
+     inkscape:window-y="30"
+     inkscape:window-x="0"
+     inkscape:cy="369.09161"
+     inkscape:cx="760.0936"
+     inkscape:zoom="0.6570953"
+     showgrid="false"
+     id="namedview4"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <rect
+     y="0"
+     x="0"
+     height="640.00146"
+     width="1599.9976"
+     id="rect829"
+     style="fill:#f4e3d7;stroke:none;stroke-width:4.01341;stop-color:#000000" />
+  <text
+     transform="matrix(1.0865123,0,0,1.0865123,-69.200766,437.99745)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:126.667px;font-family:'Copperplate CC';-inkscape-font-specification:'Copperplate CC Bold';text-align:center;letter-spacing:3px;word-spacing:0px;text-anchor:middle;white-space:pre;fill:#502d16"
+     id="text831"
+     xml:space="preserve"><textPath
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:126.667px;font-family:'Copperplate CC';-inkscape-font-specification:'Copperplate CC Bold';text-align:center;text-anchor:middle;fill:#502d16"
+       id="textPath1062"
+       startOffset="50%"
+       xlink:href="#path1060">Cowboy Fonts</textPath></text>
+  <ellipse
+     transform="rotate(90)"
+     ry="1638.453"
+     rx="976.0495"
+     cy="-799.92059"
+     cx="776.83075"
+     id="path1060"
+     style="fill:none;stroke:none;stroke-width:9.99753;stop-color:#000000" />
+  <text
+     transform="translate(0,420)"
+     y="0"
+     x="358.39844"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:53.3333px;font-family:'Besley*';-inkscape-font-specification:'Besley* Heavy';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1075);fill:#502d16"
+     id="text1073"
+     xml:space="preserve"><tspan
+       x="184.16606"
+       y="49.333304"><tspan
+         style="shape-inside:url(#rect1075)">Cowboy Fonts for the Cowboy Collective</tspan></tspan></text>
+</svg>
