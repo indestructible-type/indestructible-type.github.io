@@ -203,3 +203,19 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "Engraving";
+    src: url("EngravingCC.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Railroad";
+    src: url("RailroadGothicCC.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

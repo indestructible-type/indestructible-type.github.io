@@ -146,3 +146,43 @@ h3 {
   background-color: #F4E3D7;
   background-blend-mode: lighten;
 }
+
+#Engraving {
+  box-shadow: inset 0px 0px 50px rgba(0,0,0,0.25);
+  width: 80vw;
+  margin-left: 10vw;
+  height: 325px;
+  background-image: url("https://raw.githubusercontent.com/CowboyCollective/media/master/EngravingGothic.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "Engraving";
+  text-align: center;
+  padding-top: 175px;
+  font-size: 0;
+}
+
+#Engraving:hover {
+  font-size: 6vw;
+  background-color: #F4E3D7;
+  background-blend-mode: lighten;
+}
+
+#Railroad {
+  box-shadow: inset 0px 0px 50px rgba(0,0,0,0.25);
+  width: 80vw;
+  margin-left: 10vw;
+  height: 325px;
+  background-image: url("https://raw.githubusercontent.com/CowboyCollective/media/master/RailraodGothic.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "Railroad";
+  text-align: center;
+  padding-top: 175px;
+  font-size: 0;
+}
+
+#Railroad:hover {
+  font-size: 6vw;
+  background-color: #F4E3D7;
+  background-blend-mode: lighten;
+}
