@@ -40,12 +40,18 @@ function selectText(containerid) {
 		</script>
 </head>
 	<body onload="startTime()">
+	<div id="webnotice" class="webnotice">
+		Hey! This page uses OpenType variable fonts, which are only supported in the latest versions of Firefox, Google Chrome, and Safari. To view this page properly open it in a supported browser.
+	</div>
 	<div id="top">
 		<div id="treesBackground"><div>
 		<div id="trees"><div>
 		<h2><a href="Home.html">indestructible type<span>*</span></a></h2>
-		<h1>Besley<span id="red">*</span></h1>
-		<h3 style="font-size: 2vw;">a contemporary antique slab serif</h3>
+		<h1 id="title">Besley<span id="red">*</span></h1>
+		<h4 id="wghtt">Weight: 600</h4>
+		<input class="slider" id="wght" type="range" min="400" max="900" value="600">
+		<h4 id="itlct">Roman</h4>
+		<input class="slider" id="itlc" type="range" min="0" max="1" value="0">
 		<br><br>
 	</div>
 	<br><br><br><br><br>
@@ -61,7 +67,10 @@ function selectText(containerid) {
 		<h3>About:</h3>
 		<div id="white">
 		<p>
-			Besley* started with a need for a good, versatile, and affordable antique slab serif font. One with <i>italics</i> and a <span style="font-family: 'besleymedium';">bold</span> that actually was <span style="font-family: 'besleyfatface';">bold</span>. One that would look good on screen and in print. An antique slab serif that didn&#8217;t have weird and gimmicky irregularities. A font that is at once welcoming and approachable, while remaining trustworthy and sturdy. Something timeless, that feels of-the-time. A font that is immediately familiar, while providing subtle surprises. A font that just functions, without having to work hard. The font I was looking for was Besley*.
+			<b>What&#8217;s New?</b><br>This is version 2.0. Besley* now comes with variable font versions, as well as better language support, kerning, tabular and proportional numbers and other improvements.
+		</p><br>
+		<p>
+			Besley* started with a need for a good, versatile, and affordable antique slab serif font. One with <i>italics</i> and a <span style="font-weight: 600;">bold</span> that actually was <span style="font-weight: 900">bold</span>. One that would look good on screen and in print. An antique slab serif that didn&#8217;t have weird and gimmicky irregularities. A font that is at once welcoming and approachable, while remaining trustworthy and sturdy. Something timeless, that feels of-the-time. A font that is immediately familiar, while providing subtle surprises. A font that just functions, without having to work hard. The font I was looking for was Besley*.
 		</p>
 		<br>
 		<p>
@@ -111,12 +120,13 @@ function selectText(containerid) {
 		</p>
 	</div>
 			<h3>What are you waiting for?</h3><br><br><br>
-			<span class="button"><a href="BuyBesley.html">&nbsp;Download&nbsp;</a></span>
+			<a href="BuyBesley.html"><span class="button">&nbsp;Download&nbsp;</span></a>
 </div>
 <br><br>
 <div id="tail">
 	<h6 id="red"><a href="Home.html">*<br></h6></a><br>
 	<br><a href="Home.html" id="roll">Created by indestructible type<span id="red">*</span><a>
 </div>
+<script src="Besley/sliders.js"></script>
 	</body>
 </html>

@@ -134,6 +134,7 @@ h1 {
   margin-top: 4vw;
   margin-bottom: 0.4em;
   font-variation-settings: 'opsz' 06;
+  text-rendering: geometricPrecision;
 }
 
 h6 {

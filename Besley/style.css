@@ -1,3 +1,71 @@
+@font-face {
+    font-family: "Bodonivf";
+    src: url("Besley[wght].ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bodonivfitl";
+    src: url("Besley-Italic[wght].ttf") format("truetype");
+}
+
+.webnotice {
+  background-color: yellow;
+  color: black;
+  font-size: 1em;
+  font-family: "Jost";
+  padding: 0.5em;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+@supports (font-variation-settings: 'wght' 500) {
+  #webnotice {
+    visibility: hidden;
+    height: 0;
+    margin-bottom: -20px;
+  }
+  #webice {
+    visibility: visible;
+    height: inherit;
+    margin-bottom: -2.5em;
+  }
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 3px;
+  background: #82b082;
+  outline: none;
+  position: absolute;
+  left: 20%;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #82b082;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.slider::-moz-range-track {
+    background-color: transparent;
+}
+
+.slider::-moz-range-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: solid;
+  border-radius: 20px;
+  background-color: #82b082;
+  border-color: transparent;
+  cursor: pointer;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -39,15 +107,16 @@ h2:hover span {
   color: #471313ff;
 }
 
-h1 {
+#title {
   color: #fff3e6;
   font-size: 12vw;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   font-weight: normal;
-  font-family: "Besley";
-  font-weight: 500;
+  font-family: "Bodonivf";
+  font-variation-settings: 'wght' 600;
   padding-bottom: 0;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 h3 {
@@ -62,10 +131,11 @@ h4 {
   text-align: left;
   font-weight: normal;
   font-style: normal;
-  font-size: 2em;
-  padding: 0;
+  font-size: 1.5em;
+  padding: 0.5em;
   margin: 0.2em;
   margin-left: 20%;
+  font-variant-numeric: tabular-nums;
 }
 
 h5 {
@@ -101,12 +171,13 @@ a {
 
 
 #white {
-  color: #355635ff;
+  color: #558855ff;
   width: 60em;
   margin: 0 auto;
   padding-bottom: 1em;
   padding-top: 10em;
   margin-top: -10em;
+  font-variant-numeric: oldstyle-nums;
 }
 
 table {
