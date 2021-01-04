@@ -119,19 +119,6 @@ h2:hover span {
   margin-top: 0;
 }
 
-@media only screen and (max-width: 1000px) {
-  #title {
-    font-size: 19vw;
-  }
-  .slider {
-    width: 90%;
-    left: 5%;
-  }
-  #Slideshow img {
-    margin-top: -8em;
-  }
-}
-
 h3 {
   font-style: italic;
   color: #558855ff;
@@ -149,6 +136,22 @@ h4 {
   margin: 0.2em;
   margin-left: 20%;
   font-variant-numeric: tabular-nums;
+}
+
+@media only screen and (max-width: 1000px) {
+  #title {
+    font-size: 19vw;
+  }
+  .slider {
+    width: 90%;
+    left: 5%;
+  }
+  #Slideshow img {
+    margin-top: -8em;
+  }
+  h4 {
+    margin-left: 5%;
+  }
 }
 
 h5 {
