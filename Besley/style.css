@@ -8,6 +8,11 @@
     src: url("Besley-Italic[wght].ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Drafting";
+    src: url("../Drafting/Drafting-Mono.ttf") format("truetype");
+}
+
 .webnotice {
   background-color: yellow;
   color: black;
@@ -302,16 +307,16 @@ textarea {
 
 #mono {
   color: #558855ff;
-  font-family: "Roboto Mono";
+  font-family: "Drafting";
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .selectable {
   color: #558855ff;
-  font-family: "Roboto Mono";
+  font-family: "Drafting";
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .selectable:hover {

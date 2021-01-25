@@ -8,6 +8,11 @@
     src: url("tab.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Drafting";
+    src: url("../Drafting/Drafting-Mono.ttf") format("truetype");
+}
+
 .webnotice {
   background-color: yellow;
   color: black;
@@ -211,16 +216,16 @@ h3 {
 
 #mono {
   color: #666666;
-  font-family: "Roboto Mono";
+  font-family: "Drafting";
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .selectable {
   color: #666666;
-  font-family: "Roboto Mono";
+  font-family: "Drafting";
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .selectable:hover {
