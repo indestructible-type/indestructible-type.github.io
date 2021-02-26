@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "Drafting";
+    src: url("Drafting[wght].ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Drafting";
+    src: url("Drafting-Italic[wght].ttf") format("truetype");
+    font-style: italic;
+}
+
+body {
+  font-family: "Drafting";
+  margin: 0;
+}
+
+#header {
+  width: 233px;
+  height: 12px;
+  background-image: url(header.svg);
+  background-size: cover;
+  margin-left: -116.5px;
+  position: absolute;
+  left: 50%;
+  top: 60px;
+}
+
+#controls {
+  position: fixed;
+  width: 155px;
+  right: 0;
+  top: 50px;
+  z-index: 1;
+  background-color: white;
+  transition: opacity 0.3s, margin 0.3s;
+  padding: 20px;
+  opacity: 30%;
+}
+
+#controls:hover {
+  background-color: white;
+  opacity: 100%;
+  transition: opacity 0.1s, margin 0.1s;
+}
+
+#controls p {
+  font-size: 15px;
+  font-variation-settings: 'wght' 500;
+  line-height: 1;
+  text-align: right;
+}
+
+#controls input {
+  float: right;
+  -webkit-appearance: none;
+  height: 1.5px;
+  background-color: black;
+  outline: none;
+}
+
+#controls input[type=range]::-moz-range-thumb {
+  appearance: none;
+  background-color: black;
+  width: 9px;
+  height: 9px;
+  border: solid;
+  border-radius: 9px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: white;
+}
+
+#controls input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: black;
+  width: 12px;
+  height: 12px;
+  border: solid;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: white;
+}
+
+#controls h2 {
+  float: right;
+  font-size: 15px;
+  font-variation-settings: 'wght' 500;
+  font-weight: normal;
+  margin-left: 15px;
+}
+
+#controls input[type=range] {
+  width: 150px;
+  margin-bottom: 22px;
+}
+
+#controls input[type=radio] {
+  margin-top: 15.5px;
+  margin-left: 8px;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: white;
+  box-shadow: 0 0 0 1.5px black;
+  transition: background-color 0.2s;
+}
+
+#controls input[type=radio]:checked {
+  background-color: black;
+}
+
+#sizer {
+  font-size: 22px;
+}
+
+#text {
+  width: 550px;
+  line-height: 2;
+  margin-left: -275px;
+  position: relative;
+  left: 50%;
+  top: 250px;
+  margin-bottom: 400px;
+  word-wrap: break-word;
+}
+
+#text a {
+  text-decoration: underline;
+  color: black;
+  font-style: italic;
+  cursor: pointer;
+}
+
+#link {
+  background-color: black;
+  font-size: 22px;
+  color: white;
+  position: fixed;
+  bottom: 60px;
+  padding: 7.5px;
+  font-variation-settings: 'wght' 700;
+  padding-left: 50px;
+  padding-right: 50px;
+  right: 0;
+}
+
+#link:hover {
+  color: black;
+  background-color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  #controls {
+    opacity: 100%;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+    border-right-style: none;
+    margin-right: -150px;
+  }
+  #controls:hover {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  #text {
+    width: calc(100vw - 60px);
+    margin-left: calc(30px - 50vw);
+    left: 50%;
+  }
+}
