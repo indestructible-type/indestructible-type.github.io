@@ -9,7 +9,7 @@ img {
   margin: 0 auto;
   width: 50em;
   transition: width 0.4s, background-color 0.5s;
-  background-color: #ffffff;
+  background-color: rgba(0,0,0,0);
 }
 
 .goog:hover .fonts {
@@ -63,6 +63,10 @@ img {
 
 .goog:hover #Besley {
   background-color: #355635ff;
+}
+
+.goog:hover #Drafting {
+  box-shadow: 0 0 0 1.5px black;
 }
 
 .goog:hover #Tears {
