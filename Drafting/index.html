@@ -22,12 +22,15 @@
 <input id="size" type="range" min="10" max="100" value="22" oninput="document.getElementById('sizer').style = 'font-size: ' + document.getElementById('size').value + 'px ;'; document.getElementById('text').style = 'width: calc(' + (100-document.getElementById('size').value)*7 + 'px + ' + (document.getElementById('size').value-22)*1.27 + 'vw); margin-left: calc(-' + (100-document.getElementById('size').value)*3.5 + 'px - ' + (document.getElementById('size').value-22)*0.641 + 'vw)'"></input>
 <p>WEIGHT:</p>
 <input id="weight" type="range" min="100" max="700" value="400" oninput="document.getElementById('weighter').style = 'font-variation-settings: \'wght\' ' + document.getElementById('weight').value + ';'"></input>
-<p>ITALIC?</p>
+<p style="margin-bottom: 0">ITALIC?</p>
 <input type="radio" name="italic" checked onclick="document.getElementById('bolder').style = 'font-style: normal;';"></input><h2>NO</h2>
 <input type="radio" name="italic" onclick="document.getElementById('bolder').style = 'font-style: italic;';"></input><h2>YES</h2>
+<br><br><p style="margin-bottom: 0">SMALL CAPS?</p>
+<input type="radio" name="smallCaps" checked onclick="document.getElementById('smallCaps').style = 'font-variant: none;';"></input><h2>NO</h2>
+<input type="radio" name="smallCaps" onclick="document.getElementById('smallCaps').style = 'font-variant: small-caps;';"></input><h2>YES</h2>
 </div>
 
-<div id="bolder"><div id="sizer"><div id="weighter">
+<div id="bolder"><div id="sizer"><div id="weighter"><div id="smallCaps">
 <p id="text" contenteditable>What's New?<br>This is version 1.1 which now supports <span style="font-variant: small-caps;">small-caps</span> and includes light weights.<br><br><br><br>February 24th, 2021<br><br>To the editor:<br>
 I never saw myself making a monospaced font.&nbsp; There already exists a plethora of high-quality, free and open-source monospaced typefaces.&nbsp; Typefaces like <a onclick="window.open('https://fonts.google.com/specimen/IBM+Plex+Mono')" href="https://fonts.google.com/specimen/IBM+Plex+Mono">IBM Plex Mono</a>, <a  onclick="window.open('https://github.com/tonsky/FiraCode')" href="https://github.com/tonsky/FiraCode">Fira Code</a>, and <a onclick="window.open('https://fonts.google.com/specimen/Roboto+Mono')" href="https://fonts.google.com/specimen/Roboto+Mono">Roboto Mono</a>.&nbsp; What could I possibly have to offer in a landscape already saturated with so many good options?&nbsp; Why invest time and energy catering to a need that doesn't exist?
 <br><br>
