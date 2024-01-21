@@ -222,3 +222,44 @@ img {
 #red {
 	color: #743e3e;
 }
+
+.no-display {
+	display: none;
+}
+
+#carousel .slider {
+	width: 100%;
+	background: #743e3e;
+	outline: none;
+	margin-left: 0;
+	margin-top: 2em;
+}
+
+#carousel .slider::-webkit-slider-thumb {
+	background: #743e3e;
+}
+
+#carousel .slider::-moz-range-thumb {
+	background-color: #743e3e;
+}
+
+p.quote.red {
+	border-color: #743e3e;
+}
+
+#thanks {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#love {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 2em;
+}
+
+#thanks a {
+	text-decoration: underline;
+}
