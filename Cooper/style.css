@@ -266,3 +266,15 @@ p.quote.red {
 #thanks a {
 	text-decoration: underline;
 }
+
+#rant-title {
+	position: absolute;
+	width: 100vw;
+	text-align: center;
+	color: #1b4064;
+	margin-top: -2em;
+}
+
+#rant-title:hover span {
+	color: #743e3e;
+}
