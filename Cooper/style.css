@@ -251,6 +251,9 @@ p.quote.red {
 	text-align: center;
 	font-size: 16px;
 	font-weight: 500;
+	max-width: 450px;
+	margin: auto;
+	padding: 0 50px;
 }
 
 #love {
