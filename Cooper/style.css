@@ -278,3 +278,16 @@ p.quote.red {
 #rant-title:hover span {
 	color: #743e3e;
 }
+
+@media only screen and (max-width: 550px) {
+	#download {
+		font-size: 9vw;
+		width: 80vw;
+		left: 10vw;
+	}
+	#download2 {
+		font-size: 9vw;
+		width: 80vw;
+		left: 10vw;
+	}
+}
