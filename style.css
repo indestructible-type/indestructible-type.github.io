@@ -82,6 +82,12 @@ body {
   border-width: 0 0 1px 0;
 }
 
+#body form input {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
 #mc-embedded-subscribe {
   background-color: #000000;
   font-family: "Jost";
@@ -144,4 +150,16 @@ progress::-webkit-progress-value {
   width: 2em;
   margin-left: 3em;
   cursor: pointer;
+}
+
+#body #mc_embed_signup input {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+#body #mc_embed_signup .clear input {
+	background-color: black;
+	color: black;
+	cursor: pointer;
 }

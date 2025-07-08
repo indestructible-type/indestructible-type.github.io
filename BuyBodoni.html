@@ -5,10 +5,8 @@
 		<meta name="robots" content="index, nofollow">
 		<link rel="shortcut icon" href="assets/Favicon.png">
 		<link rel="icon" type="image/png" href="assets/Favicon.png">
-    <link rel="stylesheet" href="fonts/fonts.css" type="text/css" charset="utf-8" />
-    <link rel="stylesheet" href="style.css"/>
-		<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
-		<script src="Bodoni/funds.js"></script>
+		<link rel="stylesheet" href="fonts/fonts.css" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" href="style.css"/>
 	</head>
   <body>
     <div id="head">
@@ -17,54 +15,15 @@
     </div>
 		<div id="body">
 			<h1>Download Bodoni*</h1>
-			<span style="background-color: yellow">Something appears to be wrong with PayPal at the moment making it impossible to download the fonts after purchase. I am trying to fix this, but in the meantime <b><a href="http://indestructibletype.com/Bodoni/CheckoutVF.html">Click here to download the font without purchase.</a></b></span><br><br>
-			<b>Help me keep making fonts!</b>
-			<p>I believe strongly that high quality fonts like Bodoni* should be available to everyone for free.  I want every creative person to have good, versatile, fonts at their disposal. Bodoni* has has taken me years and hundreds of hours to make. If I were to sell the intellectual property rights, it would easily be worth $10,000. But I&#8217;m not. I&#8217;d rather be giving back to the amazing online community of passionate and hardworking people who continue to make this kind of work possible. Donating will help to make Bodoni* a better font, as well as further the indestructible type* catalogue.<br>
-			<br><b>Please, consider helping me realize my mission of free, high quality fonts by making a donation for Bodoni*.</b></p>
-			<progress id="BodoniProgress" max="10000" value="0"></progress>
-			So far we have raised roughly <span id="MoneyTotal"><b>error</b></span> of the $10,000 dollar goal!<br><br><br><br>
-			<b>About the Download</b>
-			<p>Your download includes the latest version of Bodoni* in both TrueType and OpenType formats. Bodoni* is licensed under the  <span class="Red"><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" target="_blank">SIL open font license</a></span>. This allows for both personal and commercial use, without a different licence. It also makes it available for free for both.<br><br>To get the variable font version of Bodoni*, simply pay an amount of at least twenty dollers. The variable font version will be included automatically in your download
-			<br><br><b class="Red">Make sure to click on the <q>return to merchant</q> button after checkout to proceed to download!</b>
+				<p>
+					I believe strongly that high quality fonts should be made accessible to everyone, but this kind of work takes a lot of time and dedication, and I can only afford to do it with the kind support of people like you. Please consider using the button below to contribute money to help me maintain Bodoni* and make more beautiful fonts for free. If you really can't afford even a dollar <a href="http://indestructibletype.com/Bodoni/CheckoutVF.html">click here</a> to download without paying.
+					<br><br>Bodoni* is licensed under the  <span class="Red"><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" target="_blank">SIL open font license</a></span>. This allows for both personal and commercial use, without a different licence. It also makes Bodoni* available for free for both.
+					<br><br><b>If you don't get automatically redirected to the download page, <span style="background-color: yellow">click <q>Return to indestructible type*</q> after paying!</b></span>
 				</p><br>
-				<!-- COPYPASTA-->
-				<script>
-				function validate() {
-				    var n1 = document.getElementsByName('amount')[0].value;
-				    if (n1*100 == 0) {
-								document.getElementById("my-form-id").method = "none";
-								document.getElementById("my-form-id").action = "https://indestructibletype.com/BodoniCheckout.html";
-				        return true;
-						} else if (n1 >= 20) {
-								document.getElementById("my-form-id").method = "post";
-								document.getElementById("checkout").value = "http://indestructibletype.com/Bodoni/CheckoutVF.html";
-								document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
-								return true;
-				    } else if (n1 > 0) {
-								document.getElementById("my-form-id").method = "post";
-								document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
-								return true;
-				    } else {
-				        alert("That doesn't look like a valid amount!");
-				        return false;
-				    }
-				}
-				</script>
-				<form id="my-form-id" name="_xclick" action="" method="none" onsubmit="return validate();">
-				<input type="hidden" name="cmd" value="_xclick" />
-				<input type="hidden" name="business" value="indestructibletype@gmail.com" />
-				<input type="hidden" name="currency_code" value="USD" />
-				<input type="hidden" name="item_name" value="Bodoni*" />
-				<input type="hidden" name="no_shipping" value="1" />
-				<input id="checkout" type="hidden" name="return" value="https://indestructibletype.com/Bodoni/Checkout.html" />
-				<input type="hidden" name="cancel_return" value="https://indestructibletype.com/BuyBodoni.html" />
-				<label for="mce-EMAIL">Amount (in USD)</label><br>
-				<label style="font-size: 1.5em;">$</label><input type="text" name="amount" value="20" placeholder="Enter Amount Here" id="dollarinput"/><br><br><br>
-				<input id="mc-embedded-subscribe" type="submit" value="Proceed to Download" name="submit" style="color: white;">
+				<form action="https://www.paypal.com/donate" method="post" target="_top">
+					<input type="hidden" name="hosted_button_id" value="V2VHG5AP53XTJ" />
+					<input type="submit" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" value="Pay What You Want"/>
 				</form>
-
-
-	<!-- COPYPASTA-->
 			</div>
 		<div id="footer">
 			<h1>*</h1>

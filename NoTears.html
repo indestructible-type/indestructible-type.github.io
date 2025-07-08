@@ -13,54 +13,7 @@
 		<div id="background"><h1>################</h1></div>
 		<h1 id="float">No Tears</h1>
 		<h1>&nbsp;</h1>
-		<p>Name your price</p>
-		<script>
-		function validate() {
-				var n1 = document.getElementsByName('amount')[0].value;
-				if (n1*100 == 0) {
-						document.getElementById("my-form-id").method = "none";
-						document.getElementById("my-form-id").action = "https://indestructibletype.com/notearsCheckout.html";
-						return true;
-				} else if (n1 > 0) {
-						document.getElementById("my-form-id").method = "post";
-						document.getElementById("my-form-id").action = "https://www.paypal.com/us/cgi-bin/webscr";
-						return true;
-				} else {
-						alert("That doesn't look like a valid amount!");
-						return false;
-				}
-		}
-		</script>
-		<script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>
-		<form id="my-form-id" name="_xclick" action="" method="none" onsubmit="return validate();">
-		<input type="hidden" name="cmd" value="_xclick" />
-		<input type="hidden" name="business" value="indestructibletype@gmail.com" />
-		<input type="hidden" name="currency_code" value="USD" />
-		<input type="hidden" name="item_name" value="notears" />
-		<input type="hidden" name="no_shipping" value="1" />
-		<input type="hidden" name="return" value="https://indestructibletype.com/notearsCheckout.html" />
-		<input type="hidden" name="cancel_return" value="https://indestructibletype.com/notears.html" />
-		<label for="mce-EMAIL"></label><br>
-		<label style="font-size: 2em;">$</label><input type="text" name="amount" value="5.00" placeholder="5.00" autofocus /><br><br><br>
-		<input id="mc-embedded-subscribe" type="submit" value="Buy Now!" name="submit">
-		</form>
+		<input style="width: 550px;" onclick="location.href = 'notearsCheckout.html'" type="submit" value="Free Download!" name="submit">
 		<br><br><br><br><br>
 		<div id="background"><h2>################</h2></div>
 		<h2 id="float">About</h2>
