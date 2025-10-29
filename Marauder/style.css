@@ -1,0 +1,248 @@
+@font-face {
+	font-family: "Marauder";
+	src: url("Marauder[wght].woff2") format("woff2");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Marauder";
+	src: url("Marauder-Italic[wght].woff2") format("woff2");
+	font-style: italic;
+}
+
+body {
+	font-family: "Marauder", serif;
+	background-color: #ebe4de;
+	background-image: url("resources/bg.webp");
+	background-size: 100%;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+#head {
+	width: 100vw;
+	height: 100vh;
+	max-height: 70vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	mix-blend-mode: multiply;
+	overflow: hidden;
+}
+
+#sky {
+	background-image: url("resources/sky+sea.webp");
+	width: 100vw;
+	height: 100vh;
+	max-height: 70vw;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: fixed;
+	top: 0;
+}
+
+#lookout {
+	background-image: url("resources/lookout.webp");
+	width: 100vw;
+	height: 100vh;
+	max-height: 70vw;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position : absolute;
+	top: 0;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: min(12vw, 17.1vh);
+	line-height: 3;
+	text-align: center;
+	color: #ebe4de;
+	width: 100vw;
+	height: 50vh;
+	max-height: 35vw;
+	margin: 0;
+	padding: 0;
+}
+
+h1 span {
+	color: #ba4b4d;
+}
+
+h2 {
+	position: absolute;
+	top: 0;
+	text-align: center;
+	width: 100vw;
+	margin: 0;
+	font-size: 25px;
+	color: #afa59d;
+	font-variation-settings: 'opsz' 6;
+	margin-top: 5px;
+}
+
+h2 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	color: #2c2f50;
+}
+
+h2 a:hover span{
+	color: #ba4b4d;
+}
+
+#buy-button {
+	background-image: url("resources/buy-button.webp");
+	width: 100vw;
+	height: 25vh;
+	max-height: 17.5vw;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position : absolute;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+}
+
+#buy-button:hover {
+	opacity: 1;
+}
+
+#body {
+	width: 100vw;
+	position : absolute;
+	background-image: url("resources/bg.webp");
+	background-size: 100%;
+}
+
+#page {
+	width: 1200px;
+	max-width: 90vw;
+	margin: auto;
+	font-size: 30px;
+	font-variation-settings: 'opsz' 10;
+	color: #261a0d;
+}
+
+#page img {
+	float: left;
+	width: 600px;
+}
+
+#page p a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+#page p a:hover {
+	color: #792e2c;
+	background-image: url("resources/red.webp");
+	background-size: 100px;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;
+}
+
+#page p.big::first-letter {
+	font-size: 500%;
+	padding: 6px 0 6px 0;
+	margin: 0;
+	margin-right: 6px;
+	float: left;
+	padding-top: 20px;
+	font-variation-settings: 'opsz' 30;
+	color: rgba(0,0,0,0);
+	line-height: 0.5;
+	background-image: url("resources/red.webp");
+	background-size: 100px;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;
+}
+
+#shy {
+	font-size: 15px;
+	font-variation-settings: 'opsz' 6;
+	font-weight: 550;
+	margin-bottom: 0;
+	margin: 50px;
+	text-align: center;
+}
+
+#loud {
+	font-size: 60px;
+	font-variation-settings: 'opsz' 20;
+	margin-top: 10px;
+	font-weight: 650;
+	line-height: 1;
+}
+
+#loud span {
+	font-weight: 900;
+}
+
+#snake {
+	min-width: 100%;
+	color: #261a0d;
+	margin-bottom: 2em;
+}
+
+#page #box {
+	float: right;
+	width: 400px;
+	shape-outside: polygon(80% 0, 0 50%, 0 80%, 30% 100%, 100% 100%, 100% 0);
+}
+
+#page #pirate {
+	shape-outside: polygon(90% 0, 90% 16%, 74% 18%, 80% 60%, 100% 80%, 100% 90%, 70% 100%, 0 100%, 0 0);
+	clip-path:
+}
+
+#page #weight {
+	width: 100%;
+}
+
+#page p.caption {
+	font-style: italic;
+	font-size: 25px;
+	margin: 70px;
+	margin-top: 120px;
+	font-variation-settings: 'opsz' 10;
+}
+
+@media only screen and (max-width: 900px) {
+	#page img {
+		float: left;
+		width: 100%;
+	}
+	#page #box {
+		float: right;
+		width: 100%;
+		shape-outside: none;
+	}
+	#page #pirate {
+		float: right;
+		width: 100%;
+		shape-outside: none;
+	}
+}
+
+::selection {
+    background-color: #792e2c;
+    color: #ebe4de;
+}
+
+@-moz-document url-prefix() {
+	#page p.big::first-letter {
+		padding: 0;
+	}
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="130.40744mm"
+   height="29.063433mm"
+   viewBox="0 0 130.40744 29.063433"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="snake.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="71.148467"
+     inkscape:cx="296.33105"
+     inkscape:cy="99.425895"
+     inkscape:window-width="1920"
+     inkscape:window-height="1041"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-23.049735,-86.615848)">
+    <path
+       style="fill:none;stroke:none;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 23.441907,111.75909 c 7.407057,-10.81091 19.788905,-20.949245 37.980255,-18.582918 18.253667,2.374433 28.853624,23.046658 55.282398,22.375458 26.42877,-0.67121 36.75261,-28.935782 36.75261,-28.935782"
+       id="path1430"
+       sodipodi:nodetypes="cssc" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:'MFEK Sans';-inkscape-font-specification:'MFEK Sans, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.43189;fill:#261a0d;fill-opacity:1"
+       id="text3985"><textPath
+         xlink:href="#path1430"
+         id="textPath8219"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Marauder* Text';-inkscape-font-specification:'Marauder* Text';stroke-width:0.43189;fill:#261a0d;fill-opacity:1">..and sometimes the text bends and cu<tspan
+   style="letter-spacing:0.264583px;fill:#261a0d;fill-opacity:1"
+   id="tspan11448">r</tspan>ves like a snake. </textPath></text>
+  </g>
+</svg>
