@@ -19,6 +19,7 @@ body {
 	margin: 0;
 	overflow-x: hidden;
 	font-synthesis: none !important;
+	word-break: break-word;
 }
 
 #head {
