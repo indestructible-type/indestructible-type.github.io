@@ -19,7 +19,6 @@ body {
 	margin: 0;
 	overflow-x: hidden;
 	font-synthesis: none !important;
-	word-break: break-word;
 }
 
 #head {
@@ -271,7 +270,10 @@ h2 a:hover span{
 	font-variation-settings: 'opsz' 72;
 	line-height: 0.85;
 	margin-top: 0.5em;
-	width: 98%;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
 }
 
 #itlc {
@@ -282,6 +284,10 @@ h2 a:hover span{
 	line-height: 0.85;
 	margin-top: 0.5em;
 	font-style: italic;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
 }
 
 .slider {
