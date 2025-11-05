@@ -446,3 +446,9 @@ h2 a:hover span{
 		padding: 0;
 	}
 }
+
+@media (pointer:coarse) {
+	#buy-button {
+		background-image: url("resources/buy-hover.webp");
+	}
+}
