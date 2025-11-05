@@ -94,3 +94,9 @@ img {
 .goog:hover #Cooper {
   background-color: #f2ecd9;
 }
+
+.goog:hover #Marauder {
+  background-image: url("../Marauder/resources/previewbox.webp");
+  background-size: cover;
+  background-position: center top;
+}
