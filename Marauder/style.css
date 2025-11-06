@@ -429,11 +429,12 @@ h2 a:hover span{
 
 @media only screen and (max-width: 1200px) and (min-width: 1000px) {
 	#page #read {
-	float: right;
-	width: 600px;
-	position: absolute;
-	bottom: 30px;
-	right: 5vw;
+		float: right;
+		width: 600px;
+		position: absolute;
+		bottom: 30px;
+		right: 5vw;
+	}
 }
 
 ::selection {
@@ -444,6 +445,7 @@ h2 a:hover span{
 @-moz-document url-prefix() {
 	#page p.big::first-letter {
 		padding: 0;
+		display: none;
 	}
 }
 
