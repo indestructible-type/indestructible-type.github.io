@@ -445,7 +445,6 @@ h2 a:hover span{
 @-moz-document url-prefix() {
 	#page p.big::first-letter {
 		padding: 0;
-		display: none;
 	}
 }
 
