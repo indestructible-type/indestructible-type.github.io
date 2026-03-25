@@ -38,7 +38,8 @@
 				<img id="pirate" src="resources/pirate.webp"/>
 				<p class="big">I have taken inspiration from the roving bands of misfits depicted in children&rsquo;s media. I have pillaged and plundered all my favorite typographic ideas from the &rsquo;50s and &rsquo;60s to make my latest typeface, <i>Marauder*</i>. It is a tapestry of different design elements from the past that I love, and maybe it all adds up to something authentic and original.</p>
 				<p>It was important to me that <i>Marauder*</i> would be able to stand up to the kinds of demands placed on the books it&rsquo;s inspired by, and so I kept designing more weights and styles until I felt it could be properly accommodating. <i>Marauder*</i> currently has six weights, three optical sizes, and matching italics, bringing the total number of individual font styles&nbsp;to&nbsp;36.</p>
-				<p><i>Marauder*</i> includes a robust set of accented letters and can support over 250 languages, and of course, because it&rsquo;s an <i>indestructible type*</i> release, there is a variable font version.</p>
+				<p>As of version 1.1 <i>Marauder*</i> includes <span class="small-caps">Small Caps</span> as well as alternate single story <span class="single-story"><q>a</q> and <q>g</q></span> designs, in case you really want to lean in to the children&rsquo;s book style.</p>
+				<p><i>Marauder*</i> includes enough accented characters to support over 250 languages, and of course, because it&rsquo;s an <i>indestructible type*</i> release, there is a variable font version.</p>
 				<div id="opsz">
 					<div id="opszl"><p>how it looks printed:</p>&iexcl;Qu&eacute; guay!</div>
 					<div id="opszr"><p>how it looks up close:</p>&iexcl;Qu&eacute; guay!</div>
@@ -50,10 +51,26 @@
 				</div>
 				<input oninput="slider('wght', value)" class="slider" type="range" min="400" max="900" value="400">
 				<p class="caption">Adjust this slider to observe how Marauder* changes depending on how bold it is!</p>
-				<div id="itlc" contenteditable="true">
-					J&rsquo;ai connu un Fran&shy;&ccedil;ais l&acirc;che.
+				<div id="itlc" class="single-story" contenteditable="true">
+					Un Fran&shy;&ccedil;ais l&acirc;che &agrave; la camp&shy;agne.
 				</div>
-				<p class="caption">Try editing the text above to observe how chic the italics are</p>
+				<div id="toggle-switches">
+					<div class="toggle-switches">
+						<label class="switch">
+							<input type="checkbox" id="salt" checked="true" onclick="toggleSalt(this.checked)">
+							<span class="checkbox"></span>
+						</label>
+						<p>single story variants</p>
+					</div>
+					<div class="toggle-switches">
+						<label class="switch">
+							<input type="checkbox" id="smcp" onclick="toggleSmcp(this.checked)">
+							<span class="checkbox"></span>
+						</label>
+						<p>small-caps</p>
+					</div>
+				</div>
+				<p class="caption">Try editing the text above! See how the stylistic alternatives affect the vibe.</p>
 				<p><br><br>I hope this feeling of fearlessness that led me to make <i>Marauder*</i> is infectious. I hope you will feel inspired to fall in love with the world and create homages to the things you love, and maybe this font will be a piece of that puzzle. </p>
 				<p><i>Marauder*</i> is free and open source, because anything less would be a betrayal of the principles that built it. I can&rsquo;t wait to see what you&rsquo;ll make.<br><br></p>
 				<a id="download" href="../BuyMarauder.html">Download Now!</a>

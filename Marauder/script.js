@@ -15,3 +15,25 @@ function slider (id, value) {
 		document.getElementById("opszl").style = "font-size: "+2*value+"px;"
 	}
 }
+
+function toggleSalt (checked) {
+	if (checked) {
+		document.getElementById("smcp").checked = false;
+		document.getElementById("itlc").classList.add("single-story")
+		document.getElementById("itlc").classList.remove("small-caps")
+	}
+	else {
+		document.getElementById("itlc").classList.remove("single-story")
+	}
+}
+
+function toggleSmcp (checked) {
+	if (checked) {
+		document.getElementById("salt").checked = false;
+		document.getElementById("itlc").classList.add("small-caps")
+		document.getElementById("itlc").classList.remove("single-story")
+	}
+	else {
+		document.getElementById("itlc").classList.remove("small-caps")
+	}
+}
