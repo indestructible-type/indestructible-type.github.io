@@ -275,6 +275,7 @@ h2 a:hover span{
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
+	font-style: italic;
 }
 
 #itlc {
